@@ -59,20 +59,6 @@ def get_params(p):
     return param
 
 
-def playDSF(url, windowed):
-    try:
-        import urllib
-        channel = urllib.quote_plus(url.split(':', 1)[-1])
-        url = 'plugin://%s/?channel=%s' % (dixie.DSFID, channel)
-        dixie.log(url)
-        playlist = xbmc.PlayList(xbmc.PLAYLIST_VIDEO)
-        playlist.clear()
-        playlist.add(url, xbmcgui.ListItem(''))
-        xbmc.Player().play(playlist, windowed=windowed)
-    except:
-        return False
-
-
 def playSF(url):
     launchID = '10025'
     if xbmcgui.Window(10000).getProperty('OTT_LAUNCH_ID') == launchID:
@@ -222,11 +208,6 @@ def play(url, windowed, name=None):
         handled, url = playSF(url)
         if handled:
             return
-
-    if url.lower().startswith('dsf'):
-        if playDSF(url, windowed):
-            wait(maxIdle)
-        return
 
     dixie.SetSetting('streamURL', url)
  

@@ -23,8 +23,6 @@ import os
 import sfile
 import dixie
 
-DSF = dixie.isDSF()
-
 
 def tidy(text):
     if (not isinstance(text, unicode)) and (not isinstance(text, str)):
@@ -60,8 +58,6 @@ class Channel(object):
 
         self.desc = tidy(desc)
 
-        if DSF:
-            self.title = urllib.unquote_plus(self.title)
 
     def isProtected(self):
         return dixie.ADULT in self.categories

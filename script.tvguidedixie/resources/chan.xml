@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <tv>
-  <channel id="BBC Red Button 1">
-    <display-name lang="en">Dixie Info</display-name>
-  </channel>
   <channel id="BBC Red Button">
     <display-name lang="en">BBC Red Button</display-name>
   </channel>
@@ -20,21 +17,6 @@
   </channel>
   <channel id="MyWeather">
     <display-name lang="en">MyWeather</display-name>
-  </channel>
-  <channel id="MyChannel 1">
-    <display-name lang="en">MyChannel 1</display-name>
-  </channel>
-  <channel id="MyChannel 2">
-    <display-name lang="en">MyChannel 2</display-name>
-  </channel>
-  <channel id="MyChannel 3">
-    <display-name lang="en">MyChannel 3</display-name>
-  </channel>
-  <channel id="MyChannel 4">
-    <display-name lang="en">MyChannel 4</display-name>
-  </channel>
-  <channel id="MyChannel 5">
-    <display-name lang="en">MyChannel 5</display-name>
   </channel>
   <channel id="LazyTV">
     <display-name lang="en">LazyTV</display-name>

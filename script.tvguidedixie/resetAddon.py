@@ -35,13 +35,7 @@ def resetAddon():
     deleteFiles()
     dixie.SetSetting('epg.date', '2000-01-01')
     dixie.SetSetting('logo.type', '0')
-    dixie.SetSetting('dixie.logo.folder', 'None')
-    
-    if dixie.isDSF():
-        ottv.setSetting('SKIN', 'OTT-Skin')
-        dixie.SetSetting('dixie.skin', 'EPG-Skin')
-        dixie.SetSetting('playlist.url', '')
-
+    dixie.SetSetting('dixie.logo.folder', 'None')    
     dixie.CloseBusy()
 
 

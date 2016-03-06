@@ -163,11 +163,11 @@ msgid "Maintenance"
 msgstr ""
 
 msgctxt "#30126"
-msgid "Click to - Reset Programme Listings."
+msgid "Clear listings data and rescan"
 msgstr ""
 
 msgctxt "#30127"
-msgid "Click to - Reset your channels. Some custom settings may be lost."
+msgid "Reset channel mappings to defaults - will wipe all channel customisations"
 msgstr ""
 
 msgctxt "#30128"
@@ -183,7 +183,7 @@ msgid "Restore"
 msgstr ""
 
 msgctxt "#30131"
-msgid "Click to - Restore Channels."
+msgid "Rollback to previous channel list - may bring back old customisations"
 msgstr ""
 
 msgctxt "#30132"
@@ -444,3 +444,28 @@ msgstr ""
 msgctxt "#30804"
 msgid "Streaming using that addon is now disabled."
 msgstr ""
+
+msgctxt "#30805"
+msgid "Support The Original Devs"
+msgstr ""
+
+msgctxt "#30806"
+msgid "This addon is based on the original work from On-Tapp.TV and if you want a reliable EPG we highly recommend subscribing to their service. Would you like to install On-Tapp.TV? (Subscription required)"
+msgstr ""
+
+msgctxt "#30807"
+msgid "Please wait..."
+msgstr ""
+
+msgctxt "#30808"
+msgid "Checking login details and update files"
+msgstr ""
+
+msgctxt "#30809"
+msgid "SF Folders Creation Complete"
+msgstr ""
+
+msgctxt "#30810"
+msgid "Your Super Favourites path has now been updated. Channels will only show if they have at least one favourite added. We recommend adding multiple favourites in each section so the addon can try them all until it finds a working one."
+msgstr ""
+

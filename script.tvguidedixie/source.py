@@ -55,11 +55,14 @@ USE_DB_FILE = True
 
 SETTINGS_TO_CHECK = ['']
 
-DSF = dixie.isDSF()
-
 channelFolder = dixie.GetChannelFolder()
 channelPath   = os.path.join(channelFolder, 'channels')
 dixie.log('Channel Folder Setting: %s' % channelPath)
+
+AddonID          =  'script.tvguidedixie'
+ADDON            =  xbmcaddon.Addon(id=AddonID)
+showSFchannels = ADDON.getSetting('showSFchannels')
+SF_CHANNELS    = ADDON.getSetting('SF_CHANNELS')
 
 try:    sfile.makedirs(channelPath)
 except: pass
@@ -83,9 +86,6 @@ def GetLogoFolder():
 
 
 def CleanFilename(text):
-    if DSF:
-        return text
-
     text = text.replace('*', '_star')
     text = text.replace('+', '_plus')
     text = text.replace(' ', '_')
@@ -260,8 +260,6 @@ class Database(object):
         for ch in channels:
             channel  = self.getChannelFromFile(ch)
             chtitle = channel.title
-            if DSF:
-                chtitle = urllib.quote_plus(channel.title)
 
             if channel == None:
                 continue
@@ -582,19 +580,41 @@ class Database(object):
 
 
     def getAllChannels(self):
-        channels = []
+        channels       = []
+        channelarray   = []
+        SFchannelarray = []
 
         try:
             current, dirs, files = sfile.walk(channelPath)
         except Exception, e:
-            dixie.log('Error in getAllChannels' % str(e))
-            return channels
+            dixie.log('Error in getAllChannels - Master List: %s' % str(e))
+            return channelarray
 
         for file in files:
-            channels.append(file)
+            channelarray.append(file)
 
+# Allows user to only show channels they have SF folders setup for
+        if showSFchannels == 'true':
+            try:
+                current, dirs, files = sfile.walk(SF_CHANNELS)
+            except Exception, e:
+                dixie.log('Error in getAllChannels - SF List: %s' % str(e))
+                return SFchannelarray
+    
+            for dir in dirs:
+                if os.listdir(os.path.join(SF_CHANNELS,dir)):
+                    SFchannelarray.append(dir)
+
+            nk=set(channelarray).intersection(SFchannelarray)
+            for x in channelarray:
+                if x in nk:
+                    channels.append(x)
+
+        else:
+            channels = channelarray
+
+        dixie.log('### LIST: '+str(channels))
         return channels
-
 
     def removeCleanChannel(self, id):
         try:    del self.channelDict[id]
@@ -683,10 +703,8 @@ class Database(object):
         channels  = []
         _channels = self._getChannelList(onlyVisible = True, categories = categories)
 
-        isProtected = dixie.isProtected()
-
         for channel in _channels:
-            if isProtected or (dixie.ADULT not in channel.categories):
+            if dixie.ADULT not in channel.categories:
                 channels.append(channel)
 
         if channelStart < 0:

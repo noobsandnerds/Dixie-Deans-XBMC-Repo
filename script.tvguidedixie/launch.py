@@ -30,14 +30,13 @@ import shutil
 import datetime
 import download
 import extract
-import update
 import dixie
 import getIni
 import filmon
 import sfile
+import gui
 
 import settings
-settings.validate()
 
 
 ADDON       = dixie.ADDON
@@ -59,20 +58,6 @@ channel_xml = os.path.join(addonpath,  'chan.xml')
 image       = xbmcgui.ControlImage
 
 FIRSTRUN = dixie.GetSetting('FIRSTRUN') == 'true'
-
-
-def CheckVersion():
-    prev = dixie.GetSetting('VERSION')
-    curr = VERSION
-    dixie.log('****** On-Tapp.EPG %s LAUNCHED ******' % str(VERSION))
-
-    if prev == curr:
-        return
-
-    dixie.SetSetting('VERSION', curr)
-
-    dixie.DialogOK('Welcome to On-Tapp.TV 3.0', 'For online support, please register at our new forum:', 'www.on-tapp-networks.com/forum')
-    showChangelog()
 
 
 def showChangelog(addonID=None):
@@ -129,45 +114,6 @@ def CheckFilmOn():
     getIni.ftvIni()
 
 
-def CheckForUpdate():
-    if xbmcgui.Window(10000).getProperty('OTT_UPDATING') != 'True':
-        import update
-        update.checkForUpdate(silent = True)
-        return
-
-    while xbmcgui.Window(10000).getProperty('OTT_UPDATING') == 'True':
-        xbmc.sleep(1000)
-
-
-def CheckDSF():
-    try:
-        if not dixie.isDSF():
-            return
-
-        dsf  = dixie.DSF
-        path = dsf.getAddonInfo('path')
-
-        sys.path.insert(0, path)
-        import gvax
-
-        xml      = gvax.getCatsXML()
-        filename = os.path.join(datapath, 'cats.xml')
-
-        f = file(filename, 'w')
-        f.write(xml)
-        f.close()
-
-        xml      = gvax.getChannelsXML()
-        filename = os.path.join(datapath, 'chan.xml')
-
-        f = file(filename, 'w')
-        f.write(xml)
-        f.close()
-        
-    except:
-        pass
-
-
 def CopyKeymap():
     return
     src = os.path.join(xbmc.translatePath('special://userdata/keymaps'), 'zOTT.xml')
@@ -208,39 +154,14 @@ def RemoveKeymap():
     xbmc.executebuiltin('Action(reloadkeymaps)')
 
 
-def main(doLogin=True):
-    import message
-    dixie.CheckUsername()
-    dixie.ShowBusy()
-    import gui
-
+def main():
     try:
-        if not dixie.validToRun():
-            dixie.CloseBusy()
-            dixie.notify('Failed to obtain a response from On-Tapp.TV')
-            return
-            
-        CheckVersion()
-        CheckIniVersion()
-        CheckFilmOn()
-        CheckForUpdate()
-        CheckDSF()
-        CheckForChannels()
-
-        dixie.log('****** On-Tapp.EPG - All OK *******')
-        
-        message.check()
-        dixie.CloseBusy()
-
-        xbmcgui.Window(10000).setProperty('OTT_RUNNING', 'True')
-
+#        CheckPlugin()
         w = gui.TVGuide()
-
         CopyKeymap()
         w.doModal()
         RemoveKeymap()
         del w
-
         xbmcgui.Window(10000).clearProperty('OTT_RUNNING')
         xbmcgui.Window(10000).clearProperty('OTT_WINDOW')
 
@@ -265,7 +186,7 @@ xbmcgui.Window(10000).setProperty('OTT_NEXT_TIME',   '')
 xbmcgui.Window(10000).setProperty('OTT_LAUNCH_ID', str(xbmcgui.getCurrentWindowId()))
 
 
-main(kodi)
+main()
 
 filmon.logout()
 

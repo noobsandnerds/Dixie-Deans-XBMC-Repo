@@ -20,6 +20,7 @@
 
 import xbmc
 import xbmcgui
+import xbmcaddon
 
 from threading import Timer 
 import os
@@ -70,10 +71,12 @@ ACTION_SHOW_INFO = -1 #currently not used
 PATH = os.path.join(dixie.PROFILE, 'extras', 'skins', dixie.SKIN)
 XML  = 'script-tvguide-changer.xml'
 
-OTT_CHANNELS = os.path.join(dixie.GetChannelFolder(), 'channels')
-IGNORESTRM   = dixie.GetSetting('ignore.stream') == 'true'
-
-DSF = dixie.isDSF()
+AddonID          =  'script.tvguidedixie'
+ADDON            =  xbmcaddon.Addon(id=AddonID)
+showSFchannels = ADDON.getSetting('showSFchannels')
+SF_CHANNELS    = ADDON.getSetting('SF_CHANNELS')
+OTT_CHANNELS   = os.path.join(dixie.GetChannelFolder(), 'channels')
+IGNORESTRM     = dixie.GetSetting('ignore.stream') == 'true'
 
 MAIN          = 5000
 EPG_CHANNEL   = 6000
@@ -271,12 +274,9 @@ class OSD(xbmcgui.WindowXMLDialog):
         if channel.id == current:
             if not self.osdMode:
                 return
-
-        if DSF:
-            streamUrl = 'DSF:%s' % channel.id
-        else:
-            streamUrl = channel.streamUrl
         
+        streamUrl = channel.streamUrl
+
         if not streamUrl:
            streamUrl = self.detectStream(channel)
 
@@ -511,16 +511,40 @@ class OSD(xbmcgui.WindowXMLDialog):
 
     def populateChannels(self, alphaSort = False):
         channels = []
-
+        channelarray = []
+        SFchannelarray = []
         try:
             current, dirs, files = sfile.walk(OTT_CHANNELS)
         except Exception, e:
-            return channels
+            dixie.log('### Failed to scan master channel list: %s' % str(e))
+            return channelarray
     
         for file in files:
-            channels.append(file)
+            channelarray.append(file)
 
-        isProtected = dixie.isProtected()
+# Allows user to only show channels they have SF folders setup for
+        if showSFchannels == 'true':
+            try:
+                current, dirs, files = sfile.walk(SF_CHANNELS)
+            except Exception, e:
+                return SFchannelarray
+                dixie.log('### Failed to scan SF channel list: %s' % str(e))
+    
+            for dir in dirs:
+                if os.listdir(os.path.join(SF_CHANNELS,dir)):
+                    SFchannelarray.append(dir)
+
+            nk=set(channelarray).intersection(SFchannelarray)
+            for x in channelarray:
+                if x in nk:
+                    channels.append(x)
+
+        else:
+            channels = channelarray
+        dixie.log('### LIST: '+str(channels))
+
+
+#        isProtected = dixie.isProtected()
 
         sorted = []
 
@@ -530,8 +554,8 @@ class OSD(xbmcgui.WindowXMLDialog):
             if not channel.visible:
                 continue
 
-            if not isProtected and channel.isProtected():
-                continue
+#            if not isProtected and channel.isProtected():
+#                continue
 
             sorter  = channel.title.lower() if alphaSort else channel.weight
 

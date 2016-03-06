@@ -1,6 +1,4 @@
-#
-#       Copyright (C) 2015
-#       Sean Poyser (seanpoyser@gmail.com) and Richard Dean (write2dixie@gmail.com)
+#      Copyright (C) 2015 whufclee
 #
 #  This Program is free software; you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -18,40 +16,35 @@
 #  http://www.gnu.org/copyleft/gpl.html
 #
 
-import xbmc
-import requests
-import requests.packages.urllib3
-requests.packages.urllib3.disable_warnings()
+import os, re, xbmc, urllib, urllib2, binascii, xbmcaddon, xbmcgui
 
-import dixie
+AddonID      = 'script.tvguidedixie'
+ADDON        =  xbmcaddon.Addon(id=AddonID)
+username     =  ADDON.getSetting('username').replace(' ','%20')
+password     =  ADDON.getSetting('password')
+dialog       =  xbmcgui.Dialog()
+userinforaw  = '687474703a2f2f3132302e32342e3235322e3130302f54492f6c6f67696e2f6c6f67696e5f64657461696c732e7068703f757365723d257326706173733d2573'
+BaseURL = binascii.unhexlify(userinforaw) % (username, password)
 
-def CheckCredentials():
-    xbmc.executebuiltin('Dialog.Show(busydialog)')
+def Open_URL(url):
+    req      = urllib2.Request(url)
+    req.add_header('User-Agent','Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3')
+    response = urllib2.urlopen(req)
+    link     = response.read()
+    response.close()
+    return link.replace('\r','').replace('\n','').replace('\t','')
 
-    response = getResponse()
+link         = Open_URL(BaseURL).replace('\n','').replace('\r','')
+welcomematch = re.compile('login_msg="(.+?)"').findall(link)
+welcometext  = welcomematch[0] if (len(welcomematch) > 0) else ''
 
-    xbmc.executebuiltin('Dialog.Close(busydialog)')
-    
-    if 'login not successful' in response:
-        dixie.DialogOK('We failed to verify your credentials', '', 'Please check your settings.')
-    else:
-        dixie.DialogOK('Your login details are correct.', '', 'Thank you.')
+xbmc.executebuiltin('Dialog.Show(busydialog)')
 
-    # dixie.openSettings(focus='0.4')
+if username.replace('%20',' ') in welcometext and username!='':
+    dialog.ok('LOGIN SUCCESS','Congratulations your login credentials are correct','and this add-on is now fully unlocked.')
 
+else:
+    dialog.ok('There is a problem with your login details', 'Please make sure you entered your [COLOR=dodgerblue]username[/COLOR].', 'An email address and a username is NOT the same thing.', '[CR]Remember both username and password ARE case sensitive.')
 
-def getResponse():    
-    URL     = dixie.GetVerifyUrl()
-    USER    = dixie.GetUser()
-    PASS    = dixie.GetPass()
-    PAYLOAD = {'username' : USER, 'password' : PASS}
-    
-    request  = requests.post(URL, data=PAYLOAD)
-    response = request.content
-    
-    dixie.log(response)
-    
-    return response
-
-if __name__ == '__main__':
-    CheckCredentials()
+xbmc.executebuiltin('Dialog.Close(busydialog)')
+ADDON.openSettings()

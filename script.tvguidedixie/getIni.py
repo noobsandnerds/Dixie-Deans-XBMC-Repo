@@ -32,9 +32,6 @@ def getIni():
     import extract
     import download
     
-    if dixie.isDSF():
-        return
-    
     if not os.path.exists(inipath):
         os.makedirs(inipath)
     

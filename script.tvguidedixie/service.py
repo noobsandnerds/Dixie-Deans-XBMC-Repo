@@ -114,8 +114,8 @@ if os.path.exists(dst):
    xbmc.executebuiltin('Action(reloadkeymaps)')
 
 
-import update
-update.checkForUpdate(silent = True)
+#import update
+#update.checkForUpdate(silent = True)
 
 
 if ADDON.getSetting('autoStart') == "true":

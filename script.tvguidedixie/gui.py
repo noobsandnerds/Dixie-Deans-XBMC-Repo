@@ -55,10 +55,9 @@ datapath    = dixie.PROFILE
 extras      = os.path.join(datapath, 'extras')
 skinfolder  = os.path.join(datapath, extras, 'skins')
 skinpath    = os.path.join(skinfolder, SKIN)
+showcats    = ADDON.getSetting('showcats')
 
 PATH = skinpath
-DSF  = dixie.isDSF()
-
 
 xml_file = os.path.join('script-tvguide-main.xml')
 if os.path.join(SKIN, 'extras', 'skins', 'Default', '720p', xml_file):
@@ -809,10 +808,26 @@ class TVGuide(xbmcgui.WindowXML):
         control = self._findControlOnLeft(currentFocus)
         if control is not None:
             self.setFocus(control)
+
+# Disabled ability to move further back in time
         elif control is None:
-            self.viewStartDate -= datetime.timedelta(hours = 2)
-            self.focusPoint.x = self.epgView.right
-            self.onRedrawEPG(self.channelIdx, self.viewStartDate, focusFunction=self._findControlOnLeft)
+            cont = 0
+            if showcats == 'true':
+                nowtime = datetime.datetime.today()
+                if self.viewStartDate < nowtime:
+                    print"##### OLDER #####"
+                    d = CategoriesMenu(self.database, self.categoriesList)
+                    d.doModal()
+                    self.categoriesList = d.currentCategories
+                    del d
+                    dixie.SetSetting('categories', '|'.join(self.categoriesList))
+                    self.onRedrawEPG(self.channelIdx, self.viewStartDate, focusFunction=self._findControlOnLeft)
+                else:
+                    cont = 1
+            if showcats == 'false' or cont == 1:
+                self.viewStartDate -= datetime.timedelta(hours = 2)
+                self.focusPoint.x = self.epgView.right
+                self.onRedrawEPG(self.channelIdx, self.viewStartDate, focusFunction=self._findControlOnLeft)
 
     def _right(self, currentFocus):
         control = self._findControlOnRight(currentFocus)
@@ -916,17 +931,13 @@ class TVGuide(xbmcgui.WindowXML):
             threading.Timer(timeout, self.removeHighlight).start()
 
 
-        if not DSF:
-            if self.prePlayOptions(channel):
-                return True
+        if self.prePlayOptions(channel):
+            return True
 
         self.currentChannel = channel
         wasPlaying = self.player.isPlaying()
 
-        if DSF:
-            url = 'DSF:%s' % channel.id
-        else:
-            url = self.database.getStreamUrl(channel)
+        url = self.database.getStreamUrl(channel)
 
         if url:
             xbmcgui.Window(10000).setProperty('OTT_CHANNEL', channel.id)

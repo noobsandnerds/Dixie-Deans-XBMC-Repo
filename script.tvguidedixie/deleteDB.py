@@ -24,6 +24,7 @@ import xbmcaddon
 import settings
 import dixie
 
+tempdbcheck  = xbmc.translatePath(os.path.join(dixie.PROFILE, 'chanchk'))
 settingsFile = xbmc.translatePath(os.path.join(dixie.PROFILE, 'settings.cfg'))
 
 
@@ -34,6 +35,11 @@ def deleteDB():
         dbPath  = dixie.PROFILE
         dbFile  = os.path.join(dbPath, 'program.db')
         delete_file(dbFile)
+
+        try:
+            os.remove(tempdbcheck)
+        except:
+            pass
 
         passed  = not os.path.exists(dbFile)
 
