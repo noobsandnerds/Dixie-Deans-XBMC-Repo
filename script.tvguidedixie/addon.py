@@ -18,33 +18,38 @@
 #
 
 import xbmc, xbmcaddon, xbmcgui, os, re, urllib, urllib2
-import time, dixie
+import time, dixie, shutil
 import extract, download
 
-AddonID          =  'script.tvguidedixie'
+from sqlite3 import dbapi2 as sqlite
+
+AddonID          =  'script.tvportal'
 ADDON            =  xbmcaddon.Addon(id=AddonID)
 USERDATA         =  xbmc.translatePath(os.path.join('special://home/userdata',''))
 ADDON_DATA       =  xbmc.translatePath(os.path.join(USERDATA,'addon_data'))
 ADDONS           =  xbmc.translatePath('special://home/addons')
+chanxml          =  os.path.join(ADDON_DATA,AddonID,'chan.xml')
+xmlmaster        =  os.path.join(ADDONS,AddonID,'resources','chan.xml')
 firstrun         =  os.path.join(ADDON_DATA,AddonID,'firstrun.txt')
 updateicon       =  os.path.join(ADDONS,AddonID,'resources','update.png')
 cookie           =  xbmc.translatePath(os.path.join(ADDON_DATA,AddonID,'temp'))
 username         =  ADDON.getSetting('username').replace(' ','%20')
 password         =  ADDON.getSetting('password')
+remoteshare      =  ADDON.getSetting('remoteshare')
+remotelocation   =  ADDON.getSetting('remotelocation')
 dialog           =  xbmcgui.Dialog()
+dbpath           =  xbmc.translatePath(os.path.join(ADDON_DATA,AddonID,'program.db'))
 logourl          =  'http://noobsandnerds.com/CP_Stuff/download.php?x=logo&i=%s&u=%s&p=%s' % (AddonID,username,password)
 iniurl           =  'http://noobsandnerds.com/CP_Stuff/download.php?x=ini&i=%s&u=%s&p=%s' % (AddonID,username,password)
-channelsurl      =  'http://noobsandnerds.com/CP_Stuff/download.php?x=chan&i=%s&u=%s&p=%s' % (AddonID,username,password)
 epgskinurl       =  'http://noobsandnerds.com/CP_Stuff/download.php?x=skin&i=%s&u=%s&p=%s' % (AddonID,username,password)
 logodst          =  xbmc.translatePath('special://home/addons/packages/tvpe')
 inidst           =  xbmc.translatePath('special://home/addons/packages/tvpi')
 channdst         =  xbmc.translatePath('special://home/addons/packages/tvpc')
 epgskindst       =  xbmc.translatePath('special://home/addons/packages/tvpes')
-fail             =  0
+stop             =  0
+
 
 def Check_File_Date(url, datefile, localdate, dst):
-    global fail
-    fail = 0
     try:
         req = urllib2.Request(url)
         req.add_header('User-Agent','Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3')
@@ -63,7 +68,7 @@ def Check_File_Date(url, datefile, localdate, dst):
         except:
             pass
     except:
-        fail = 1
+        print"Failed with update: "+str(url)
 
 def Check_Updates(url, datefile, dst):
     if os.path.exists(datefile):
@@ -98,40 +103,44 @@ def User_Info():
         writefile.close()
         Check_Updates(logourl, xbmc.translatePath('special://profile/addon_data/'+AddonID+'/logochk'), logodst)
         Check_Updates(iniurl, xbmc.translatePath('special://profile/addon_data/'+AddonID+'/inichk'), inidst)
-        Check_Updates(channelsurl, xbmc.translatePath('special://profile/addon_data/'+AddonID+'/chanchk'), channdst)
-        Check_Updates(epgskinurl, xbmc.translatePath('special://profile/addon_data/'+AddonID+'/epgskinchk'), epgskindst)
+        if remoteshare == 'true':
+            print"### checking for remote addon_data"
+            Check_Updates(remotelocation, xbmc.translatePath('special://profile/addon_data/'+AddonID+'/chanchk'), channdst)
         param = None
-
-        if fail == 1:
-            dialog.ok('ACCESS DENIED','You do not have the permissions to continue.')
-            return
 
         if len(sys.argv) > 1:
             param = sys.argv[1]
 
         xbmc.executebuiltin('Dialog.Close(busydialog)')
-        main()
+    main()
 
-    else:
-        dialog.ok('INCORRECT LOGIN INFO','You need valid forum login credentials to use this addon.','If you haven\'t already done so you can register for FREE at [COLOR=gold]www.noobsandnerds.com[/COLOR]')
-        ADDON.openSettings()
         
 def main():          
-    windowID = xbmcgui.Window(10000).getProperty('TVP_WINDOW')
-    try:
-        windowID = int(windowID)
-        xbmc.executebuiltin('ActivateWindow(%d)' % windowID)  
-        return
-    except:
-        pass
+    if os.path.exists(dbpath):
+        con = sqlite.connect(dbpath)
+        cur = con.cursor()
+        programcount = cur.execute("SELECT COUNT(*) FROM programs;")
+        if programcount:
+            windowID = xbmcgui.Window(10000).getProperty('TVP_WINDOW')
+            try:
+                windowID = int(windowID)
+                xbmc.executebuiltin('ActivateWindow(%d)' % windowID)  
+                return
+            except:
+                pass
 
-    name   = dixie.TITLE + ' Launcher'
-    script = os.path.join(dixie.HOME, 'launch.py')
-    args   = ''
-    cmd    = 'AlarmClock(%s,RunScript(%s,%s),%d,True)' % (name, script, args, 0)
+            name   = dixie.TITLE + ' Launcher'
+            script = os.path.join(dixie.HOME, 'launch.py')
+            args   = ''
+            cmd    = 'AlarmClock(%s,RunScript(%s,%s),%d,True)' % (name, script, args, 0)
 
-    xbmc.executebuiltin('CancelAlarm(%s,True)' % name)        
-    xbmc.executebuiltin(cmd)
+            xbmc.executebuiltin('CancelAlarm(%s,True)' % name)        
+            xbmc.executebuiltin(cmd)
+        else:
+            dialog.ok(ADDON.getLocalizedString(30823),ADDON.getLocalizedString(30824))
+
+    else:
+        dialog.ok(ADDON.getLocalizedString(30823),ADDON.getLocalizedString(30824))
 
 def verify():
     if not os.path.exists(cookie):
@@ -151,12 +160,8 @@ def verify():
         if int(updatecheck)+2000000 > int(Timestamp()):
             Check_Updates(logourl, xbmc.translatePath('special://profile/addon_data/'+AddonID+'/logochk'), logodst)
             Check_Updates(iniurl, xbmc.translatePath('special://profile/addon_data/'+AddonID+'/inichk'), inidst)
-            Check_Updates(channelsurl, xbmc.translatePath('special://profile/addon_data/'+AddonID+'/chanchk'), channdst)
-            Check_Updates(epgskinurl, xbmc.translatePath('special://profile/addon_data/'+AddonID+'/epgskinchk'), epgskindst)
- 
-            if fail == 1:
-                dialog.ok('ACCESS DENIED','You do not have the permissions to continue.')
-                return
+            if remoteshare == 'true':
+                Check_Updates(remotelocation, xbmc.translatePath('special://profile/addon_data/'+AddonID+'/chanchk'), channdst)
             param = None
 
             if len(sys.argv) > 1:
@@ -171,6 +176,9 @@ def verify():
 
 if __name__ == '__main__':
     runme = 1
+    Check_Updates(epgskinurl, xbmc.translatePath('special://profile/addon_data/'+AddonID+'/epgskinchk'), epgskindst)
+    if not os.path.exists(chanxml):
+        shutil.copyfile(xmlmaster, chanxml)
     if not os.path.exists(firstrun):
         choice = dialog.yesno(ADDON.getLocalizedString(30805),ADDON.getLocalizedString(30806))
         if not os.path.exists(os.path.join(ADDON_DATA,AddonID)):
@@ -185,4 +193,16 @@ if __name__ == '__main__':
             runme = 0
             xbmc.executebuiltin('ActivateWindow(10025,plugin://script.on-tapp.tv)')
     if runme == 1:
+        if os.path.exists(dbpath):
+            try:
+                os.rename(dbpath,dbpath+'1')
+                os.rename(dbpath+'1',dbpath)
+                print"Database not in use, we can continue"
+                verify()
+            except:
+                print"### Database in use, Kodi needs a restart, if that doesn't work you'll need to restart your system."
+                choice = dialog.yesno(ADDON.getLocalizedString(30821),ADDON.getLocalizedString(30822))
+                if choice == 1:
+                    verify()
+        else:
             verify()

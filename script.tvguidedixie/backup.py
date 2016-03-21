@@ -42,7 +42,7 @@ def doBackup():
     dixie.log('Backup: Logo setting is %s' % logoType)
 
     if (chanType == CUSTOM) or (logoType == CUSTOM):
-        dixie.DialogOK('It appears you are using a custom location', 'for your channels or logos (Home Networking).', 'Please back-up On-Tapp.TV manually.')
+        dixie.DialogOK('It appears you are using a custom location', 'for your channels or logos (Home Networking).', 'Please back-up TV Portal manually.')
         return
 
     try:

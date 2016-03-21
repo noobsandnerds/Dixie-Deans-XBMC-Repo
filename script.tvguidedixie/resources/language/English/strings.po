@@ -1,6 +1,6 @@
 # XBMC Media Center language file
 # Addon Name: TV Guide
-# Addon id: script.tvguidedixie
+# Addon id: script.tvportal
 # Addon Provider: twinther [tommy@winther.nu]
 msgid ""
 msgstr ""
@@ -187,7 +187,7 @@ msgid "Rollback to previous channel list - may bring back old customisations"
 msgstr ""
 
 msgctxt "#30132"
-msgid "Click to - Fully Reset On-Tapp.TV. ALL settings will be lost inc. user/pass."
+msgid "Click to - Fully Reset TV Portal. ALL settings will be lost inc. user/pass."
 msgstr ""
 
 #empty strings from id 30133 to 30149
@@ -329,7 +329,7 @@ msgid "My Recordings"
 msgstr ""
 
 msgctxt "#30320"
-msgid "On-Tapp.TV Tools"
+msgid "TV Portal Tools"
 msgstr ""
 
 #empty strings from id 30321 to 30499
@@ -413,7 +413,7 @@ msgstr ""
 
 
 msgctxt "#30622"
-msgid "Click Browse... below and navigate to your Super Favourite. When you have chosen it you can preview the stream to test if it works in On-Tapp."
+msgid "Click Browse... below and navigate to your Super Favourite. When you have chosen it you can preview the stream to test if it works in TV Portal."
 msgstr ""
 
 #empty strings from id 30623 to 30699
@@ -450,7 +450,7 @@ msgid "Support The Original Devs"
 msgstr ""
 
 msgctxt "#30806"
-msgid "This addon is based on the original work from On-Tapp.TV and if you want a reliable EPG we highly recommend subscribing to their service. Would you like to install On-Tapp.TV? (Subscription required)"
+msgid "This addon is based on the original work from On-Tapp.TV, if you want reliable listings you may want to consider subscribing to their service. Would you like to try out On-Tapp.TV? (Subscription required)"
 msgstr ""
 
 msgctxt "#30807"
@@ -469,3 +469,50 @@ msgctxt "#30810"
 msgid "Your Super Favourites path has now been updated. Channels will only show if they have at least one favourite added. We recommend adding multiple favourites in each section so the addon can try them all until it finds a working one."
 msgstr ""
 
+msgctxt "#30811"
+msgid "Creating list of channels, this should only take a minute or so"
+msgstr ""
+
+msgctxt "#30812"
+msgid "Please be patient - this may take quite some time!"
+msgstr ""
+
+msgctxt "#30813"
+msgid "Database is locked"
+msgstr ""
+
+msgctxt "#30814"
+msgid "Unable to create a new database at this time as it's currently in use. Please restart and try again."
+msgstr ""
+
+msgctxt "#30815"
+msgid "Please wait, scanning listings..."
+msgstr ""
+
+msgctxt "#30816"
+msgid "Total Channels Found: "
+msgstr ""
+
+msgctxt "#30817"
+msgid "Now scanning listings..."
+msgstr ""
+
+msgctxt "#30818"
+msgid " programmes found"
+msgstr ""
+
+msgctxt "#30819"
+msgid "TV Portal Import Complete"
+msgstr ""
+
+msgctxt "#30820"
+msgid "The import of TV channels is now complete, would you like to open the EPG now?"
+msgstr ""
+
+msgctxt "#30821"
+msgid "Is the XML import in progress?"
+msgstr ""
+
+msgctxt "#30822"
+msgid "It looks like something is already using the database, are you sure you want to continue? If you're currently importing an XML DO NOT click yes!"
+msgstr ""

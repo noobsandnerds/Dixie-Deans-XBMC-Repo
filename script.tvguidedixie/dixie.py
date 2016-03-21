@@ -33,7 +33,7 @@ import datetime
 
 import sfile
 
-ADDONID     = 'script.tvguidedixie'
+ADDONID     = 'script.tvportal'
 ADDON       =  xbmcaddon.Addon(ADDONID)
 HOME        =  ADDON.getAddonInfo('path')
 ICON        =  os.path.join(HOME, 'icon.png')
@@ -70,7 +70,7 @@ DIXIELOGOS  =  GetSetting('dixie.logo.folder')
 SKIN        =  GetSetting('dixie.skin')
 FILMON      =  GetSetting('FILMON')
 VERSION     =  ADDON.getAddonInfo('version')
-TITLE       = 'On-Tapp.EPG'
+TITLE       = 'TV Portal'
 LOGOPACK    = 'Colour Logo Pack'
 DEBUG       =  GetSetting('DEBUG') == 'true'
 KEYMAP_HOT  = 'ottv_hot.xml'
@@ -162,7 +162,7 @@ def patchSkins():
 
 def WriteKeymap(start, end):
     dest = os.path.join('special://profile/keymaps', KEYMAP_HOT)
-    cmd  = '<keymap><Global><keyboard><%s>XBMC.RunScript(special://home/addons/script.tvguidedixie/osd.py)</%s></keyboard></Global></keymap>'  % (start, end)
+    cmd  = '<keymap><Global><keyboard><%s>XBMC.RunScript(special://home/addons/script.tvportal/osd.py)</%s></keyboard></Global></keymap>'  % (start, end)
     
     f = sfile.file(dest, 'w')
     f.write(cmd)

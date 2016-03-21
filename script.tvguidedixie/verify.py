@@ -18,7 +18,7 @@
 
 import os, re, xbmc, urllib, urllib2, binascii, xbmcaddon, xbmcgui
 
-AddonID      = 'script.tvguidedixie'
+AddonID      = 'script.tvportal'
 ADDON        =  xbmcaddon.Addon(id=AddonID)
 username     =  ADDON.getSetting('username').replace(' ','%20')
 password     =  ADDON.getSetting('password')

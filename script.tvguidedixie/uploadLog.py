@@ -7,7 +7,7 @@ from xbmc import getCondVisibility as condition, translatePath as translate, log
 import xbmcaddon
 import xbmcgui
 
-addon = xbmcaddon.Addon(id='script.tvguidedixie')
+addon = xbmcaddon.Addon(id='script.tvportal')
 ADDON_TITLE = addon.getAddonInfo('name')
 ADDON_VERSION = addon.getAddonInfo('version')
 

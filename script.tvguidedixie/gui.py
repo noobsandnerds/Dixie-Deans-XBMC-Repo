@@ -430,7 +430,7 @@ class TVGuide(xbmcgui.WindowXML):
             return
 
         if actionId in [ACTION_PARENT_DIR, KEY_NAV_BACK, ACTION_PREVIOUS_MENU]:
-            if not confirmExit or dixie.DialogYesNo('Are you sure you wish to quit On-Tapp.TV?'):
+            if not confirmExit or dixie.DialogYesNo('Are you sure you wish to quit TV Portal?'):
                 self.close()
                 return
 
@@ -729,7 +729,7 @@ class TVGuide(xbmcgui.WindowXML):
 
         elif buttonClicked == PopupMenu.C_POPUP_OTTOOLS:
             self.refresh = True
-            xbmc.executebuiltin('XBMC.RunAddon(script.tvguidedixie.tools)')
+            xbmc.executebuiltin('XBMC.RunScript(special://home/addons/script.tvportal/tools.py)')
 
         elif buttonClicked == PopupMenu.C_POPUP_USTV:
             xbmc.executebuiltin('ActivateWindow(%d,"plugin://%s/?ch_fanart&mode=%d&name=%s&url=%s",return)' % (10025,'plugin.video.F.T.V', 131, 'My Recordings', 'url'))
@@ -940,6 +940,7 @@ class TVGuide(xbmcgui.WindowXML):
         url = self.database.getStreamUrl(channel)
 
         if url:
+            print"### URL ORIG: "+url
             xbmcgui.Window(10000).setProperty('OTT_CHANNEL', channel.id)
             path = os.path.join(ADDON.getAddonInfo('path'), 'player.py')
             if url.startswith('UKTV'):
@@ -1275,12 +1276,12 @@ class TVGuide(xbmcgui.WindowXML):
         del self.controlAndProgramList[:]
 
     def onEPGLoadError(self):
-        dixie.log('Delete DB OnTapp.TV - onEPGLoadError')
+        dixie.log('Delete DB TV Portal - onEPGLoadError')
         deleteDB.deleteDB()
         self.redrawingEPG = False
         self._hideControl(self.C_MAIN_LOADING)
         xbmcgui.Dialog().ok(strings(LOAD_ERROR_TITLE), strings(LOAD_ERROR_LINE1), strings(LOAD_ERROR_LINE2), strings(LOAD_ERROR_LINE3))
-        dixie.log('****** OnTapp.TV. Possible unicode text error. *******')
+        dixie.log('****** TV Portal. Possible unicode text error. *******')
         self.close()
 
 

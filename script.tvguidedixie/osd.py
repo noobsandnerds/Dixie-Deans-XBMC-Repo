@@ -71,7 +71,7 @@ ACTION_SHOW_INFO = -1 #currently not used
 PATH = os.path.join(dixie.PROFILE, 'extras', 'skins', dixie.SKIN)
 XML  = 'script-tvguide-changer.xml'
 
-AddonID          =  'script.tvguidedixie'
+AddonID          =  'script.tvportal'
 ADDON            =  xbmcaddon.Addon(id=AddonID)
 showSFchannels = ADDON.getSetting('showSFchannels')
 SF_CHANNELS    = ADDON.getSetting('SF_CHANNELS')
@@ -541,8 +541,6 @@ class OSD(xbmcgui.WindowXMLDialog):
 
         else:
             channels = channelarray
-        dixie.log('### LIST: '+str(channels))
-
 
 #        isProtected = dixie.isProtected()
 

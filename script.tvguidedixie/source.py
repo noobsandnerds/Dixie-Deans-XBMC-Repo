@@ -59,7 +59,7 @@ channelFolder = dixie.GetChannelFolder()
 channelPath   = os.path.join(channelFolder, 'channels')
 dixie.log('Channel Folder Setting: %s' % channelPath)
 
-AddonID          =  'script.tvguidedixie'
+AddonID          =  'script.tvportal'
 ADDON            =  xbmcaddon.Addon(id=AddonID)
 showSFchannels = ADDON.getSetting('showSFchannels')
 SF_CHANNELS    = ADDON.getSetting('SF_CHANNELS')
@@ -243,7 +243,7 @@ class Database(object):
         if logoType == CUSTOM:
             logoPath = ''
         else:
-            logoPath = 'special://profile/addon_data/script.tvguidedixie/extras/logos/'
+            logoPath = 'special://profile/addon_data/script.tvportal/extras/logos/'
 
         dixie.log('Logo Path Setting:   %s' % logoPath)
         dixie.log('Logo Folder Setting: %s' % logoFolder)
@@ -264,7 +264,7 @@ class Database(object):
             if channel == None:
                 continue
 
-            logoFile = os.path.join(logoPath, logoFolder, chtitle + '.png')
+            logoFile = os.path.join(logoPath, logoFolder, chtitle.replace(' ', '_') + '.png')
 
             if channel.logo <> logoFile:
                 channel.logo = logoFile
@@ -613,8 +613,9 @@ class Database(object):
         else:
             channels = channelarray
 
-        dixie.log('### LIST: '+str(channels))
+        print str(channels)
         return channels
+
 
     def removeCleanChannel(self, id):
         try:    del self.channelDict[id]
@@ -692,11 +693,11 @@ class Database(object):
 
     def _getEPGView(self, channelStart, date, progress_callback, clearExistingProgramList, categories, nmrChannels):
         update = xbmcgui.Window(10000).getProperty('OTT_UPDATE')
-        if len(update) > 0:
-            self.removeProgramDB()
-            import update
-            update.newEPGAvailable()
-            self.openP()            
+#        if len(update) > 0:
+#            self.removeProgramDB()
+#            import update
+#            update.newEPGAvailable()
+#            self.openP()            
 
         self._updateChannelAndProgramListCaches(date, progress_callback, clearExistingProgramList)
         

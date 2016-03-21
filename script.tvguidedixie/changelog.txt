@@ -1,7 +1,11 @@
 v1.0:
-- Initial fork of OTTV v3.3.3 (Feb-28-16)
+- Initial fork of script.tvguidedixie v3.3.3 (Feb-28-16)
 - Changed login to noobsandnerds
 - Added option to bring up categories when clicking left in guide
 - Added option to only show channels that have populated SF folders
 - Added SF folder generator which setup up blank folders to fill up with faves
 - Changed wording to maintenance tab in addon settings as it was confusing for users
+- Added XML importer so users can import their own listings created by mc2xml
+- Added remote share option so users can sync with their main server for addon_data
+- Added check to see if db is empty. If it is then don't continue
+- Added new import method for logos, skins and ini files

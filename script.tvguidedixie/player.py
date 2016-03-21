@@ -8,7 +8,7 @@ import xbmcgui
 import os
 import dixie
 
-ADDON = xbmcaddon.Addon(id = 'script.tvguidedixie')
+ADDON = xbmcaddon.Addon(id = 'script.tvportal')
 HOME  = ADDON.getAddonInfo('path')
 ICON  = os.path.join(HOME, 'icon.png')
 ICON  = xbmc.translatePath(ICON)
@@ -25,7 +25,7 @@ def CheckIdle(maxIdle):
     delay = 60
     count = delay
     dp = xbmcgui.DialogProgress()
-    dp.create("OnTappTV","Streaming will automatically quit in %d seconds" % count, "Press Cancel to contine viewing")
+    dp.create("TV Portal","Streaming will automatically quit in %d seconds" % count, "Press Cancel to contine viewing")
     dp.update(0)
               
     while xbmc.Player().isPlaying() and count > 0 and not dp.iscanceled():
@@ -60,6 +60,7 @@ def get_params(p):
 
 
 def playSF(url):
+    print"### URL: "+url
     launchID = '10025'
     if xbmcgui.Window(10000).getProperty('OTT_LAUNCH_ID') == launchID:
         url = url.replace('ActivateWindow(%s' % launchID, 'ActivateWindow(10501')
@@ -313,7 +314,7 @@ def checkForAlternateStreaming(url):
 def alternateStream(url):
     # dixie.CloseBusy()
     xbmc.executebuiltin('XBMC.RunPlugin(%s)' % url)
-    print '***** ottv alternateStream *****', url
+    print '***** tvp alternateStream *****', url
     
     retries = 10
     while retries > 0 and not xbmc.Player().isPlaying():

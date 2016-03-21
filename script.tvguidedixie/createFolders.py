@@ -23,11 +23,13 @@ import os
 import dixie
 import sfile
 
-AddonID        =  'script.tvguidedixie'
+AddonID        =  'script.tvportal'
 ADDON          =  xbmcaddon.Addon(id=AddonID)
-SF_CHANNELS    = ADDON.getSetting('SF_CHANNELS')
-OTT_CHANNELS   = os.path.join(dixie.GetChannelFolder(), 'channels')
-dialog           =  xbmcgui.Dialog()
+SF_CHANNELS    =  ADDON.getSetting('SF_CHANNELS')
+OTT_CHANNELS   =  os.path.join(dixie.GetChannelFolder(), 'channels')
+dialog         =  xbmcgui.Dialog()
+
+print "### SF: "+str(SF_CHANNELS)
 
 try:
     current, dirs, files = sfile.walk(OTT_CHANNELS)
@@ -36,9 +38,10 @@ except Exception, e:
     
 for file in files:
     if not os.path.exists(os.path.join(SF_CHANNELS,file)):
-        try:
+ #       try:
+            print os.path.join(SF_CHANNELS,file)
             os.makedirs(os.path.join(SF_CHANNELS,file))
-        except:
-            dixie.log('### Failed to create folder for: %s' % str(e))
+#        except:
+#            dixie.log('### Failed to create folder for: %s' % str(file))
 
 dialog.ok(ADDON.getLocalizedString(30809),ADDON.getLocalizedString(30810))

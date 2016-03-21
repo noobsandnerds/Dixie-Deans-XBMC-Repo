@@ -24,8 +24,6 @@ import os
 import sfile
 import dixie
 
-ottv     = xbmcaddon.Addon('script.on-tapp.tv')
-ottdata  = xbmc.translatePath(ottv.getAddonInfo('profile'))
 epgdata  = dixie.PROFILE
 settings = xbmc.translatePath('special://profile/settings.bak')
 hotkey   = xbmc.translatePath('special://profile/keymaps/ottv_hot.xml')
@@ -41,20 +39,18 @@ def resetAddon():
 
 def deleteFiles():
     try:
-        sfile.rmtree(ottdata)
         sfile.rmtree(epgdata)
         sfile.remove(settings)
         sfile.remove(hotkey)
                 
-        dixie.DialogOK('On-Tapp.TV successfully reset.', 'It will be recreated next time', 'you start the guide.')
+        dixie.DialogOK('TV Portal successfully reset.', 'It will be recreated next time', 'you start the guide.')
         
     except Exception, e:
         error = str(e)
-        dixie.log('%s :: Error resetting OTTV' % error)
-        dixie.DialogOK('On-Tapp.TV failed to reset.', error, 'Please restart Kodi and try again.')
+        dixie.log('%s :: Error resetting TV Portal' % error)
+        dixie.DialogOK('TV Portal failed to reset.', error, 'Please restart Kodi and try again.')
 
 
 if __name__ == '__main__':
     dixie.ShowBusy()
     resetAddon()
-    ottv.setSetting('FIRSTRUN', 'false')

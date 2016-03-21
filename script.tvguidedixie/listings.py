@@ -22,7 +22,7 @@ import xbmcaddon
 
 import gui
 
-ADDON = xbmcaddon.Addon(id = 'script.tvguidedixie')
+ADDON = xbmcaddon.Addon(id = 'script.tvportal')
 
 
 def changeListings():

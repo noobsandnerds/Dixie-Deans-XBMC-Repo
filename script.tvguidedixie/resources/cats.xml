@@ -1,0 +1,5333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document>
+ <!--Created with XmlGrid Free Online XML Editor (http://xmlgrid.net)-->
+ <cats>
+        <category>Radio|UK</category>
+        <channel>BBC Radio 1</channel>
+ </cats>
+ <cats>
+        <category>Entertainment|UK|Sport</category>
+        <channel>BBC One London</channel>
+ </cats>
+ <cats>
+       <category>Radio|UK</category>
+       <channel>BBC Radio 2</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>BBC Two HD</channel>
+ </cats>
+ <cats>
+       <category>Radio|UK|News|Talkshows</category>
+       <channel>BBC Radio 3</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK|Sport</category>
+       <channel>ITV London</channel>
+ </cats>
+ <cats>
+       <category>Radio|UK</category>
+       <channel>BBC Radio 4 FM</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>Channel 4</channel>
+ </cats>
+ <cats>
+       <category>Radio|Sport|UK</category>
+       <channel>BBC Radio 5 live</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>Channel 5 HD</channel>
+ </cats>
+ <cats>
+       <category>Radio|UK</category>
+       <channel>Classic FM</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>Sky 1 HD</channel>
+ </cats>
+ <cats>
+       <category>Documentaries|Lifestyle|UK</category>
+       <channel>Sky Living HD</channel>
+ </cats>
+ <cats>
+       <category>Radio|UK</category>
+       <channel>Absolute Radio</channel>
+ </cats>
+ <cats>
+       <category>Radio|Sport|UK</category>
+       <channel>talkSPORT</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>Sky Atlantic HD</channel>
+ </cats>
+ <cats>
+       <category>Radio|UK</category>
+       <channel>958 Capital FM</channel>
+ </cats>
+ <cats>
+       <category>Documentary|Lifestyle|UK</category>
+       <channel>W HD</channel>
+ </cats>
+ <cats>
+       <category>Radio|UK</category>
+       <channel>Planet Rock</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK|Comedy</category>
+       <channel>GOLD</channel>
+ </cats>
+ <cats>
+       <category>Radio|UK</category>
+       <channel>Heart London</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK|Comedy</category>
+       <channel>Dave HD</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|Comedy|UK</category>
+       <channel>Comedy Central HD</channel>
+ </cats>
+ <cats>
+       <category>Radio|UK</category>
+       <channel>Radio X</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|USA|Crime</category>
+       <channel>Universal Channel HD</channel>
+ </cats>
+ <cats>
+       <category>Radio|UK</category>
+       <channel>Capital XTRA</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK|Sci-Fi</category>
+       <channel>Syfy HD</channel>
+ </cats>
+ <cats>
+       <category>Radio|UK|News|Talkshows</category>
+       <channel>BBC World Service</channel>
+ </cats>
+ <cats>
+       <category>Documentaries|UK</category>
+       <channel>BBC Four HD</channel>
+ </cats>
+ <cats>
+       <category>Radio|UK</category>
+       <channel>BBC Radio Scotland FM</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK|Comedy</category>
+       <channel>London Live</channel>
+ </cats>
+ <cats>
+       <category>Radio|UK</category>
+       <channel>BBC Radio Wales</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>ITV2HD</channel>
+ </cats>
+ <cats>
+       <category>Radio|UK</category>
+       <channel>BBC Radio Ulster</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>ITV3HD</channel>
+ </cats>
+ <cats>
+       <category>Radio|UK|Asian</category>
+       <channel>BBC Asian Network</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>ITV4HD</channel>
+ </cats>
+ <cats>
+       <category>Radio|UK</category>
+       <channel>BBC Radio 6 Music</channel>
+ </cats>
+ <cats>
+       <category>Documentaries|UK</category>
+       <channel>Sky Arts HD</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK|Comedy</category>
+       <channel>Gold</channel>
+ </cats>
+ <cats>
+       <category>Lifestyle|UK</category>
+       <channel>Sky Living +1</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>ITV Encore HD</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>FOX HD</channel>
+ </cats>
+ <cats>
+       <category>Radio|News|Sport|Talkshows</category>
+       <channel>LBC</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>TLC HD</channel>
+ </cats>
+ <cats>
+       <category>Music|UK</category>
+       <channel>MTV HD</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK|Comedy</category>
+       <channel>Comedy Central +1</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK|Comedy</category>
+       <channel>Comedy Central Extra</channel>
+ </cats>
+ <cats>
+       <category>Radio|UK</category>
+       <channel>1022 Smooth Radio</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>Sky 2</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>Sky 1 + 1</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK|Sport</category>
+       <channel>ITV London+1</channel>
+ </cats>
+ <cats>
+       <category>Radio|UK|News|Talkshows</category>
+       <channel>BBC Radio 4 Extra</channel>
+ </cats>
+ <cats>
+       <category>Lifestyle|UK</category>
+       <channel>Alibi HD</channel>
+ </cats>
+ <cats>
+       <category>Food|UK</category>
+       <channel>Good Food HD</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>S4C</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>Channel 4 +1</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK|Comedy</category>
+       <channel>E4 HD</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK|Comedy</category>
+       <channel>E4 +1</channel>
+ </cats>
+ <cats>
+       <category>Radio|UK</category>
+       <channel>BBC Radio 1Xtra</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>More4 HD</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>More4 +1</channel>
+ </cats>
+ <cats>
+       <category>Radio|UK|Asian</category>
+       <channel>BBC Radio Nan Gidheal</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>4seven</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK|Sport</category>
+       <channel>BBC One HD</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK|Sport</category>
+       <channel>BBC Two England</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>BBC Alba</channel>
+ </cats>
+ <cats>
+       <category>Radio</category>
+       <channel>BBC Radio 4 LW</channel>
+ </cats>
+ <cats>
+       <category>Documentaries|UK</category>
+       <channel>Quest</channel>
+ </cats>
+ <cats>
+       <category>Sport|Radio|UK</category>
+       <channel>BBC Radio 5 live sports extra</channel>
+ </cats>
+ <cats>
+       <category>Gameshows|UK</category>
+       <channel>Challenge</channel>
+ </cats>
+ <cats>
+       <category>Documentaries|UK|Crime</category>
+       <channel>CBS Reality</channel>
+ </cats>
+ <cats>
+       <category>Documentaries|UK|Crime</category>
+       <channel>CBS Reality +1</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK|Crime</category>
+       <channel>CBS Action</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK|Crime</category>
+       <channel>CBS Drama</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK|Crime</category>
+       <channel>Universal Channel +1</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|News|UK</category>
+       <channel>E! Entertainment HD</channel>
+ </cats>
+ <cats>
+       <category>Lifestyle|Documentaries|UK</category>
+       <channel>Pick</channel>
+ </cats>
+ <cats>
+       <category>Radio|UK</category>
+       <channel>BBC Radio London</channel>
+ </cats>
+ <cats>
+       <category>Lifestyle|Documentaries|UK</category>
+       <channel>Pick +1</channel>
+ </cats>
+ <cats>
+       <category>Lifestyle|Documentaries|UK|Talkshows</category>
+       <channel>TLC+1</channel>
+ </cats>
+ <cats>
+       <category>Radio|UK</category>
+       <channel>BBC Radio Cymru</channel>
+ </cats>
+ <cats>
+       <category>Lifestyle|Documentaries|UK|Crime</category>
+       <channel>Really</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>Lifetime HD</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>Sony Channel</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>Drama</channel>
+ </cats>
+ <cats>
+       <category>Comedy|UK|Entertainment</category>
+       <channel>Comedy Central Extra +1</channel>
+ </cats>
+ <cats>
+       <category>Crime|Entertainment|UK</category>
+       <channel>Spike</channel>
+ </cats>
+ <cats>
+       <category>Radio|Irish</category>
+       <channel>RT Radio 1 FM</channel>
+ </cats>
+ <cats>
+       <category>Gameshows|UK|Entertainment</category>
+       <channel>Challenge +1</channel>
+ </cats>
+ <cats>
+       <category>Radio|Irish</category>
+       <channel>RTE 2FM</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>FOX+</channel>
+ </cats>
+ <cats>
+       <category>Radio|Irish</category>
+       <channel>RT lyric fm</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|Comedy|UK</category>
+       <channel>GOLD +1</channel>
+ </cats>
+ <cats>
+       <category>Radio|Irish</category>
+       <channel>RT Raidi na Gaeltachta</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|Lifestyle|UK</category>
+       <channel>DMAX</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK|USA|Crime</category>
+       <channel>Sky Atlantic +1</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>Channel 5</channel>
+ </cats>
+ <cats>
+       <category>Documentaries|UK</category>
+       <channel>Real Lives</channel>
+ </cats>
+ <cats>
+       <category>Documentaries|UK</category>
+       <channel>Real Lives +1</channel>
+ </cats>
+ <cats>
+       <category>Lifestyle|Documentaries|UK</category>
+       <channel>5USA</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>Channel 5+24</channel>
+ </cats>
+ <cats>
+       <category>Crime|UK</category>
+       <channel>5STAR</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>Channel 5 +1</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>ITVHD London</channel>
+ </cats>
+ <cats>
+       <category>Radio|UK</category>
+       <channel>Kiss 100</channel>
+ </cats>
+ <cats>
+       <category>Lifestyle|Entertainment|UK</category>
+       <channel>ITVBe</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>ITV2+1</channel>
+ </cats>
+ <cats>
+       <category>Radio|UK</category>
+       <channel>Magic 1054</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>Sony Channel +1</channel>
+ </cats>
+ <cats>
+       <category>News|UK|African</category>
+       <channel>BEN</channel>
+ </cats>
+ <cats>
+       <category>Crime|Documentaries|UK</category>
+       <channel>True Drama</channel>
+ </cats>
+ <cats>
+       <category>Lifestyle|Entertainment|UK</category>
+       <channel>True Entertainment</channel>
+ </cats>
+ <cats>
+       <category>Movies|UK</category>
+       <channel>more>movies</channel>
+ </cats>
+ <cats>
+       <category>Movies|UK</category>
+       <channel>more>movies +1</channel>
+ </cats>
+ <cats>
+       <category>UK|Lifestyle|Talkshows</category>
+       <channel>BET:BlackEntTV</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>FOX</channel>
+ </cats>
+ <cats>
+       <category>News|Chinese|UK</category>
+       <channel>Propeller TV</channel>
+ </cats>
+ <cats>
+       <category>Crime|UK</category>
+       <channel>5STAR +1</channel>
+ </cats>
+ <cats>
+       <category>Irish|UK|Lifestyle|Talkshows</category>
+       <channel>Irish TV</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>AMC from BT</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>ITV3+1</channel>
+ </cats>
+ <cats>
+       <category>Sci-Fi|UK|Entertainment</category>
+       <channel>Syfy +1</channel>
+ </cats>
+ <cats>
+       <category>Documentaries|UK</category>
+       <channel>Quest +1</channel>
+ </cats>
+ <cats>
+       <category>Lifestyle|UK</category>
+       <channel>Home</channel>
+ </cats>
+ <cats>
+       <category>Lifestyle|UK</category>
+       <channel>Lifetime +1</channel>
+ </cats>
+ <cats>
+       <category>Crime|Entertainment|UK</category>
+       <channel>truTV</channel>
+ </cats>
+ <cats>
+       <category>Lifestyle|UK</category>
+       <channel>OHTV</channel>
+ </cats>
+ <cats>
+       <category>Radio|UK</category>
+       <channel>Absolute 80s</channel>
+ </cats>
+ <cats>
+       <category>Lifestyle|Documentaries|UK|Talkshows</category>
+       <channel>TLC+2</channel>
+ </cats>
+ <cats>
+       <category>Sci-Fi|Entertainment|UK</category>
+       <channel>Syfy</channel>
+ </cats>
+ <cats>
+       <category>Radio|UK</category>
+       <channel>Jazz FM</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK|Comedy</category>
+       <channel>E4</channel>
+ </cats>
+ <cats>
+       <category>Talkshows|UK|Lifestyle</category>
+       <channel>My Channel TV</channel>
+ </cats>
+ <cats>
+       <category>Radio|UK</category>
+       <channel>Absolute Classic Rock</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK|Crime</category>
+       <channel>Universal Channel</channel>
+ </cats>
+ <cats>
+       <category>Comedy|UK|Entertainment</category>
+       <channel>Comedy Central</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>ITV4+1</channel>
+ </cats>
+ <cats>
+       <category>Lifestyle|Entertainment|UK</category>
+       <channel>ITVBe+1</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK|Crime</category>
+       <channel>ITV Encore +1</channel>
+ </cats>
+ <cats>
+       <category>Radio|News|Talkshows|UK</category>
+       <channel>Newstalk 106-108 FM</channel>
+ </cats>
+ <cats>
+       <category>Documentaries|UK</category>
+       <channel>BBC Four</channel>
+ </cats>
+ <cats>
+       <category>UK|Lifestyle</category>
+       <channel>Information TV</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK|Food|Crime</category>
+       <channel>W +1</channel>
+ </cats>
+ <cats>
+       <category>Comedy|Entertainment|UK</category>
+       <channel>Dave ja vu</channel>
+ </cats>
+ <cats>
+       <category>Comedy|UK|Entertainment</category>
+       <channel>Sky 1</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK|African</category>
+       <channel>Vox Africa</channel>
+ </cats>
+ <cats>
+       <category>Crime|UK|USA|Entertainment</category>
+       <channel>5USA +1</channel>
+ </cats>
+ <cats>
+       <category>Music|UK</category>
+       <channel>MTV</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK|USA|Crime</category>
+       <channel>Sky Living</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK|USA|Crime</category>
+       <channel>Sky Atlantic</channel>
+ </cats>
+ <cats>
+       <category>Documentaries|UK</category>
+       <channel>Sky Arts</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK|Talkshows</category>
+       <channel>ITV2</channel>
+ </cats>
+ <cats>
+       <category>Crime|UK|USA|Entertainment</category>
+       <channel>Alibi +1</channel>
+ </cats>
+ <cats>
+       <category>Entertainment|UK</category>
+       <channel>Channel 4 HD</channel>
+ </cats>
+ <cats>
+       <category>Lifestyle|News|UK</category>
+       <channel>E! Entertainment Plus 1</channel>
+ </cats>
+ <cats>
+       <category>Documentary|Lifestyle|UK</category>
+       <channel>More4</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>AIT International</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>DMAX +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>TLC</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Lifetime</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>E! Entertainment</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Discovery Home &amp; Health</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Discovery Home &amp; Health +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Discovery Shed</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Good Food +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Home +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>W</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Dave</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Alibi</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Food Network</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Travel Channel</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Food Network +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Travel Channel +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Horse &amp; Country TV</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Good Food</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Holiday &amp; Cruise Channel</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>ITV3</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Forces TV</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Information TV +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>wedding tv</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>ITV4</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>ITV Encore</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>MTV +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>truTV+1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Property Show +2</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>YourTV</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>AMC HD from BT</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Movies Premiere HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Movies Premiere +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Movies Showcase HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Movies Greats HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Movies Disney HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Movies Family HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Movies Action &amp; Adventure HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Movies Comedy HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Movies Crime &amp; Thriller HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Movies Drama &amp; Romance HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Movies Sci-fi/Horror HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Movies Select HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Movies Premiere</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Film4 HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Film4 +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>TCM HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>TCM+1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Horror Channel</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Horror Channel +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>True Movies 1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>True Movies 2</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sony Movie Channel</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sony Movie Channel +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Movies4Men</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Movies4Men +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Movies 24</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Movies 24+</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Nollywood Movies</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Movies Showcase</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Movies Greats</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Movies Disney</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Movies Family</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Movies Action &amp; Adventure</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Movies Comedy</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Movies Crime &amp; Thriller</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Movies Drama &amp; Romance</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Movies Sci-fi/Horror</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Movies Select</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>TCM</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Film4</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Talking Pictures</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>MTV Music</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>MTV Base</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>MTV Hits</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Viva</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>MTV Dance</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>MTV Rocks</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>MTV Classic</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>VH1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>MTV Music +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>The Box</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>4Music</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Kiss TV</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Smash Hits!</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Magic</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Heat TV</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Chart Show TV</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>The Vault</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Scuzz</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Kerrang! TV</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Vintage TV</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Chilled </channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Starz TV</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Chart Show Dance</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Flava</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>NOW Music</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Clubland TV</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Channel AKA</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>MTV Live HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Heart TV</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Capital TV</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Keep It Country</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Sports News HQ HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Sports 1 HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Sports 2 HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Sports 3 HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Sports 4 HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Sports 5 HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Sports F1 HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Sports News HQ</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Sports 1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Eurosport HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Eurosport 2 HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Eurosport 1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BT Sport 1HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BT Sport Europe HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>At The Races</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BT Sport 2 HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>MUTV HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Chelsea TV HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Chelsea TV</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BT Sport//ESPN HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BT Sport 1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Premier Sports</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>LFC TV</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Racing UK HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BT Sport Europe</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Sports 2 </channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Sports 3</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BoxNation</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Sports 4</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Sports 5</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>TRACE Sport Stars</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Eurosport 2</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Motors TV</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>The Active Channel</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Sports F1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>MUTV</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>LFC TV HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BT Sport 2</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BT Sport//ESPN</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Premier Sports HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Bike</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Racing UK</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BoxNation HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Sports Box Office HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Sports Box Office</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky News HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Bloomberg TV</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BBC News Channel HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BBC Parliament</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>CNBC UK</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>CNN</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>NHK World HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Euronews</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>RT HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>FRANCE 24 English</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Al Jazeera English</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky News</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>RT</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Discovery Channel HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Discovery Channel +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Investigation Discovery</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Animal Planet HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Discovery Turbo</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Discovery Science</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>National Geographic Channel HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>National Geographic Channel +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Nat Geo Wild HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>History HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>History +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>H2</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Eden HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Eden +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>PBS America</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Discovery History</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Discovery History +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Yesterday</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Yesterday +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Community Channel</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>National Geographic Channel</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Nat Geo Wild</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>History</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Animal Planet +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Investigation Discovery +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>CI HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>CI +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>CI</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Discovery Science +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Discovery Channel</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Animal Planet</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Eden</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BBC News Channel</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BON TV</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>TVC News</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>God TV</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Cartoon Network HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Cartoon Network +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Boomerang HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Nickelodeon HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Nickelodeon +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Nicktoons</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Disney XD HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Disney XD +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Disney Channel HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Disney Channel +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Disney Junior HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Disney Junior +</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>CBBC HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>CBeebies HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Nick Jr</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Pop</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Tiny Pop</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Boomerang +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Cartoonito</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Nick Jr Too</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>CITV</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Disney XD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Baby TV</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>CBeebies</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Tiny Pop +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Pop +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Kix</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Disney Junior</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Kix +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Nick Jr +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Disney Channel</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Nickelodeon</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>CBBC</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Cartoon Network</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Boomerang</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>QVC</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Ideal World</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Create and Craft</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Box Office</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sky Box Office HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>B4U Movies</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sony Entertainment TV Asia</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Star Life OK</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Star Plus HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Phoenix CNE Channel</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Zee TV</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Zing</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Zee Cinema</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>&amp;TV</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>TV5</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>ARY News</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Star Jalsha</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Star GOLD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Sony SAB</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Channel S</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Colors</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Rishtey</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Star Plus</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>News18 India</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Playboy TV</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>The Adult Channel</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Television X</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Viewers Wives</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Xtreme Filth</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BBC One Scotland HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BBC One Wales HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BBC One Northern Ireland HD</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BBC One London</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BBC One Yorkshire</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BBC One North West</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BBC One West Midlands</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BBC One East Midlands</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BBC One East</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BBC One Cambridgeshire</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BBC One South East</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BBC One South</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BBC One Oxfordshire</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BBC One West</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BBC One South West</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BBC One Channel Islands</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BBC Two England</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BBC Two Scotland</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BBC Two Wales</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BBC Two Northern Ireland</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>ITV London</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Channel 4</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>Channel 4 +1</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BBC One Scotland</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BBC One Wales</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BBC One Northern Ireland</channel>
+ </cats>
+ <cats>
+       <category>Uncategorised</category>
+       <channel>BBC Red Button 1</channel>
+ </cats>
+
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ABN TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>FilmOnTV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Property Show</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>?TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>FAB TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Sky Movies Robots</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Sky Movies Robots HD </channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NHK World</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>News18</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Shop at Bid</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Best Direct</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Gems TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Super Casino</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>BBC One North East &amp; Cumbria</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>BBC One Yorkshire &amp; Lincolnshire</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>WINS</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DirecTV DT87</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Celebrity Shopping Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV104</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV108</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV109</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV110</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV111</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV115</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV117</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV118</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV119</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV120</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV121</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV122</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV123</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV124</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV125</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV126</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV127</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV128</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV129</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV130</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV132</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV133 (DirecTv)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV134</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV135</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV136</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV137</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV138</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV139 (DirecTv)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV140</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV141</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV142</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV143</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV144</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV145</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV146</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV147</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV148</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV149</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV150</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV151</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV152</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV153</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV154</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV155</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV156 (DirecTv)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV157</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV158 (DIRECTV)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV159</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV160</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV161 (DIRECTV)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV162</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV163 (DIRECTV)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV164</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV165</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV166</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV167 (DIRECTV)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV168</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>PPV - PPV169</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV170</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV171</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV172 (DIRECTV)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>PPV - PPV173</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV174</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV175</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV176 (DIRECTV)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV177 (DIRECTV)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV178</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV179 (DIRECTV)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV180</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV181</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV182</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV183</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV184</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV185</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV186</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV 187</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV188 (DIRECTV)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV189 (DIRECTV)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV190</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV191</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV192</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV193</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV194</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>PPV - PPV196</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>PPV - PPV197</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV198</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV199</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Local Origination - LOOR200</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Local Origination - LOOR201</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Cable News Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>CNN HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>LOOK no farther for the best new products!</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>HLN HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>HLN</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ESPN</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ESPNHD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ESPNEWS HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ESPNEWS</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ESPN University HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ESPNU</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ESPN2</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ESPN2 HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ESPN (Alternate)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ESPN2 (Alternate)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NFL NETWORK</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NFL Network HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Network HD Alternate</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Network HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Network Alternate</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MavTV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NHL Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NHL Network HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NBA TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NBA TV HDTV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Tennis Channel</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Tennis Channel HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>The Golf Channel</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>The Golf Channel HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports 1 HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports 1</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NBCSN HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NBCSN</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>CBS Sports Network HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>CBS Sports Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DirecTV DT222</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DirecTV Celebrity Shopping Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DirecTV DT224</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Direct TV 225 HOME</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Liquidation Channel</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Direct TV DT227</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Gem Shopping Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Home &amp; Garden Television HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Home &amp; Garden Television</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Do-It-Yourself Network HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Do-It-Yourself Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Food Network HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Cooking Channel</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Cooking Channel HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>GSN</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>WOW TV has the coolest products out there!</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Esquire</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>E! Entertainment Television HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>E! Entertainment Television</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Bravo</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Bravo HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ReelzChannel HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ReelzChannel</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>HSN</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Spike TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Spike TV HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>USA Network HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>USA Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Get the BUZZ about the greatest products!</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Turner Network TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Turner Network TV HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>truTV HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>TBS HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Turner Broadcasting System</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>FX</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>FX HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Shop MALL for the hottest new products!</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Oxygen</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DIRECTV Lifetime</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Lifetime Movie Network HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Lifetime Movie Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>AMC</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>AMC HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>XTRA has the best As Seen on TV products!</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>CASH</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Turner Classic Movies</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Turner Classic Movies HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Chiller</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>FXM</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>FXX</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>FXX HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>WE tv HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>WE tv</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Discovery Life Channel</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DirecTV DT262</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Gemporia</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>BBC America</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>BBC America HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>A&amp;E Network HD East</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>A&amp;E Network Stream</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>A&amp;E Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>FYI</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>FYI Channel HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Pivot</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Shop BEST for the hottest products on TV!</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>History Stream</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Great IDEAS for the products you need!</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Viceland HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Viceland</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>LOGO</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>POP</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Ovation TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Ovation TV HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>The Travel Channel</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>The Travel Channel HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>The Discovery Channel HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>The Discovery Channel</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Oprah Winfrey Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Oprah Winfrey Network HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>The Learning Channel</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>The Learning Channel HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Velocity</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>National Geographic Wild</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>National Geographic Wild HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Science Channel HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Science</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Investigation Discovery HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Destination America</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Destination America HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>American Heroes Channel</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Disney Junior US</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Disney Junior US HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Disney Channel (Pacific)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>BabyFirst TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Discovery Family Channel</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Sprout</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Cartoon Network (Pacific)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Nickelodeon (Pacific)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Nick Jr HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Nicktoons Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Teen Nick</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>TV Land HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>TV Land</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ION Television DirecTV/Dish/Cable White Area</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ION Television DirecTV/Dish HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ION Television West DirecTV/Dish (Pacific)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>WGN America</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>WGN America</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Cloo</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Freeform</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Freeform HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Hallmark Channel HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Hallmark Channel</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Jewelry Television</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DirecTV 314</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>QVC Plus</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>EVINE Live</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>QVC HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Revenue Frontier Deals for DirecTV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>SALE: great prices on the hottest products!</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV322</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DTV323</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Americas Auction Network DirecTV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DirecTV NEWDT</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Great American Country</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Country Music Television HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Country Music Television</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>TV ONE</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>BET HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>BET</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Centric</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MTV - Music Television HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MTV - Music Television</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MTV2: Music Television HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MTV2: Music Television</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>VH1 HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>SHOPnow</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>VH1 Classic</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>UP</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fuse</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>AXS TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>El Rey Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fusion</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Revenue Frontier Value for DirecTV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DirecTV SonLife Broadcasting</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>RFD TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>BBC World News HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Al Jazeera America HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Al Jazeera America</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Free Speech TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Newsmax TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>CSPAN</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>CSPAN2</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NASA TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Bloomberg Business Television</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Bloomberg HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DOG TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>CNBC HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>CNBC</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MSNBC</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MSNBC HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>CNBC World</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Business</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Business Stream</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Business HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox News Channel</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox News Channel HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox News Channel Stream</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Performance One Weather Nation</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Performance One Weather Nation HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>The Weather Channel HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>The Weather Channel</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Golden Eagle Broadcasting</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>INSP</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>GOD TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Jewish Life TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>World Harvest Television</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>The Hope Channel</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Daystar Television Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Eternal Word Television Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>The Church Channel</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Trinity Broadcasting Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>The Word Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>BYU-TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Link TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Christian Television Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>TCT WORLD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NRB Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>UplifTV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Impact Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ASPiRE</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ASPiRE HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ComedyTV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Justice Central SD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>REVOLT</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MBC Drama HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>PBS</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>CBS</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>WCBSDT (WCBS-DT)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>CBS</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>KCBSDT (KCBS-DT)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>WNBCDT (WNBC-DT)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NBC</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NBC</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>KNBCDT (KNBC-DT)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>CW</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>CW</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ABC</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>WABCDT (WABC-DT)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ABC</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>KABCDT (KABC-DT)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>WNYWDT (WNYW-DT)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>KTTVDT (KTTV-DT)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>PPV en Espaol</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Compre AQUI los productos mejores del TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Univision Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Univision Network HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Univision Network (Pacific)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Galavision Cable Network HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Galavision Cable Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Mega TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Mega TV HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Telemundo Television Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Telemundo Television Network (Pacific)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>UniMas Satellite Feed (Pacific)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>UniMas HD (Pacific)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>TV Venezuela</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NBC Universo HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NBC Universo</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Telefe Internacional</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Mexicanal</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Discovery en Espaol</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>WAPA America</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Video Rola</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>RCN Nuestra Tele</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>CARACOL INTERNATIONAL</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NTN24 Nuestra Tele Noticias 24</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>CNN En Espaol - Mexico and US</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ATRES Series English</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>FoxLife US</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Cine Estelar</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Cine Latino US</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Cine Nostalgia</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>IVC Net</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Centroamerica TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Telecentro TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Hola TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Peru Magico</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Zoomoo</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>BandaMax US Feed</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DOMINICANA</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Nat Geo Mundo</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Discovery Familia En Espaol</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>TV Chile Internacional</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Ecuavisa International</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Sur Peru</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>V-Me</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Azteca America Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NBC Universo Stream</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DirecTV 442</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>History Channel En Espaol</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Pasiones TV US</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Tr3s: MTV Musica y Mas</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>XEIMT International (US feed)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Canal Once</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ETBN Enlace USA</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ViendoMovies</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>De Pelicula US Feed</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>De Pelicula Clasico</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Foro TV US Feed</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Univision TL Novelasun</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Ecuador TV International</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>TVE America Television Espaola</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>HITN</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Univision Deportes Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Univision Deportes Network HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ESPN Deportes HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ESPN Deportes</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>beIN Sports En Espaol</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>beIN Sports En Espaol HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>GOL TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>TyC Sports</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Time Warner Cable Deportes HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Time Warner Cable Deportes SD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLS Direct Kick - Direct TV - MLSSO</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLS Direct Kick - Direct TV - MLSSO2</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLS Direct Kick - Direct TV - MLSSO3</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLS Direct Kick - Direct TV - MLSSO4</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLS Direct Kick - Direct TV - MLSSO5</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLS Direct Kick - Direct TV - MLSSO6</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Local Origination - LOOR489</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Local Origination - LOOR490</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NBC Sports Extra Time 1 HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NBC Sports Extra Time 2 HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NBC Sports Extra Time 3 HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NBC Sports Extra Time 4 HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NBC Sports Extra Time 5 HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Special Events Channel</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>HBO HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Home Box Office</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>HBO 2 HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>HBO2</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>HBO Signature HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>HBO Signature</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>HBO HD (Pacific)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>HBO (Pacific)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>HBO2 (Pacific)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>HBO 2 HD (Pacific)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>HBO Comedy HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>HBO Family HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>HBO Family</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>HBO Family (Pacific)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>HBO Zone HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>HBO Latino HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>HBO Latino</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>CineMAX</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>CineMAX HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>CineMAX (Pacific)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>CineMAX HD (Pacific)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MoreMax HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MoreMAX</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ActionMAX HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>5 StarMAX HD East</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MovieMax HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ThrillerMAX HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Cinemax Spanish HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Starz</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Starz HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Starz (Pacific)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Starz HD (Pacific)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Starz Kids HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Starz Comedy HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Starz Edge</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Starz Edge HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Starz in Black HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Starz in Black</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Starz Cinema HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Encore</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Encore HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Encore (Pacific)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Encore Classic</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Encore Westerns</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DIRECTV Encore Westerns</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Encore Suspense</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Encore Black</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Encore Action</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Encore Action HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Encore Family</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Showtime</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Showtime HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Showtime (Pacific)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Showtime HD (Pacific)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>SHO 2</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>SHO 2 HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Showtime Showcase HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Showtime Showcase</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Showtime Extreme HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Showtime Extreme</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Showtime Beyond HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Showtime Next HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Showtime Women HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>The Movie Channel HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>The Movie Channel</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>The Movie Channel (Pacific)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>The Movie Channel Extra HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Flix</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>SundanceTV HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>SundanceTV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>IFC</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>IFC HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Hallmark Movies &amp; Mysteries HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>HDNet Movies</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MGM HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Sony Movie Channel HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Universal HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Smithsonian HD Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Crime &amp; Investigation Network HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MTVLIVE</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Shorts HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Pay-Per-View Adult</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Playboy Premium</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV582</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV583</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DITV584</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Playboy En Espaol</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Penthouse TV XX5 Premium</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Exxxtsy Premium</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Playboy Premium HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Adult On Demand</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Adult Pay-Per-View Previews</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Reality Kings TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Penthouse TV XX5 - New Frontier</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Bang U</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>BraZZers TV Plus</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>VividTV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Hustler TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Audience Channel</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Audience Channel HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>TV Games Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Pursuit Channel</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>The Sportsman Channel</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Outdoor Channel</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox College Sports (Central)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox College Sports (Atlantic)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox College Sports (Pacific)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Big Ten HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Big Ten Network Overflow HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Big Ten Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Big Ten Network Overflow</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Big Ten Network Overflow 2</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Big Ten Network Overflow 3</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Big Ten Network Overflow 4</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>SEC Network HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>SEC Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>SECA</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ESPN Classic</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ESPN Bases Loaded</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports 2</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports 2 HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>beIN Sports</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>beIN Sports HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Soccer Plus</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Soccer Plus HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Deportes HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Deportes</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>New England Sports Network Plus HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>New England Sports Network HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>New England Sports Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>New England Sports Network Plus</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Comcast SportsNet New England</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Comcast SportsNet New England HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Comcast SportsNet New England Overflow</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Yes Network HD (24/7 feed)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Yankees Entertainment &amp; Sports Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MSG HD Zone 1</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MSG Zone 1</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MSG Plus Zone 1</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MSG Plus HD Zone 1</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Sportsnet NY</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Sportsnet NY HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MASN HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MASN - Mid Atlantic Sports Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MASN2 HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Mid Atlantic Sports Network Alternate</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Comcast SportsNet Mid-Atlantic</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Comcast SportsNet Mid-Atlantic HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Comcast SportsNet Mid-Atlantic Plus</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports South - Main Feed</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports South HD(Full Time)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports South Overflow</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports South Plus</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports Southeast HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports Southeast</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>FOX Sports Sun</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>FOX Sports Sun HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports Florida HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports Florida</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports Florida (No Florida feed)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports Florida (South)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>FOX Sports Sun (Alt) - SUN</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ROOT Sports Pittsburgh (Main Transponder)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ROOT Sports Pittsburgh HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ROOT Sports Pittsburgh (Alt feed)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports Ohio HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports Ohio</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports Ohio 1 (Cleveland feed)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports Ohio 2 (Cincinnati feed)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports Ohio 2 HD (Cincinnati Alternative Feed)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports Ohio 2 (Cincinnati Alternative Feed)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Sportstime Ohio</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Sportstime Ohio HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports Detroit HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports Detroit - FSD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Comcast SportsNet Chicago HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Comcast SportsNet Chicago</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Comcast SportsNet Chicago Plus</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Comcast SportsNet Chicago Plus 2</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports North</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports North HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports Midwest HD - Satellite Feed</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports Midwest - Satellite Feed</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports Midwest Plus (KC)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ROOT Sports Southwest</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ROOT Sports Southwest Plus</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports Southwest (Main Feed)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports Southwest HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Longhorn Network HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Altitude Sports and Entertainment Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Altitude Sports and Entertainment Network HD 24/7</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Altitude Sports 2</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ROOT (ROOT Sports Rocky Mtn Utah)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ROOT HD (ROOT Sports Rocky Mtn Utah)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ROOT Sports Rocky Mountain (alt)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports Arizona HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports Arizona - FSAZ</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports Arizona - FSAZ (Alternate Feed)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ROOT Sports Northwest</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ROOT Sports Northwest (Alt) - RTN2</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ROOT Sports Northwest HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Regional Sports Alt Message Channel</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Time Warner Cable Sportsnet HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Time Warner Cable Sportsnet SD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports West</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports West HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports Prime Ticket</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports Prime Ticket HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports San Diego HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Fox Sports San Diego</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Comcast SportsNet Bay Area</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Comcast SportsNet Bay Area HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Comcast SportsNet California SAT HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Comcast SportsNet California SAT</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NFL SUNDAY TICKET MIX 1</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NFL SUNDAY TICKET MIX 2</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NFL RedZone HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NFL SUNDAY TICKET RED ZONE</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NFL Sunday Ticket - 704</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NFL Sunday Ticket - 705</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NFL Sunday Ticket - 706</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NFL Sunday Ticket - 707</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NFL Sunday Ticket - 708</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NFL Sunday Ticket - 709</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NFL Sunday Ticket - 710</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NFL Sunday Ticket - 711</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NFL Sunday Ticket - 712</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NFL Sunday Ticket - 713</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NFL Sunday Ticket - 714</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NFL Sunday Ticket - 715</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NFL Sunday Ticket - 716</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NFL Sunday Ticket - NFL717</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NFL Sunday Ticket - NFL718</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Network Strike Zone HD</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DirecTV - MLB Extra Innings - MLBEI</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Extra Innings 721</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Extra Innings 722</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Extra Innings 723</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Extra Innings 724</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Extra Innings 725</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Extra Innings 726</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Extra Innings 727</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Extra Innings 728</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Extra Innings 729</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Extra Innings 730</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Extra Innings 731</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Extra Innings 732</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Extra Innings 733</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Extra Innings 734</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Extra Innings 735</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Extra Innings 736</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Extra Innings 737</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Extra Innings 738</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Extra Innings 739</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Extra Innings 740</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Extra Innings 741</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Extra Innings 742</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Extra Innings 743</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Extra Innings 744</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Extra Innings 745</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Extra Innings 746</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Extra Innings 747</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Extra Innings 748</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MLB Extra Innings 749</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NBA League Pass 750</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NBA League Pass 751</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NBA League Pass 752</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NBA League Pass 753</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NBA League Pass 754</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NBA League Pass 755</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NBA League Pass 756</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NBA League Pass 757</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NBA League Pass 758</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NBA League Pass 759</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NBA League Pass 760</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NBA League Pass 761</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NBA League Pass 762</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NBA League Pass 763</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NBA League Pass 764</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NBA League Pass 765</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NBA League Pass 766</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NBA League Pass 767</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NBA League Pass 768</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NHL Center Ice 769</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NHL Center Ice 770</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NHL Center Ice 771</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NHL Center Ice 772</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NHL Center Ice 773</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NHL Center Ice 774</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NHL Center Ice 775</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NHL Center Ice 776</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NHL Center Ice 777</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NHL Center Ice 778</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NHL Center Ice 779</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NHL Center Ice 780</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NHL Center Ice 781</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NHL Center Ice 782</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NHL Center Ice 783</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NHL Center Ice 784</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NHL Center Ice 785</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NHL Center Ice 786</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NHL Center Ice 787</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Big Band/Swing</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Malt Shop Oldies</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: 60s Revolution</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: 70s Hits</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: 80s Hits</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: 90s Hits</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Traditional Country</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Hit Country</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Red Rock and Blues</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Honky Tonk Tavern</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Bluegrass</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Folk Rock</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Modern Country</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Todays Hits</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Y2k Hits</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Hot Hits</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Love Songs</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Beautiful Instrumentals</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Adult Contemporary</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Silver Screen</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Show Tunes</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Hot Jamz</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: The Spirit</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Gospel Glory</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Hallelujah</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Hair Guitar</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Full Metal Jacket</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX College Rock</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Adult Alternative</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Classic Rock</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Alternative</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Inkd</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Singer-Songwriters</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Classic Hits Blend</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Reality Bites</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Flashback New Wave</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: 8-Tracks</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Spike</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Classic R&amp;B</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Silky Soul</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Old School Funk</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Retro Disco</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: The Boombox</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Hype</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Coffeehouse Rock</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Soft Hits</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Classic Jazz Vocal Blend</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Smooth Jazz</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Blues</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: New Age</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Zen</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Subterranean</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Dance</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Reggae</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Symphonic</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Lite Classical</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Be-Tween</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: The Playground</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Bailamos!</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Fiesta Tropical</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Latin Hits</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Music of the Americas</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Regional Mexican</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Salsa</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Audio DMX Hurbano</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Mariachi</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Carnaval Brasileiro</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Rock en Espaol</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Latin Jazz</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Willow Cricket</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Phoenix Info News</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>JSTV EPG</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>CBO</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>The Filipino Channel (Pacific)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>GMA Pinoy TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>ABS-CBN News Channel</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Cinema One</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Bro Channel</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>WRR 1019</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DZMM Radyo Patrol</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MYX Channel</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>INCTV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>GMA Life TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Kapatid</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Saigon Broadcasting Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>VGN TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Tai Seng Vietnam</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Vien Thao TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Vietface TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Honvietv</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>TViet Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>SBS TV Korea</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MBC America</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>PI KBS World</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>YTN Radio Korea</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>SBS Plus</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MBC Every 1</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>tvN</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>EBS America</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MBN Plus</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Tan Tv</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>National Geographic Channel Korea</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>CTS Korean Christian Channel</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Radio Korea</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DTV ARANG</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>GZTV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>88 TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Phoenix Hong Kong Channel</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>88 Films</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>iCable Finance Info News Channel</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>i-CABLE News</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>CTI Zhong Tian Channel</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>CCTV4-China Central TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Phoenix Satellite TV</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Charming China</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>CCTV News</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Rede Globo TV Internacional</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Premiere Futebol Clube</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Channel One Russia Worldwide Network</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>RTR Planeta</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Dom Kino</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Muzika Pervogo (M1-NY)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Vremya</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Carousel</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>NTV America (HTB)</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Rossiya 24</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>RTV International</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>MHz Worldview National Channel</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Tranquility</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Rat Pack</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Great Standards</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Groove Lounge</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Familiar Favorites</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Irish</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: PUMP!</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Holiday &amp; Happenings</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Metro Blend</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Italian Bistro Blend</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Classic Rock Workout</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Modern Workout</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Jazz</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Italian Contemporary</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>DMX: Piano</channel>
+ </cats>
+ <cats>
+    <category>Uncategorised</category>
+    <channel>Anheuser Busch Private Network</channel>
+ </cats>
+</Document>

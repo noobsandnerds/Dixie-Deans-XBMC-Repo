@@ -27,22 +27,47 @@ import dixie
 
 
 def resetChannels():
-    path = dixie.GetChannelFolder()
-    chan = os.path.join(path, 'channels')
+    AddonID =  'script.tvportal'
+    dialog  = xbmcgui.Dialog()
+    path    = dixie.GetChannelFolder()
+    chan    = os.path.join(path, 'channels')
+    chanxml = xbmc.translatePath(os.path.join('special://profile/addon_data/',AddonID,'chan.xml'))
+    catsxml = xbmc.translatePath(os.path.join('special://profile/addon_data/',AddonID,'cats.xml'))
+    cfg     = xbmc.translatePath(os.path.join('special://profile/addon_data/',AddonID,'settings.cfg'))
+    success = 0
+
+    try:
+        os.remove(cfg)
+    except:
+        print"### IMPORTANT ### Failed to remove the settings.cfg file in addon_data, please manually remove if it's still there"
+
+    if os.path.exists(chanxml):
+        try:
+            os.remove(chanxml)
+            success = 1
+        except:
+            print"### IMPORTANT ### Unable to remove the chan.xml file in your addon_data folder. Please manually delete"
 
     if sfile.exists(chan):
         xbmc.executebuiltin('Dialog.Show(busydialog)')
-
         sfile.rmtree(chan)
-
         xbmc.executebuiltin('Dialog.Close(busydialog)')
+        success = 1
 
-        d = xbmcgui.Dialog()
-        d.ok('On-Tapp.TV', 'On-Tapp.TV Channels successfully reset.', 'They will be re-created next time', 'you start the guide')
+    if success == 1:
+        dialog.ok('TV Portal - Reset Channels', 'TV Portal Channels successfully reset.', 'They will be re-created next time', 'you start the guide')
 
-    else:
-        pass
+    if success == 0:
+        dialog.ok('TV Portal - Reset Channels', 'There was nothing to reset, please try running the add-on again so it can repopulate your channels.')
 
-
+    if os.path.exists(catsxml):
+        choice = dialog.yesno('Do You Need To Reset Categories?','It\'s highly unlikely you\'ll need to use this but if your main categories list has become corrupt it can cause problems. Would you like to reset the categories to the addon default?')
+        if choice == 1:
+            try:
+                os.remove(catsxml)
+                dialog.ok('TV Portal - Reset Categories', 'TV Portal Categories successfully reset to addon defaults. Any customisations you previously had are now lost.')
+            except:
+                dialog.ok('TV Portal - Reset Categories', 'There was nothing to reset, please try running the add-on again so it can repopulate your categories.')
+                print"### IMPORTANT ### Unable to remove the cats.xml file in your addon_data folder. Please manually delete"
 if __name__ == '__main__':
     resetChannels()

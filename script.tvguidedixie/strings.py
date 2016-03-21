@@ -19,7 +19,7 @@
 #
 import xbmcaddon
 
-ADDON = xbmcaddon.Addon(id = 'script.tvguidedixie')
+ADDON = xbmcaddon.Addon(id = 'script.tvportal')
 
 NO_DESCRIPTION = 30000
 CALCULATING_REMAINING_TIME = 30002

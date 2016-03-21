@@ -48,6 +48,6 @@ if __name__ == '__main__':
     if restoreChannels():
         dixie.DialogOK('Your channels have been successfully restored.', 'This should bring back any customisations', 'that you may have lost.')
     else:
-        dixie.DialogOK('Sorry, we failed to restore your channels.', '', 'Please restart On-Tapp.TV and try again.')    
+        dixie.DialogOK('Sorry, we failed to restore your channels.', '', 'Please restart TV Portal and try again.')    
 
 

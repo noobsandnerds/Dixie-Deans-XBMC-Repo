@@ -20,11 +20,11 @@
 
 import xbmc
 
-ADDONID = 'script.tvguidedixie'
+ADDONID = 'script.tvportal'
 
 def add(params):
     if xbmc.getCondVisibility('System.HasAddon(%s)' % ADDONID) == 1:
-        return 'On-Tapp.TV Mini-Guide'
+        return 'TV Portal Mini-Guide'
     
     return None
 

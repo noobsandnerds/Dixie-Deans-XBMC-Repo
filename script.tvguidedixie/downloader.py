@@ -24,7 +24,7 @@ import time
 def download(url, dest, dp = None):
     if not dp:
         dp = xbmcgui.DialogProgress()
-        dp.create("OnTapp.TV","Downloading & Installing Files", ' ', ' ')
+        dp.create("TV Portal","Downloading & Installing Files", ' ', ' ')
     dp.update(0)
     start_time=time.time()
     urllib.urlretrieve(url, dest, lambda nb, bs, fs: _pbhook(nb, bs, fs, dp, start_time))

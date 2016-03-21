@@ -19,6 +19,7 @@ import json
 import dixie
 
 ADDON    = dixie.ADDON
+autoplay = dixie.GetSetting('autoplay')
 LOCAL    = dixie.GetSetting('local.ini') == 'true'
 FTVINI   = dixie.GetSetting('ftv.ini')
 datapath = dixie.PROFILE
@@ -166,14 +167,16 @@ class StreamsService(object):
         import settings
         import urllib
         current, dirs, files = sfile.walk(folder)
-
+         
         for dir in dirs:    
             folder = os.path.join(current, dir)
-            if dir.lower() == title:
-                cfg      = os.path.join(folder, 'folder.cfg')
-                autoplay = settings.get('AUTOPLAY', cfg)
 
-                if autoplay:
+# check against SF list, if it exists then match up
+            if dir.lower().replace('_',' ') == title:
+#                cfg      = os.path.join(folder, 'folder.cfg')
+#                autoplay = settings.get('AUTOPLAY', cfg)
+
+                if autoplay == 'true':
                     uTitle  = urllib.quote_plus(title)
                     mode    = 5400
                     uFolder = urllib.quote_plus(folder)

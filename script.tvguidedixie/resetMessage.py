@@ -24,7 +24,7 @@ def ResetMessage():
 
 
 if __name__ == '__main__':
-    dixie.DialogOK('Click OK to reset system messages', '', 'The last message will be shown again on restart of On-Tapp.TV')
+    dixie.DialogOK('Click OK to reset system messages', '', 'The last message will be shown again on restart of TV Portal')
     ResetMessage()
     #dixie.DialogOK('All done.', '', 'Thank you.')
     dixie.openSettings(focus='0.18')

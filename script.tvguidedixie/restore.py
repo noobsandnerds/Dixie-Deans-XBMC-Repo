@@ -58,7 +58,7 @@ def doRestore():
 def extractAll(filename, dp):
     zin = zipfile.ZipFile(filename, 'r')
 
-    folder = ROOT.rsplit('script.tvguidedixie', 1)[0]
+    folder = ROOT.rsplit('script.tvportal', 1)[0]
 
     try:
         nItem = float(len(zin.infolist()))
@@ -69,7 +69,7 @@ def extractAll(filename, dp):
             percent  = int(index / nItem *100)
             dp.update(percent, LINE1, LINE2)
 
-            if item.filename.startswith('script.tvguidedixie'):
+            if item.filename.startswith('script.tvportal'):
                 zin.extract(item, folder)
             else:
                 zin.extract(item, ROOT)
