@@ -27,6 +27,9 @@
   <channel id="BBC One Northern Ireland HD">
     <display-name lang="en">BBC One Northern Ireland HD</display-name>
   </channel>
+  <channel id="BBC One North East &amp; Cumbria">
+    <display-name lang="en">BBC One North East &amp; Cumbria</display-name>
+  </channel>
   <channel id="BBC One Northern Ireland">
     <display-name lang="en">BBC One Northern Ireland</display-name>
   </channel>
@@ -63,6 +66,9 @@
   <channel id="BBC One Yorkshire">
     <display-name lang="en">BBC One Yorkshire</display-name>
   </channel>
+  <channel id="BBC One Yorkshire &amp; Lincolnshire">
+    <display-name lang="en">BBC One Yorkshire &amp; Lincolnshire</display-name>
+  </channel>
   <channel id="BBC One Channel Islands">
     <display-name lang="en">BBC One Channel Islands</display-name>
   </channel>
@@ -80,6 +86,15 @@
   </channel>
   <channel id="BBC Two Wales">
     <display-name lang="en">BBC Two Wales</display-name>
+  </channel>
+  <channel id="ITV London">
+    <display-name lang="en">ITV London</display-name>
+  </channel>
+  <channel id="Channel 4">
+    <display-name lang="en">Channel 4</display-name>
+  </channel>
+  <channel id="Channel 4 +1">
+    <display-name lang="en">Channel 4 +1</display-name>
   </channel>
   <channel id="ITVHD London">
     <display-name lang="en">ITVHD London</display-name>
@@ -156,23 +171,11 @@
   <channel id="Sky 2">
     <display-name lang="en">Sky 2</display-name>
   </channel>
-  <channel id="AMC from BT">
-    <display-name lang="en">AMC from BT</display-name>
-  </channel>
-  <channel id="AMC HD from BT">
-    <display-name lang="en">AMC HD from BT</display-name>
-  </channel>
-  <channel id="AMC">
-    <display-name lang="en">AMC</display-name>
-  </channel>
-  <channel id="AMC HD">
-    <display-name lang="en">AMC HD</display-name>
+  <channel id="BBC America">
+    <display-name lang="en">BBC America</display-name>
   </channel>
   <channel id="BBC America HD">
     <display-name lang="en">BBC America HD</display-name>
-  </channel>
-  <channel id="BBC America">
-    <display-name lang="en">BBC America</display-name>
   </channel>
   <channel id="BBC Four HD">
     <display-name lang="en">BBC Four HD</display-name>
@@ -237,11 +240,11 @@
   <channel id="HBO2">
     <display-name lang="en">HBO2</display-name>
   </channel>
-  <channel id="Spike TV HD">
-    <display-name lang="en">Spike TV HD</display-name>
-  </channel>
   <channel id="Spike TV">
     <display-name lang="en">Spike TV</display-name>
+  </channel>
+  <channel id="Spike TV HD">
+    <display-name lang="en">Spike TV HD</display-name>
   </channel>
   <channel id="More4 HD">
     <display-name lang="en">More4 HD</display-name>
@@ -254,6 +257,147 @@
   </channel>
   <channel id="4seven">
     <display-name lang="en">4seven</display-name>
+  </channel>
+  <channel id="Disney Channel">
+    <display-name lang="en">Disney Channel</display-name>
+  </channel>
+  <channel id="Disney Channel HD">
+    <display-name lang="en">Disney Channel HD</display-name>
+  </channel>
+  <channel id="Disney Channel +1">
+    <display-name lang="en">Disney Channel +1</display-name>
+  </channel>
+  <channel id="Disney XD HD">
+    <display-name lang="en">Disney XD HD</display-name>
+  </channel>
+  <channel id="Disney XD">
+    <display-name lang="en">Disney XD</display-name>
+  </channel>
+  <channel id="Disney XD +1">
+    <display-name lang="en">Disney XD +1</display-name>
+  </channel>
+  <channel id="Disney Junior HD">
+    <display-name lang="en">Disney Junior HD</display-name>
+  </channel>
+  <channel id="Disney Junior">
+    <display-name lang="en">Disney Junior</display-name>
+  </channel>
+  <channel id="Disney Junior +">
+    <display-name lang="en">Disney Junior +</display-name>
+  </channel>
+  <channel id="Nickelodeon HD">
+    <display-name lang="en">Nickelodeon HD</display-name>
+  </channel>
+  <channel id="Nickelodeon">
+    <display-name lang="en">Nickelodeon</display-name>
+  </channel>
+  <channel id="Nickelodeon +1">
+    <display-name lang="en">Nickelodeon +1</display-name>
+  </channel>
+  <channel id="Nick Jr">
+    <display-name lang="en">Nick Jr</display-name>
+  </channel>
+  <channel id="Nick Jr +1">
+    <display-name lang="en">Nick Jr +1</display-name>
+  </channel>
+  <channel id="Nick Jr Too">
+    <display-name lang="en">Nick Jr Too</display-name>
+  </channel>
+  <channel id="Nicktoons">
+    <display-name lang="en">Nicktoons</display-name>
+  </channel>
+  <channel id="Cartoon Network HD">
+    <display-name lang="en">Cartoon Network HD</display-name>
+  </channel>
+  <channel id="Cartoon Network">
+    <display-name lang="en">Cartoon Network</display-name>
+  </channel>
+  <channel id="Cartoon Network +1">
+    <display-name lang="en">Cartoon Network +1</display-name>
+  </channel>
+  <channel id="Cartoonito">
+    <display-name lang="en">Cartoonito</display-name>
+  </channel>
+  <channel id="Boomerang HD">
+    <display-name lang="en">Boomerang HD</display-name>
+  </channel>
+  <channel id="Boomerang">
+    <display-name lang="en">Boomerang</display-name>
+  </channel>
+  <channel id="Boomerang +1">
+    <display-name lang="en">Boomerang +1</display-name>
+  </channel>
+  <channel id="CBBC HD">
+    <display-name lang="en">CBBC HD</display-name>
+  </channel>
+  <channel id="CBBC">
+    <display-name lang="en">CBBC</display-name>
+  </channel>
+  <channel id="CBeebies HD">
+    <display-name lang="en">CBeebies HD</display-name>
+  </channel>
+  <channel id="CBeebies">
+    <display-name lang="en">CBeebies</display-name>
+  </channel>
+  <channel id="Pop">
+    <display-name lang="en">Pop</display-name>
+  </channel>
+  <channel id="Tiny Pop">
+    <display-name lang="en">Tiny Pop</display-name>
+  </channel>
+  <channel id="CITV">
+    <display-name lang="en">CITV</display-name>
+  </channel>
+  <channel id="Baby TV">
+    <display-name lang="en">Baby TV</display-name>
+  </channel>
+  <channel id="Tiny Pop +1">
+    <display-name lang="en">Tiny Pop +1</display-name>
+  </channel>
+  <channel id="Pop +1">
+    <display-name lang="en">Pop +1</display-name>
+  </channel>
+  <channel id="Disney Junior US">
+    <display-name lang="en">Disney Junior US</display-name>
+  </channel>
+  <channel id="Disney Junior US HD">
+    <display-name lang="en">Disney Junior US HD</display-name>
+  </channel>
+  <channel id="Disney Channel (Pacific)">
+    <display-name lang="en">Disney Channel (Pacific)</display-name>
+  </channel>
+  <channel id="BabyFirst TV">
+    <display-name lang="en">BabyFirst TV</display-name>
+  </channel>
+  <channel id="Discovery Family Channel">
+    <display-name lang="en">Discovery Family Channel</display-name>
+  </channel>
+  <channel id="Cartoon Network (Pacific)">
+    <display-name lang="en">Cartoon Network (Pacific)</display-name>
+  </channel>
+  <channel id="Nickelodeon (Pacific)">
+    <display-name lang="en">Nickelodeon (Pacific)</display-name>
+  </channel>
+  <channel id="Nick Jr HD">
+    <display-name lang="en">Nick Jr HD</display-name>
+  </channel>
+  <channel id="Nicktoons Network">
+    <display-name lang="en">Nicktoons Network</display-name>
+  </channel>
+  <channel id="Teen Nick">
+    <display-name lang="en">Teen Nick</display-name>
+  </channel>
+  <channel id="TV Land">
+    <display-name lang="en">TV Land</display-name>
+  </channel>
+  <channel id="TV Land HD">
+    <display-name lang="en">TV Land HD</display-name>
+  </channel>
+  <channel id="Kix">
+    <display-name lang="en">Kix</display-name>
+  </channel>
+  <channel id="Kix +1">
+    <display-name lang="en">Kix +1</display-name>
   </channel>
   <channel id="GOLD">
     <display-name lang="en">GOLD</display-name>
@@ -386,6 +530,9 @@
   </channel>
   <channel id="Ovation TV HD">
     <display-name lang="en">Ovation TV HD</display-name>
+  </channel>
+  <channel id="&amp;TV">
+    <display-name lang="en">&amp;TV</display-name>
   </channel>
   <channel id="Oprah Winfrey Network">
     <display-name lang="en">Oprah Winfrey Network</display-name>
@@ -738,144 +885,6 @@
   <channel id="WINS">
     <display-name lang="en">WINS</display-name>
   </channel>
-  <channel id="Disney Channel HD">
-    <display-name lang="en">Disney Channel HD</display-name>
-  </channel>
-  <channel id="Disney Channel">
-    <display-name lang="en">Disney Channel</display-name>
-  </channel>
-  <channel id="Disney Channel +1">
-    <display-name lang="en">Disney Channel +1</display-name>
-  </channel>
-  <channel id="Disney XD HD">
-    <display-name lang="en">Disney XD HD</display-name>
-  </channel>
-  <channel id="Disney XD">
-    <display-name lang="en">Disney XD</display-name>
-  </channel>
-  <channel id="Disney XD +1">
-    <display-name lang="en">Disney XD +1</display-name>
-  </channel>
-  <channel id="Disney Junior HD">
-    <display-name lang="en">Disney Junior HD</display-name>
-  </channel>
-  <channel id="Disney Junior">
-    <display-name lang="en">Disney Junior</display-name>
-  </channel>
-  <channel id="Disney Junior +">
-    <display-name lang="en">Disney Junior +</display-name>
-  </channel>
-  <channel id="Nickelodeon HD">
-    <display-name lang="en">Nickelodeon HD</display-name>
-  </channel>
-  <channel id="Nickelodeon">
-    <display-name lang="en">Nickelodeon</display-name>
-  </channel>
-  <channel id="Nickelodeon +1">
-    <display-name lang="en">Nickelodeon +1</display-name>
-  </channel>
-  <channel id="Nick Jr">
-    <display-name lang="en">Nick Jr</display-name>
-  </channel>
-  <channel id="Nick Jr +1">
-    <display-name lang="en">Nick Jr +1</display-name>
-  </channel>
-  <channel id="Nick Jr Too">
-    <display-name lang="en">Nick Jr Too</display-name>
-  </channel>
-  <channel id="Nicktoons">
-    <display-name lang="en">Nicktoons</display-name>
-  </channel>
-  <channel id="Cartoon Network HD">
-    <display-name lang="en">Cartoon Network HD</display-name>
-  </channel>
-  <channel id="Cartoon Network">
-    <display-name lang="en">Cartoon Network</display-name>
-  </channel>
-  <channel id="Cartoon Network +1">
-    <display-name lang="en">Cartoon Network +1</display-name>
-  </channel>
-  <channel id="Cartoonito">
-    <display-name lang="en">Cartoonito</display-name>
-  </channel>
-  <channel id="Boomerang">
-    <display-name lang="en">Boomerang</display-name>
-  </channel>
-  <channel id="Boomerang +1">
-    <display-name lang="en">Boomerang +1</display-name>
-  </channel>
-  <channel id="CBBC HD">
-    <display-name lang="en">CBBC HD</display-name>
-  </channel>
-  <channel id="CBBC">
-    <display-name lang="en">CBBC</display-name>
-  </channel>
-  <channel id="CBeebies HD">
-    <display-name lang="en">CBeebies HD</display-name>
-  </channel>
-  <channel id="CBeebies">
-    <display-name lang="en">CBeebies</display-name>
-  </channel>
-  <channel id="Pop">
-    <display-name lang="en">Pop</display-name>
-  </channel>
-  <channel id="Tiny Pop">
-    <display-name lang="en">Tiny Pop</display-name>
-  </channel>
-  <channel id="CITV">
-    <display-name lang="en">CITV</display-name>
-  </channel>
-  <channel id="Baby TV">
-    <display-name lang="en">Baby TV</display-name>
-  </channel>
-  <channel id="Tiny Pop +1">
-    <display-name lang="en">Tiny Pop +1</display-name>
-  </channel>
-  <channel id="Pop +1">
-    <display-name lang="en">Pop +1</display-name>
-  </channel>
-  <channel id="Disney Junior US">
-    <display-name lang="en">Disney Junior US</display-name>
-  </channel>
-  <channel id="Disney Junior US HD">
-    <display-name lang="en">Disney Junior US HD</display-name>
-  </channel>
-  <channel id="Disney Channel (Pacific)">
-    <display-name lang="en">Disney Channel (Pacific)</display-name>
-  </channel>
-  <channel id="BabyFirst TV">
-    <display-name lang="en">BabyFirst TV</display-name>
-  </channel>
-  <channel id="Discovery Family Channel">
-    <display-name lang="en">Discovery Family Channel</display-name>
-  </channel>
-  <channel id="Cartoon Network (Pacific)">
-    <display-name lang="en">Cartoon Network (Pacific)</display-name>
-  </channel>
-  <channel id="Nickelodeon (Pacific)">
-    <display-name lang="en">Nickelodeon (Pacific)</display-name>
-  </channel>
-  <channel id="Nick Jr HD">
-    <display-name lang="en">Nick Jr HD</display-name>
-  </channel>
-  <channel id="Nicktoons Network">
-    <display-name lang="en">Nicktoons Network</display-name>
-  </channel>
-  <channel id="Teen Nick">
-    <display-name lang="en">Teen Nick</display-name>
-  </channel>
-  <channel id="TV Land">
-    <display-name lang="en">TV Land</display-name>
-  </channel>
-  <channel id="TV Land HD">
-    <display-name lang="en">TV Land HD</display-name>
-  </channel>
-  <channel id="Kix">
-    <display-name lang="en">Kix</display-name>
-  </channel>
-  <channel id="Kix +1">
-    <display-name lang="en">Kix +1</display-name>
-  </channel>
   <channel id="LOOK no farther for the best new products!">
     <display-name lang="en">LOOK no farther for the best new products!</display-name>
   </channel>
@@ -1008,6 +1017,18 @@
   <channel id="GZTV">
     <display-name lang="en">GZTV</display-name>
   </channel>
+  <channel id="AMC from BT">
+    <display-name lang="en">AMC from BT</display-name>
+  </channel>
+  <channel id="AMC HD from BT">
+    <display-name lang="en">AMC HD from BT</display-name>
+  </channel>
+  <channel id="AMC">
+    <display-name lang="en">AMC</display-name>
+  </channel>
+  <channel id="AMC HD">
+    <display-name lang="en">AMC HD</display-name>
+  </channel>
   <channel id="Film4 HD">
     <display-name lang="en">Film4 HD</display-name>
   </channel>
@@ -1103,6 +1124,9 @@
   </channel>
   <channel id="Movies 24+">
     <display-name lang="en">Movies 24+</display-name>
+  </channel>
+  <channel id="Hallmark Movies &amp; Mysteries HD">
+    <display-name lang="en">Hallmark Movies &amp; Mysteries HD</display-name>
   </channel>
   <channel id="Horror Channel">
     <display-name lang="en">Horror Channel</display-name>
@@ -1572,6 +1596,9 @@
   <channel id="MTV">
     <display-name lang="en">MTV</display-name>
   </channel>
+  <channel id="MTV Music +1">
+    <display-name lang="en">MTV Music +1</display-name>
+  </channel>
   <channel id="MTV +1">
     <display-name lang="en">MTV +1</display-name>
   </channel>
@@ -1643,6 +1670,24 @@
   </channel>
   <channel id="Flava">
     <display-name lang="en">Flava</display-name>
+  </channel>
+  <channel id="The Vault">
+    <display-name lang="en">The Vault</display-name>
+  </channel>
+  <channel id="Chilled ">
+    <display-name lang="en">Chilled </display-name>
+  </channel>
+  <channel id="Starz TV">
+    <display-name lang="en">Starz TV</display-name>
+  </channel>
+  <channel id="Clubland TV">
+    <display-name lang="en">Clubland TV</display-name>
+  </channel>
+  <channel id="Channel AKA">
+    <display-name lang="en">Channel AKA</display-name>
+  </channel>
+  <channel id="Keep It Country">
+    <display-name lang="en">Keep It Country</display-name>
   </channel>
   <channel id="Great American Country">
     <display-name lang="en">Great American Country</display-name>
@@ -1740,8 +1785,17 @@
   <channel id="BT Sport//ESPN">
     <display-name lang="en">BT Sport//ESPN</display-name>
   </channel>
+  <channel id="Premier Sports HD">
+    <display-name lang="en">Premier Sports HD</display-name>
+  </channel>
   <channel id="Premier Sports">
     <display-name lang="en">Premier Sports</display-name>
+  </channel>
+  <channel id="Bike">
+    <display-name lang="en">Bike</display-name>
+  </channel>
+  <channel id="Racing UK HD">
+    <display-name lang="en">Racing UK HD</display-name>
   </channel>
   <channel id="Racing UK">
     <display-name lang="en">Racing UK</display-name>
@@ -1755,14 +1809,23 @@
   <channel id="BoxNation">
     <display-name lang="en">BoxNation</display-name>
   </channel>
+  <channel id="Chelsea TV HD">
+    <display-name lang="en">Chelsea TV HD</display-name>
+  </channel>
   <channel id="Chelsea TV">
     <display-name lang="en">Chelsea TV</display-name>
+  </channel>
+  <channel id="The Active Channel">
+    <display-name lang="en">The Active Channel</display-name>
   </channel>
   <channel id="MUTV HD">
     <display-name lang="en">MUTV HD</display-name>
   </channel>
   <channel id="MUTV">
     <display-name lang="en">MUTV</display-name>
+  </channel>
+  <channel id="LFC TV HD">
+    <display-name lang="en">LFC TV HD</display-name>
   </channel>
   <channel id="LFC TV">
     <display-name lang="en">LFC TV</display-name>
@@ -1784,6 +1847,9 @@
   </channel>
   <channel id="GOL TV">
     <display-name lang="en">GOL TV</display-name>
+  </channel>
+  <channel id="TRACE Sport Stars">
+    <display-name lang="en">TRACE Sport Stars</display-name>
   </channel>
   <channel id="TyC Sports">
     <display-name lang="en">TyC Sports</display-name>
@@ -1941,6 +2007,9 @@
   <channel id="Fox Sports 1 HD">
     <display-name lang="en">Fox Sports 1 HD</display-name>
   </channel>
+  <channel id="Fox Sports Arizona - FSAZ (Alternate Feed)">
+    <display-name lang="en">Fox Sports Arizona - FSAZ (Alternate Feed)</display-name>
+  </channel>
   <channel id="CBS Sports Network">
     <display-name lang="en">CBS Sports Network</display-name>
   </channel>
@@ -2054,6 +2123,9 @@
   </channel>
   <channel id="Comcast SportsNet New England Overflow">
     <display-name lang="en">Comcast SportsNet New England Overflow</display-name>
+  </channel>
+  <channel id="Yankees Entertainment &amp; Sports Network">
+    <display-name lang="en">Yankees Entertainment &amp; Sports Network</display-name>
   </channel>
   <channel id="Yes Network HD (24/7 feed)">
     <display-name lang="en">Yes Network HD (24/7 feed)</display-name>
@@ -2610,6 +2682,9 @@
   <channel id="TyC Sports">
     <display-name lang="en">TyC Sports</display-name>
   </channel>
+  <channel id="Super Casino">
+    <display-name lang="en">Super Casino</display-name>
+  </channel>
   <channel id="Centroamerica TV">
     <display-name lang="en">Centroamerica TV</display-name>
   </channel>
@@ -2654,6 +2729,15 @@
   </channel>
   <channel id="Jewelry Television">
     <display-name lang="en">Jewelry Television</display-name>
+  </channel>
+  <channel id="Shop at Bid">
+    <display-name lang="en">Shop at Bid</display-name>
+  </channel>
+  <channel id="Best Direct">
+    <display-name lang="en">Best Direct</display-name>
+  </channel>
+  <channel id="Gems TV">
+    <display-name lang="en">Gems TV</display-name>
   </channel>
   <channel id="EVINE Live">
     <display-name lang="en">EVINE Live</display-name>
@@ -2853,6 +2937,9 @@
   <channel id="DITV162">
     <display-name lang="en">DITV162</display-name>
   </channel>
+  <channel id="DITV163 (DIRECTV)">
+    <display-name lang="en">DITV163 (DIRECTV)</display-name>
+  </channel>
   <channel id="DITV164">
     <display-name lang="en">DITV164</display-name>
   </channel>
@@ -2888,6 +2975,9 @@
   </channel>
   <channel id="DITV177 (DIRECTV)">
     <display-name lang="en">DITV177 (DIRECTV)</display-name>
+  </channel>
+  <channel id="DITV179 (DIRECTV)">
+    <display-name lang="en">DITV179 (DIRECTV)</display-name>
   </channel>
   <channel id="DITV 187">
     <display-name lang="en">DITV 187</display-name>
@@ -3999,5 +4089,109 @@
   <channel id="DMX: Piano">
     <display-name lang="en">DMX: Piano</display-name>
   </channel>
-
+  <channel id="BEN">
+    <display-name lang="en">BEN</display-name>
+  </channel>
+  <channel id="OHTV">
+    <display-name lang="en">OHTV</display-name>
+  </channel>
+  <channel id="My Channel TV">
+    <display-name lang="en">My Channel TV</display-name>
+  </channel>
+  <channel id="Information TV">
+    <display-name lang="en">Information TV</display-name>
+  </channel>
+  <channel id="Vox Africa">
+    <display-name lang="en">Vox Africa</display-name>
+  </channel>
+  <channel id="ABN TV">
+    <display-name lang="en">ABN TV</display-name>
+  </channel>
+  <channel id="FilmOnTV">
+    <display-name lang="en">FilmOnTV</display-name>
+  </channel>
+  <channel id="Property Show">
+    <display-name lang="en">Property Show</display-name>
+  </channel>
+  <channel id="Home &amp; Garden Television HD">
+    <display-name lang="en">Home &amp; Garden Television HD</display-name>
+  </channel>
+  <channel id="Home &amp; Garden Television">
+    <display-name lang="en">Home &amp; Garden Television</display-name>
+  </channel>
+  <channel id="A&amp;E Network HD East">
+    <display-name lang="en">A&amp;E Network HD East</display-name>
+  </channel>
+  <channel id="A&amp;E Network Stream">
+    <display-name lang="en">A&amp;E Network Stream</display-name>
+  </channel>
+  <channel id="A&amp;E Network">
+    <display-name lang="en">A&amp;E Network</display-name>
+  </channel>
+  <channel id="Crime &amp; Investigation Network HD">
+    <display-name lang="en">Crime &amp; Investigation Network HD</display-name>
+  </channel>
+  <channel id="Discovery Home &amp; Health">
+    <display-name lang="en">Discovery Home &amp; Health</display-name>
+  </channel>
+  <channel id="Discovery Home &amp; Health +1">
+    <display-name lang="en">Discovery Home &amp; Health +1</display-name>
+  </channel>
+  <channel id="?TV">
+    <display-name lang="en">?TV</display-name>
+  </channel>
+  <channel id="Horse &amp; Country TV">
+    <display-name lang="en">Horse &amp; Country TV</display-name>
+  </channel>
+  <channel id="FAB TV">
+    <display-name lang="en">FAB TV</display-name>
+  </channel>
+  <channel id="Holiday &amp; Cruise Channel">
+    <display-name lang="en">Holiday &amp; Cruise Channel</display-name>
+  </channel>
+  <channel id="Information TV +1">
+    <display-name lang="en">Information TV +1</display-name>
+  </channel>
+  <channel id="wedding tv">
+    <display-name lang="en">wedding tv</display-name>
+  </channel>
+  <channel id="Property Show +2">
+    <display-name lang="en">Property Show +2</display-name>
+  </channel>
+  <channel id="Sky Movies Action &amp; Adventure">
+    <display-name lang="en">Sky Movies Action &amp; Adventure</display-name>
+  </channel>
+  <channel id="Sky Movies Crime &amp; Thriller">
+    <display-name lang="en">Sky Movies Crime &amp; Thriller</display-name>
+  </channel>
+  <channel id="Sky Movies Drama &amp; Romance">
+    <display-name lang="en">Sky Movies Drama &amp; Romance</display-name>
+  </channel>
+  <channel id="B4U Movies">
+    <display-name lang="en">B4U Movies</display-name>
+  </channel>
+  <channel id="Nollywood Movies">
+    <display-name lang="en">Nollywood Movies</display-name>
+  </channel>
+  <channel id="Sky Movies Action &amp; Adventure HD">
+    <display-name lang="en">Sky Movies Action &amp; Adventure HD</display-name>
+  </channel>
+  <channel id="Sky Movies Crime &amp; Thriller HD">
+    <display-name lang="en">Sky Movies Crime &amp; Thriller HD</display-name>
+  </channel>
+  <channel id="Sky Movies Drama &amp; Romance HD">
+    <display-name lang="en">Sky Movies Drama &amp; Romance HD</display-name>
+  </channel>
+  <channel id="BON TV">
+    <display-name lang="en">BON TV</display-name>
+  </channel>
+  <channel id="TVC News">
+    <display-name lang="en">TVC News</display-name>
+  </channel>
+  <channel id="News18">
+    <display-name lang="en">News18</display-name>
+  </channel>
+  <channel id="Channel S">
+    <display-name lang="en">Channel S</display-name>
+  </channel>
 </tv>

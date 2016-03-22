@@ -1,3 +1,10 @@
+v1.0.2:
+- Fixed glitch with resetting channels, wasn't removing the chanchk file
+
+v1.0.1:
+- Changed initial boot message to a tidier one
+- Updated artwork
+
 v1.0:
 - Initial fork of script.tvguidedixie v3.3.3 (Feb-28-16)
 - Changed login to noobsandnerds

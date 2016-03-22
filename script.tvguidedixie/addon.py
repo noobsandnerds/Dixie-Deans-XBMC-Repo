@@ -1,5 +1,5 @@
 #
-#      Copyright (C) 2014 Sean Poyser and Richard Dean (write2dixie@gmail.com)
+#      Copyright (C) 2016 noobsandnerds.com
 #
 #  This Program is free software; you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -106,11 +106,6 @@ def User_Info():
         if remoteshare == 'true':
             print"### checking for remote addon_data"
             Check_Updates(remotelocation, xbmc.translatePath('special://profile/addon_data/'+AddonID+'/chanchk'), channdst)
-        param = None
-
-        if len(sys.argv) > 1:
-            param = sys.argv[1]
-
         xbmc.executebuiltin('Dialog.Close(busydialog)')
     main()
 
@@ -162,11 +157,6 @@ def verify():
             Check_Updates(iniurl, xbmc.translatePath('special://profile/addon_data/'+AddonID+'/inichk'), inidst)
             if remoteshare == 'true':
                 Check_Updates(remotelocation, xbmc.translatePath('special://profile/addon_data/'+AddonID+'/chanchk'), channdst)
-            param = None
-
-            if len(sys.argv) > 1:
-                param = sys.argv[1]
-
             xbmc.executebuiltin('Dialog.Close(busydialog)')
             main()
         
@@ -175,34 +165,25 @@ def verify():
 
 
 if __name__ == '__main__':
-    runme = 1
     Check_Updates(epgskinurl, xbmc.translatePath('special://profile/addon_data/'+AddonID+'/epgskinchk'), epgskindst)
     if not os.path.exists(chanxml):
         shutil.copyfile(xmlmaster, chanxml)
     if not os.path.exists(firstrun):
-        choice = dialog.yesno(ADDON.getLocalizedString(30805),ADDON.getLocalizedString(30806))
+        dialog.ok(ADDON.getLocalizedString(30805),ADDON.getLocalizedString(30806))
         if not os.path.exists(os.path.join(ADDON_DATA,AddonID)):
             os.makedirs(os.path.join(ADDON_DATA,AddonID))
         writefile=open(firstrun,'w+')
         writefile.close()
-        if choice == 1:
-            download.download('https://github.com/noobsandnerds/noobsandnerds/blob/master/zips/repository.Dixie-Deans-XBMC-Repo/repository.Dixie-Deans-XBMC-Repo-0.0.0.1.zip?raw=true',os.path.join(ADDONS,'packages','TVGD.zip'))
-            extract.all(os.path.join(ADDONS,'packages','TVGD.zip'),ADDONS)
-            xbmc.executebuiltin('UpdateLocalAddons')
-            xbmc.executebuiltin('UpdateAddonRepos')
-            runme = 0
-            xbmc.executebuiltin('ActivateWindow(10025,plugin://script.on-tapp.tv)')
-    if runme == 1:
-        if os.path.exists(dbpath):
-            try:
-                os.rename(dbpath,dbpath+'1')
-                os.rename(dbpath+'1',dbpath)
-                print"Database not in use, we can continue"
-                verify()
-            except:
-                print"### Database in use, Kodi needs a restart, if that doesn't work you'll need to restart your system."
-                choice = dialog.yesno(ADDON.getLocalizedString(30821),ADDON.getLocalizedString(30822))
-                if choice == 1:
-                    verify()
-        else:
+    if os.path.exists(dbpath):
+        try:
+            os.rename(dbpath,dbpath+'1')
+            os.rename(dbpath+'1',dbpath)
+            print"Database not in use, we can continue"
             verify()
+        except:
+            print"### Database in use, Kodi needs a restart, if that doesn't work you'll need to restart your system."
+            choice = dialog.yesno(ADDON.getLocalizedString(30821),ADDON.getLocalizedString(30822))
+            if choice == 1:
+                verify()
+    else:
+        verify()

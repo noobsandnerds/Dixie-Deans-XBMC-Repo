@@ -31,10 +31,16 @@ def resetChannels():
     dialog  = xbmcgui.Dialog()
     path    = dixie.GetChannelFolder()
     chan    = os.path.join(path, 'channels')
+    chanchk = xbmc.translatePath(os.path.join('special://profile/addon_data/',AddonID,'chanchk'))
     chanxml = xbmc.translatePath(os.path.join('special://profile/addon_data/',AddonID,'chan.xml'))
     catsxml = xbmc.translatePath(os.path.join('special://profile/addon_data/',AddonID,'cats.xml'))
     cfg     = xbmc.translatePath(os.path.join('special://profile/addon_data/',AddonID,'settings.cfg'))
     success = 0
+
+    try:
+        os.remove(chanchk)
+    except:
+        print"### IMPORTANT ### Failed to remove the chanchk file in addon_data, please manually remove if it's still there"
 
     try:
         os.remove(cfg)

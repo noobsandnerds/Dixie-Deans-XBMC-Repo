@@ -450,7 +450,7 @@ msgid "Support The Original Devs"
 msgstr ""
 
 msgctxt "#30806"
-msgid "This addon is based on the original work from On-Tapp.TV, if you want reliable listings you may want to consider subscribing to their service. Would you like to try out On-Tapp.TV? (Subscription required)"
+msgid "This addon is based on the original work from On-Tapp.TV[CR]If you want reliable listings you may want to consider subscribing to their service. For more details visit [COLOR=dodgerblue]www.on-tapp.tv[/COLOR]"
 msgstr ""
 
 msgctxt "#30807"
@@ -515,4 +515,12 @@ msgstr ""
 
 msgctxt "#30822"
 msgid "It looks like something is already using the database, are you sure you want to continue? If you're currently importing an XML DO NOT click yes!"
+msgstr ""
+
+msgctxt "#30823"
+msgid "No Listings Found"
+msgstr ""
+
+msgctxt "#30824"
+msgid "To use this add-on you need to import your channel listings. You can create your own listings via the mc2xml or zap2xml apps on your PC. Alternatively you can link to your own addon_data zip hosted online."
 msgstr ""
