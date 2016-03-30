@@ -103,7 +103,8 @@
  		<setting type="lsep"            label="[CR]Add my own channels - create your own XML file and scan into db here"/>
         <setting id="enable_xml"        label="Enable custom XML files"   type="bool" default="false" visible="true"/>
 	    <setting id="xmlpath"           label="TV XML Path" type="file" default=""     visible="eq(-1,true)"/>
-		<setting id="dummy"             label="[COLOR=gold]Scan in XML File - this can take a long time![/COLOR]" 	  type="action" action="XBMC.RunScript(special://home/addons/script.tvportal/createDB.py)" option="close" visible="eq(-2,true) " />
+ 		<setting id="offset"            label="Offset listings - set offset (in hours) for listings in wrong timezone" type="labelenum"     default="0" values="-12|-11|-10|-9|-8|-7|-6|-5|-4|-3|-2|-1|0|+1|+2|+3|+4|+5|+6|+7|+8|+9|+10|+11|+12" visible="eq(-2,true) " />
+		<setting id="dummy"             label="[COLOR=gold]Scan in XML File - this can take a long time![/COLOR]" 	  type="action" action="XBMC.RunScript(special://home/addons/script.tvportal/createDB.py)" option="close" visible="eq(-3,true) " />
  		<setting type="lsep"            label="[CR]Add ini Files - these contain mappings to various addons"/>
         <setting id="INI_0_E"           label="Enable"   type="bool" default="true" visible="true"/>
 	    <setting id="INI_0"             label="ini file" type="file" default=""     visible="eq(-1,true)"/>

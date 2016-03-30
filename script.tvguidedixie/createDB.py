@@ -42,6 +42,7 @@ USERDATA    =  xbmc.translatePath('special://profile/')
 ADDON_DATA  =  xbmc.translatePath(os.path.join(USERDATA,'addon_data'))
 dbpath      =  xbmc.translatePath(os.path.join(ADDON_DATA,AddonID,'program.db'))
 xmlpath     =  ADDON.getSetting('xmlpath')
+offset      =  ADDON.getSetting('offset')
 dialog      =  xbmcgui.Dialog()
 dp          =  xbmcgui.DialogProgress()
 updateicon  =  os.path.join(ADDONS,AddonID,'resources','update.png')
@@ -58,6 +59,19 @@ catschange  =  0
 listpercent =  1
 listcount   =  1
 
+# Check if the xml is badly formatted and attempt to fix
+def Fix_XML():
+    if xmlpath != '':
+        readfile   = open(xmlpath,'r')
+        xmlfile    = readfile.read()
+        readfile.close()
+
+        if '?t' in xmlfile:
+            print"### ?t found in xml file, replacing with 'and'"
+            xmlfilenew = xmlfile.replace('?t', 'and')
+            writefile  = open(xmlpath,'w+')
+            writefile.write(xmlfilenew)
+            witefile.close()
 ##########################################################################################
 # Function to convert timestamp into proper integer that can be used for schedules
 def Time_Convert(starttime):
@@ -72,7 +86,7 @@ def Time_Convert(starttime):
     secs             = starttime[12:14]
 
 # Convert the time diff factor into an integer we can work with
-    diff             = int(diff[:-2])
+    diff             = int(diff[:-2])+int(offset)
     starttime        = datetime.datetime(int(year),int(month),int(day),int(hour),int(minute),int(secs))
     starttime        = starttime + datetime.timedelta(hours=diff)
     starttime        = time.mktime(starttime.timetuple())
@@ -182,11 +196,35 @@ if stop == 0:
 
 # Initialise the Elemettree params
     xbmc.executebuiltin('Dialog.Show(busydialog)')
-    tree         =  ET.parse(xmlpath)
+# Initial parse of XML
+    try:
+        tree         =  ET.parse(xmlpath)
+    except:
+        print"### Badly formed XML file, trying to fix..."
+        Fix_XML()
+        tree         =  ET.parse(xmlpath)
+
+# Get root item of tree
     root         =  tree.getroot()
-    channels     =  root.findall("./channel")
+
+# Grab all channels in XML
+    try:
+        channels   =  root.findall("./channel")
+    except:
+        print"### Badly formed XML file, trying to fix channels..."
+        Fix_XML()
+        channels = root.findall("./channel")        
     channelcount =  len(channels)
-    programmes   =  root.findall("./programme")
+
+# Grab all programmes in XML
+    try:
+        programmes   =  root.findall("./programme")
+    except:
+        print"### Badly formed XML file, trying to fix programmes..."
+        Fix_XML()
+        programmes = root.findall("./programme")        
+
+# Get total amount of programmes
     listingcount =  len(programmes)
     xbmc.executebuiltin('Dialog.Close(busydialog)')
 

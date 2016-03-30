@@ -486,7 +486,7 @@ class TVGuide(xbmcgui.WindowXML):
             self.onRedrawEPG(self.channelIdx, self.viewStartDate)
         elif actionId in [KEY_CONTEXT_MENU] and controlInFocus is not None:
             program = self._getProgramFromControl(controlInFocus)
-            if (program is not None) and (not dixie.isLimited()):
+            if (program is not None):
                 self._showContextMenu(program)
         elif actionId == KEY_SUPER_SEARCH:
             try:
