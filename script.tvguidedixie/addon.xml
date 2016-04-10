@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.tvportal" name="TV Portal" version="1.0.2" provider-name="Original work by Spoyser, DixieDean - Modded by noobsandnerds.com">
+<addon id="script.tvportal" name="TV Portal" version="1.0.5" provider-name="Original work by Spoyser, DixieDean - Modded by noobsandnerds.com">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.requests" version="2.3.0"/>
         <import addon="script.module.simplejson" version="2.0.10"/>
         <import addon="script.module.elementtree" version="1.2.7"/>
+        <import addon="script.tvportal.tools" version="1.0"/>
     </requires>
     <extension point="xbmc.python.script" library="addon.py" />
     <extension point="xbmc.service" library="service.py" start="login" />
@@ -42,6 +43,7 @@
         <platform>all</platform>
         <language></language>
         <license>GPLv2</license>
+        <ref>989a051d5c4988de6c5e1d6f82395c58</ref>
     </extension>
 
 	<extension point="kodi.context.item" library="osd.py">        

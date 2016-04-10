@@ -21,11 +21,10 @@ import xbmcgui
 import urllib
 import time
 
-import dixie
-
 def download(url, dest, dp = None):
     if not dp:
-        dp = dixie.Progress('Downloading & Installing Files')
+        dp = xbmcgui.DialogProgress()
+        dp.create("TV Portal","Downloading & Installing Files", ' ', ' ')
     dp.update(0)
     start_time=time.time()
     urllib.urlretrieve(url, dest, lambda nb, bs, fs: _pbhook(nb, bs, fs, dp, start_time))

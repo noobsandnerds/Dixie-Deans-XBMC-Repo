@@ -3,13 +3,15 @@
 	<category label="30101">
 	    <setting id="validator"         label="validator"     type="text"   default="0" visible="false" />
         <setting id="streamURL"         label="streamURL"     type="text"   default="" visible="false" />
- 		<setting type="lsep"            label="[CR]Enter your noobsandnerds login details here"/>
+ 		<setting type="lsep"            label="Premium Features"/>
 		<setting id="login"             label="Unlock Features with noobsandnerds login"        type="bool"   default="false" visible="true" />
-		<setting id="username"          label="Username"      type="text"   default="" visible="eq(-1,true) "/>
-		<setting id="password"          label="Password"      type="text"   default="" visible="eq(-2,true) "/>
-		<setting id="remoteshare"       label="Use a remote share for addon data"        type="bool"   default="false" visible="eq(-3,true) "/>
+ 		<setting id="forum"             label="Forum to use for login" type="labelenum"     default="None" values="Unofficial Kodi Support|Community Builds Support" visible="eq(-1,true) "/>
+		<setting id="username"          label="Username"      type="text"   default="" visible="eq(-2,true) "/>
+		<setting id="password"          label="Password"      type="text"   default="" visible="eq(-3,true) "/>
+		<setting id="remoteshare"       label="Use a remote share for addon data"        type="bool"   default="false" visible="eq(-4,true) "/>
 		<setting id="remotelocation"    label="Enter location for shared addon data"      type="text"   default="" visible="eq(-1,true) "/>
-        <setting id="dummy"             label="[COLOR=gold]Click to verify your login details[/COLOR]"    type="action"    option="close"    action="XBMC.RunScript(special://home/addons/script.tvportal/verify.py)" visible="eq(-5,true) "/>
+		<setting id="adult"             label="Show the XXX category"                    type="bool"   default="false" visible="eq(-6,true) "/>
+        <setting id="dummy"             label="[COLOR=gold]Click to verify your login details[/COLOR]"    type="action"    option="close"    action="XBMC.RunScript(special://home/addons/script.tvportal/verify.py)" visible="false"/>
         <setting id="dixie.url"         label="30117" type="labelenum" values="All Channels|Other" default="All Channels" visible="false" />
 
  		<setting type="lsep"            label="[CR]TV mini guide - bring up the tv guide from anywhere in Kodi"/>

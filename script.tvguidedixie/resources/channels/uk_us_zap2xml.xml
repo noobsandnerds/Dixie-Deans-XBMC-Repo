@@ -1,0 +1,4227 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tv>
+  <channel id="BBC Red Button 1">
+    <display-name lang="en">BBC Red Button 1</display-name>
+  </channel>
+  <channel id="BBC Red Button 1">
+    <display-name lang="en">BBC Red Button 1</display-name>
+  </channel>
+  <channel id="BBC One HD">
+    <display-name lang="en">BBC One HD</display-name>
+  </channel>
+  <channel id="BBC One Cambridgeshire">
+    <display-name lang="en">BBC One Cambridgeshire</display-name>
+  </channel>
+  <channel id="BBC One East">
+    <display-name lang="en">BBC One East</display-name>
+  </channel>
+  <channel id="BBC One East Midlands">
+    <display-name lang="en">BBC One East Midlands</display-name>
+  </channel>
+  <channel id="BBC One London">
+    <display-name lang="en">BBC One London</display-name>
+  </channel>
+  <channel id="BBC One North West">
+    <display-name lang="en">BBC One North West</display-name>
+  </channel>
+  <channel id="BBC One Northern Ireland HD">
+    <display-name lang="en">BBC One Northern Ireland HD</display-name>
+  </channel>
+  <channel id="BBC One North East &amp; Cumbria">
+    <display-name lang="en">BBC One North East &amp; Cumbria</display-name>
+  </channel>
+  <channel id="BBC One Northern Ireland">
+    <display-name lang="en">BBC One Northern Ireland</display-name>
+  </channel>
+  <channel id="BBC One Oxfordshire">
+    <display-name lang="en">BBC One Oxfordshire</display-name>
+  </channel>
+  <channel id="BBC One Scotland HD">
+    <display-name lang="en">BBC One Scotland HD</display-name>
+  </channel>
+  <channel id="BBC One Scotland">
+    <display-name lang="en">BBC One Scotland</display-name>
+  </channel>
+  <channel id="BBC One South">
+    <display-name lang="en">BBC One South</display-name>
+  </channel>
+  <channel id="BBC One South East">
+    <display-name lang="en">BBC One South East</display-name>
+  </channel>
+  <channel id="BBC One South West">
+    <display-name lang="en">BBC One South West</display-name>
+  </channel>
+  <channel id="BBC One Wales HD">
+    <display-name lang="en">BBC One Wales HD</display-name>
+  </channel>
+  <channel id="BBC One Wales">
+    <display-name lang="en">BBC One Wales</display-name>
+  </channel>
+  <channel id="BBC One West">
+    <display-name lang="en">BBC One West</display-name>
+  </channel>
+  <channel id="BBC One West Midlands">
+    <display-name lang="en">BBC One West Midlands</display-name>
+  </channel>
+  <channel id="BBC One Yorkshire">
+    <display-name lang="en">BBC One Yorkshire</display-name>
+  </channel>
+  <channel id="BBC One Yorkshire &amp; Lincolnshire">
+    <display-name lang="en">BBC One Yorkshire &amp; Lincolnshire</display-name>
+  </channel>
+  <channel id="BBC One Channel Islands">
+    <display-name lang="en">BBC One Channel Islands</display-name>
+  </channel>
+  <channel id="BBC Two HD">
+    <display-name lang="en">BBC Two HD</display-name>
+  </channel>
+  <channel id="BBC Two England">
+    <display-name lang="en">BBC Two England</display-name>
+  </channel>
+  <channel id="BBC Two Northern Ireland">
+    <display-name lang="en">BBC Two Northern Ireland</display-name>
+  </channel>
+  <channel id="BBC Two Scotland">
+    <display-name lang="en">BBC Two Scotland</display-name>
+  </channel>
+  <channel id="BBC Two Wales">
+    <display-name lang="en">BBC Two Wales</display-name>
+  </channel>
+  <channel id="ITV London">
+    <display-name lang="en">ITV London</display-name>
+  </channel>
+  <channel id="Channel 4">
+    <display-name lang="en">Channel 4</display-name>
+  </channel>
+  <channel id="Channel 4 +1">
+    <display-name lang="en">Channel 4 +1</display-name>
+  </channel>
+  <channel id="ITVHD London">
+    <display-name lang="en">ITVHD London</display-name>
+  </channel>
+  <channel id="ITV London">
+    <display-name lang="en">ITV London</display-name>
+  </channel>
+  <channel id="ITV London+1">
+    <display-name lang="en">ITV London+1</display-name>
+  </channel>
+  <channel id="Channel 4 HD">
+    <display-name lang="en">Channel 4 HD</display-name>
+  </channel>
+  <channel id="Channel 4">
+    <display-name lang="en">Channel 4</display-name>
+  </channel>
+  <channel id="Channel 4 +1">
+    <display-name lang="en">Channel 4 +1</display-name>
+  </channel>
+  <channel id="Channel 5 HD">
+    <display-name lang="en">Channel 5 HD</display-name>
+  </channel>
+  <channel id="Channel 5">
+    <display-name lang="en">Channel 5</display-name>
+  </channel>
+  <channel id="Channel 5 +1">
+    <display-name lang="en">Channel 5 +1</display-name>
+  </channel>
+  <channel id="Dave HD">
+    <display-name lang="en">Dave HD</display-name>
+  </channel>
+  <channel id="Dave">
+    <display-name lang="en">Dave</display-name>
+  </channel>
+  <channel id="Dave ja vu">
+    <display-name lang="en">Dave ja vu</display-name>
+  </channel>
+  <channel id="Comedy Central HD">
+    <display-name lang="en">Comedy Central HD</display-name>
+  </channel>
+  <channel id="Comedy Central">
+    <display-name lang="en">Comedy Central</display-name>
+  </channel>
+  <channel id="Comedy Central +1">
+    <display-name lang="en">Comedy Central +1</display-name>
+  </channel>
+  <channel id="Comedy Central Extra">
+    <display-name lang="en">Comedy Central Extra</display-name>
+  </channel>
+  <channel id="Comedy Central Extra +1">
+    <display-name lang="en">Comedy Central Extra +1</display-name>
+  </channel>
+  <channel id="ComedyTV">
+    <display-name lang="en">ComedyTV</display-name>
+  </channel>
+  <channel id="Sky Atlantic HD">
+    <display-name lang="en">Sky Atlantic HD</display-name>
+  </channel>
+  <channel id="Sky Atlantic">
+    <display-name lang="en">Sky Atlantic</display-name>
+  </channel>
+  <channel id="Sky Atlantic +1">
+    <display-name lang="en">Sky Atlantic +1</display-name>
+  </channel>
+  <channel id="Sky 1 HD">
+    <display-name lang="en">Sky 1 HD</display-name>
+  </channel>
+  <channel id="Sky 1">
+    <display-name lang="en">Sky 1</display-name>
+  </channel>
+  <channel id="Sky 1 + 1">
+    <display-name lang="en">Sky 1 + 1</display-name>
+  </channel>
+  <channel id="Sky 2">
+    <display-name lang="en">Sky 2</display-name>
+  </channel>
+  <channel id="BBC America">
+    <display-name lang="en">BBC America</display-name>
+  </channel>
+  <channel id="BBC America HD">
+    <display-name lang="en">BBC America HD</display-name>
+  </channel>
+  <channel id="BBC Four HD">
+    <display-name lang="en">BBC Four HD</display-name>
+  </channel>
+  <channel id="BBC Four">
+    <display-name lang="en">BBC Four</display-name>
+  </channel>
+  <channel id="London Live">
+    <display-name lang="en">London Live</display-name>
+  </channel>
+  <channel id="Sky Arts HD">
+    <display-name lang="en">Sky Arts HD</display-name>
+  </channel>
+  <channel id="Sky Arts">
+    <display-name lang="en">Sky Arts</display-name>
+  </channel>
+  <channel id="Sky Living HD">
+    <display-name lang="en">Sky Living HD</display-name>
+  </channel>
+  <channel id="Sky Living">
+    <display-name lang="en">Sky Living</display-name>
+  </channel>
+  <channel id="Sky Living +1">
+    <display-name lang="en">Sky Living +1</display-name>
+  </channel>
+  <channel id="Real Lives">
+    <display-name lang="en">Real Lives</display-name>
+  </channel>
+  <channel id="Real Lives +1">
+    <display-name lang="en">Real Lives +1</display-name>
+  </channel>
+  <channel id="Sony Channel">
+    <display-name lang="en">Sony Channel</display-name>
+  </channel>
+  <channel id="Sony Channel +1">
+    <display-name lang="en">Sony Channel +1</display-name>
+  </channel>
+  <channel id="PBS">
+    <display-name lang="en">PBS</display-name>
+  </channel>
+  <channel id="PBS America">
+    <display-name lang="en">PBS America</display-name>
+  </channel>
+  <channel id="Lifetime HD">
+    <display-name lang="en">Lifetime HD</display-name>
+  </channel>
+  <channel id="Lifetime">
+    <display-name lang="en">Lifetime</display-name>
+  </channel>
+  <channel id="Lifetime +1">
+    <display-name lang="en">Lifetime +1</display-name>
+  </channel>
+  <channel id="E4 HD">
+    <display-name lang="en">E4 HD</display-name>
+  </channel>
+  <channel id="E4">
+    <display-name lang="en">E4</display-name>
+  </channel>
+  <channel id="E4 +1">
+    <display-name lang="en">E4 +1</display-name>
+  </channel>
+  <channel id="HBO2">
+    <display-name lang="en">HBO2</display-name>
+  </channel>
+  <channel id="Spike TV">
+    <display-name lang="en">Spike TV</display-name>
+  </channel>
+  <channel id="Spike TV HD">
+    <display-name lang="en">Spike TV HD</display-name>
+  </channel>
+  <channel id="More4 HD">
+    <display-name lang="en">More4 HD</display-name>
+  </channel>
+  <channel id="More4">
+    <display-name lang="en">More4</display-name>
+  </channel>
+  <channel id="More4 +1">
+    <display-name lang="en">More4 +1</display-name>
+  </channel>
+  <channel id="4seven">
+    <display-name lang="en">4seven</display-name>
+  </channel>
+  <channel id="Disney Channel">
+    <display-name lang="en">Disney Channel</display-name>
+  </channel>
+  <channel id="Disney Channel HD">
+    <display-name lang="en">Disney Channel HD</display-name>
+  </channel>
+  <channel id="Disney Channel +1">
+    <display-name lang="en">Disney Channel +1</display-name>
+  </channel>
+  <channel id="Disney XD HD">
+    <display-name lang="en">Disney XD HD</display-name>
+  </channel>
+  <channel id="Disney XD">
+    <display-name lang="en">Disney XD</display-name>
+  </channel>
+  <channel id="Disney XD +1">
+    <display-name lang="en">Disney XD +1</display-name>
+  </channel>
+  <channel id="Disney Junior HD">
+    <display-name lang="en">Disney Junior HD</display-name>
+  </channel>
+  <channel id="Disney Junior">
+    <display-name lang="en">Disney Junior</display-name>
+  </channel>
+  <channel id="Disney Junior +">
+    <display-name lang="en">Disney Junior +</display-name>
+  </channel>
+  <channel id="Nickelodeon HD">
+    <display-name lang="en">Nickelodeon HD</display-name>
+  </channel>
+  <channel id="Nickelodeon">
+    <display-name lang="en">Nickelodeon</display-name>
+  </channel>
+  <channel id="Nickelodeon +1">
+    <display-name lang="en">Nickelodeon +1</display-name>
+  </channel>
+  <channel id="Nick Jr">
+    <display-name lang="en">Nick Jr</display-name>
+  </channel>
+  <channel id="Nick Jr +1">
+    <display-name lang="en">Nick Jr +1</display-name>
+  </channel>
+  <channel id="Nick Jr Too">
+    <display-name lang="en">Nick Jr Too</display-name>
+  </channel>
+  <channel id="Nicktoons">
+    <display-name lang="en">Nicktoons</display-name>
+  </channel>
+  <channel id="Cartoon Network HD">
+    <display-name lang="en">Cartoon Network HD</display-name>
+  </channel>
+  <channel id="Cartoon Network">
+    <display-name lang="en">Cartoon Network</display-name>
+  </channel>
+  <channel id="Cartoon Network +1">
+    <display-name lang="en">Cartoon Network +1</display-name>
+  </channel>
+  <channel id="Cartoonito">
+    <display-name lang="en">Cartoonito</display-name>
+  </channel>
+  <channel id="Boomerang HD">
+    <display-name lang="en">Boomerang HD</display-name>
+  </channel>
+  <channel id="Boomerang">
+    <display-name lang="en">Boomerang</display-name>
+  </channel>
+  <channel id="Boomerang +1">
+    <display-name lang="en">Boomerang +1</display-name>
+  </channel>
+  <channel id="CBBC HD">
+    <display-name lang="en">CBBC HD</display-name>
+  </channel>
+  <channel id="CBBC">
+    <display-name lang="en">CBBC</display-name>
+  </channel>
+  <channel id="CBeebies HD">
+    <display-name lang="en">CBeebies HD</display-name>
+  </channel>
+  <channel id="CBeebies">
+    <display-name lang="en">CBeebies</display-name>
+  </channel>
+  <channel id="Pop">
+    <display-name lang="en">Pop</display-name>
+  </channel>
+  <channel id="Tiny Pop">
+    <display-name lang="en">Tiny Pop</display-name>
+  </channel>
+  <channel id="CITV">
+    <display-name lang="en">CITV</display-name>
+  </channel>
+  <channel id="Baby TV">
+    <display-name lang="en">Baby TV</display-name>
+  </channel>
+  <channel id="Tiny Pop +1">
+    <display-name lang="en">Tiny Pop +1</display-name>
+  </channel>
+  <channel id="Pop +1">
+    <display-name lang="en">Pop +1</display-name>
+  </channel>
+  <channel id="Disney Junior US">
+    <display-name lang="en">Disney Junior US</display-name>
+  </channel>
+  <channel id="Disney Junior US HD">
+    <display-name lang="en">Disney Junior US HD</display-name>
+  </channel>
+  <channel id="Disney Channel (Pacific)">
+    <display-name lang="en">Disney Channel (Pacific)</display-name>
+  </channel>
+  <channel id="BabyFirst TV">
+    <display-name lang="en">BabyFirst TV</display-name>
+  </channel>
+  <channel id="Discovery Family Channel">
+    <display-name lang="en">Discovery Family Channel</display-name>
+  </channel>
+  <channel id="Cartoon Network (Pacific)">
+    <display-name lang="en">Cartoon Network (Pacific)</display-name>
+  </channel>
+  <channel id="Nickelodeon (Pacific)">
+    <display-name lang="en">Nickelodeon (Pacific)</display-name>
+  </channel>
+  <channel id="Nick Jr HD">
+    <display-name lang="en">Nick Jr HD</display-name>
+  </channel>
+  <channel id="Nicktoons Network">
+    <display-name lang="en">Nicktoons Network</display-name>
+  </channel>
+  <channel id="Teen Nick">
+    <display-name lang="en">Teen Nick</display-name>
+  </channel>
+  <channel id="TV Land">
+    <display-name lang="en">TV Land</display-name>
+  </channel>
+  <channel id="TV Land HD">
+    <display-name lang="en">TV Land HD</display-name>
+  </channel>
+  <channel id="Kix">
+    <display-name lang="en">Kix</display-name>
+  </channel>
+  <channel id="Kix +1">
+    <display-name lang="en">Kix +1</display-name>
+  </channel>
+  <channel id="GOLD">
+    <display-name lang="en">GOLD</display-name>
+  </channel>
+  <channel id="Gold">
+    <display-name lang="en">Gold</display-name>
+  </channel>
+  <channel id="GOLD +1">
+    <display-name lang="en">GOLD +1</display-name>
+  </channel>
+  <channel id="ITV2HD">
+    <display-name lang="en">ITV2HD</display-name>
+  </channel>
+  <channel id="ITV2">
+    <display-name lang="en">ITV2</display-name>
+  </channel>
+  <channel id="ITV2+1">
+    <display-name lang="en">ITV2+1</display-name>
+  </channel>
+  <channel id="ITV3HD">
+    <display-name lang="en">ITV3HD</display-name>
+  </channel>
+  <channel id="ITV3+1">
+    <display-name lang="en">ITV3+1</display-name>
+  </channel>
+  <channel id="ITV3">
+    <display-name lang="en">ITV3</display-name>
+  </channel>
+  <channel id="ITV4HD">
+    <display-name lang="en">ITV4HD</display-name>
+  </channel>
+  <channel id="ITV4">
+    <display-name lang="en">ITV4</display-name>
+  </channel>
+  <channel id="ITV4+1">
+    <display-name lang="en">ITV4+1</display-name>
+  </channel>
+  <channel id="ITVBe">
+    <display-name lang="en">ITVBe</display-name>
+  </channel>
+  <channel id="ITVBe+1">
+    <display-name lang="en">ITVBe+1</display-name>
+  </channel>
+  <channel id="ITV Encore HD">
+    <display-name lang="en">ITV Encore HD</display-name>
+  </channel>
+  <channel id="ITV Encore">
+    <display-name lang="en">ITV Encore</display-name>
+  </channel>
+  <channel id="ITV Encore +1">
+    <display-name lang="en">ITV Encore +1</display-name>
+  </channel>
+  <channel id="Esquire">
+    <display-name lang="en">Esquire</display-name>
+  </channel>
+  <channel id="E! Entertainment Television">
+    <display-name lang="en">E! Entertainment Television</display-name>
+  </channel>
+  <channel id="E! Entertainment Television HD">
+    <display-name lang="en">E! Entertainment Television HD</display-name>
+  </channel>
+  <channel id="Bravo">
+    <display-name lang="en">Bravo</display-name>
+  </channel>
+  <channel id="Bravo HD">
+    <display-name lang="en">Bravo HD</display-name>
+  </channel>
+  <channel id="ReelzChannel">
+    <display-name lang="en">ReelzChannel</display-name>
+  </channel>
+  <channel id="ReelzChannel HD">
+    <display-name lang="en">ReelzChannel HD</display-name>
+  </channel>
+  <channel id="Audience Channel">
+    <display-name lang="en">Audience Channel</display-name>
+  </channel>
+  <channel id="USA Network">
+    <display-name lang="en">USA Network</display-name>
+  </channel>
+  <channel id="USA Network HD">
+    <display-name lang="en">USA Network HD</display-name>
+  </channel>
+  <channel id="Turner Network TV HD">
+    <display-name lang="en">Turner Network TV HD</display-name>
+  </channel>
+  <channel id="Turner Network TV">
+    <display-name lang="en">Turner Network TV</display-name>
+  </channel>
+  <channel id="truTV HD">
+    <display-name lang="en">truTV HD</display-name>
+  </channel>
+  <channel id="Turner Broadcasting System">
+    <display-name lang="en">Turner Broadcasting System</display-name>
+  </channel>
+  <channel id="TBS HD">
+    <display-name lang="en">TBS HD</display-name>
+  </channel>
+  <channel id="FX">
+    <display-name lang="en">FX</display-name>
+  </channel>
+  <channel id="FX HD">
+    <display-name lang="en">FX HD</display-name>
+  </channel>
+  <channel id="FXX HD">
+    <display-name lang="en">FXX HD</display-name>
+  </channel>
+  <channel id="FXM">
+    <display-name lang="en">FXM</display-name>
+  </channel>
+  <channel id="FXX">
+    <display-name lang="en">FXX</display-name>
+  </channel>
+  <channel id="WE tv">
+    <display-name lang="en">WE tv</display-name>
+  </channel>
+  <channel id="WE tv HD">
+    <display-name lang="en">WE tv HD</display-name>
+  </channel>
+  <channel id="Oxygen">
+    <display-name lang="en">Oxygen</display-name>
+  </channel>
+   <channel id="POP">
+    <display-name lang="en">POP</display-name>
+  </channel>
+  <channel id="WGN America">
+    <display-name lang="en">WGN America</display-name>
+  </channel>
+  <channel id="Ovation TV">
+    <display-name lang="en">Ovation TV</display-name>
+  </channel>
+  <channel id="Ovation TV HD">
+    <display-name lang="en">Ovation TV HD</display-name>
+  </channel>
+  <channel id="&amp;TV">
+    <display-name lang="en">&amp;TV</display-name>
+  </channel>
+  <channel id="Oprah Winfrey Network">
+    <display-name lang="en">Oprah Winfrey Network</display-name>
+  </channel>
+  <channel id="Oprah Winfrey Network HD">
+    <display-name lang="en">Oprah Winfrey Network HD</display-name>
+  </channel>
+  <channel id="The Learning Channel">
+    <display-name lang="en">The Learning Channel</display-name>
+  </channel>
+  <channel id="The Learning Channel HD">
+    <display-name lang="en">The Learning Channel HD</display-name>
+  </channel>
+  <channel id="Velocity">
+    <display-name lang="en">Velocity</display-name>
+  </channel>
+  <channel id="BEN">
+    <display-name lang="en">BEN</display-name>
+  </channel>
+  <channel id="OHTV">
+    <display-name lang="en">OHTV</display-name>
+  </channel>
+  <channel id="My Channel TV">
+    <display-name lang="en">My Channel TV</display-name>
+  </channel>
+  <channel id="Information TV">
+    <display-name lang="en">Information TV</display-name>
+  </channel>
+  <channel id="Vox Africa">
+    <display-name lang="en">Vox Africa</display-name>
+  </channel>
+  <channel id="ABN TV">
+    <display-name lang="en">ABN TV</display-name>
+  </channel>
+  <channel id="FilmOnTV">
+    <display-name lang="en">FilmOnTV</display-name>
+  </channel>
+  <channel id="Property Show">
+    <display-name lang="en">Property Show</display-name>
+  </channel>
+  <channel id="Home &amp; Garden Television HD">
+    <display-name lang="en">Home &amp; Garden Television HD</display-name>
+  </channel>
+  <channel id="Home &amp; Garden Television">
+    <display-name lang="en">Home &amp; Garden Television</display-name>
+  </channel>
+  <channel id="A&amp;E Network HD East">
+    <display-name lang="en">A&amp;E Network HD East</display-name>
+  </channel>
+  <channel id="A&amp;E Network Stream">
+    <display-name lang="en">A&amp;E Network Stream</display-name>
+  </channel>
+  <channel id="A&amp;E Network">
+    <display-name lang="en">A&amp;E Network</display-name>
+  </channel>
+  <channel id="Crime &amp; Investigation Network HD">
+    <display-name lang="en">Crime &amp; Investigation Network HD</display-name>
+  </channel>
+  <channel id="Discovery Home &amp; Health">
+    <display-name lang="en">Discovery Home &amp; Health</display-name>
+  </channel>
+  <channel id="Discovery Home &amp; Health +1">
+    <display-name lang="en">Discovery Home &amp; Health +1</display-name>
+  </channel>
+  <channel id="?TV">
+    <display-name lang="en">?TV</display-name>
+  </channel>
+  <channel id="Horse &amp; Country TV">
+    <display-name lang="en">Horse &amp; Country TV</display-name>
+  </channel>
+  <channel id="FAB TV">
+    <display-name lang="en">FAB TV</display-name>
+  </channel>
+  <channel id="Holiday &amp; Cruise Channel">
+    <display-name lang="en">Holiday &amp; Cruise Channel</display-name>
+  </channel>
+  <channel id="Information TV +1">
+    <display-name lang="en">Information TV +1</display-name>
+  </channel>
+  <channel id="wedding tv">
+    <display-name lang="en">wedding tv</display-name>
+  </channel>
+  <channel id="Property Show +2">
+    <display-name lang="en">Property Show +2</display-name>
+  </channel>
+  <channel id="BON TV">
+    <display-name lang="en">BON TV</display-name>
+  </channel>
+  <channel id="TVC News">
+    <display-name lang="en">TVC News</display-name>
+  </channel>
+  <channel id="News18">
+    <display-name lang="en">News18</display-name>
+  </channel>
+  <channel id="Channel S">
+    <display-name lang="en">Channel S</display-name>
+  </channel>
+  <channel id="Frontrunner">
+    <display-name lang="en">Frontrunner</display-name>
+  </channel>
+  <channel id="NHK World HD">
+    <display-name lang="en">NHK World HD</display-name>
+  </channel>
+  <channel id="CI HD">
+    <display-name lang="en">CI HD</display-name>
+  </channel>
+  <channel id="Discovery Life Channel">
+    <display-name lang="en">Discovery Life Channel</display-name>
+  </channel>
+  <channel id="Discovery Channel HD">
+    <display-name lang="en">Discovery Channel HD</display-name>
+  </channel>
+  <channel id="Discovery Channel">
+    <display-name lang="en">Discovery Channel</display-name>
+  </channel>
+  <channel id="Discovery Channel +1">
+    <display-name lang="en">Discovery Channel +1</display-name>
+  </channel>
+  <channel id="Discovery Science">
+    <display-name lang="en">Discovery Science</display-name>
+  </channel>
+  <channel id="Discovery Science +1">
+    <display-name lang="en">Discovery Science +1</display-name>
+  </channel>
+  <channel id="Science Channel HD">
+    <display-name lang="en">Science Channel HD</display-name>
+  </channel>
+  <channel id="Science">
+    <display-name lang="en">Science</display-name>
+  </channel>
+  <channel id="National Geographic Channel HD">
+    <display-name lang="en">National Geographic Channel HD</display-name>
+  </channel>
+  <channel id="National Geographic Channel">
+    <display-name lang="en">National Geographic Channel</display-name>
+  </channel>
+  <channel id="National Geographic Channel +1">
+    <display-name lang="en">National Geographic Channel +1</display-name>
+  </channel>
+  <channel id="Investigation Discovery HD">
+    <display-name lang="en">Investigation Discovery HD</display-name>
+  </channel>
+  <channel id="Nat Geo Wild HD">
+    <display-name lang="en">Nat Geo Wild HD</display-name>
+  </channel>
+  <channel id="Nat Geo Wild">
+    <display-name lang="en">Nat Geo Wild</display-name>
+  </channel>
+  <channel id="National Geographic Wild">
+    <display-name lang="en">National Geographic Wild</display-name>
+  </channel>
+  <channel id="National Geographic Wild HD">
+    <display-name lang="en">National Geographic Wild HD</display-name>
+  </channel>
+  <channel id="Animal Planet HD">
+    <display-name lang="en">Animal Planet HD</display-name>
+  </channel>
+  <channel id="Animal Planet">
+    <display-name lang="en">Animal Planet</display-name>
+  </channel>
+  <channel id="Animal Planet +1">
+    <display-name lang="en">Animal Planet +1</display-name>
+  </channel>
+  <channel id="CI">
+    <display-name lang="en">CI</display-name>
+  </channel>
+  <channel id="CI +1">
+    <display-name lang="en">CI +1</display-name>
+  </channel>
+  <channel id="Pivot">
+    <display-name lang="en">Pivot</display-name>
+  </channel>
+  <channel id="Investigation Discovery">
+    <display-name lang="en">Investigation Discovery</display-name>
+  </channel>
+  <channel id="Investigation Discovery +1">
+    <display-name lang="en">Investigation Discovery +1</display-name>
+  </channel>
+  <channel id="History HD">
+    <display-name lang="en">History HD</display-name>
+  </channel>
+  <channel id="History">
+    <display-name lang="en">History</display-name>
+  </channel>
+  <channel id="History +1">
+    <display-name lang="en">History +1</display-name>
+  </channel>
+  <channel id="H2">
+    <display-name lang="en">H2</display-name>
+  </channel>
+  <channel id="History Stream">
+    <display-name lang="en">History Stream</display-name>
+  </channel>
+  <channel id="Discovery History">
+    <display-name lang="en">Discovery History</display-name>
+  </channel>
+  <channel id="Discovery History +1">
+    <display-name lang="en">Discovery History +1</display-name>
+  </channel>
+  <channel id="History Channel En Espaol">
+    <display-name lang="en">History Channel En Espaol</display-name>
+  </channel>
+  <channel id="The Discovery Channel">
+    <display-name lang="en">The Discovery Channel</display-name>
+  </channel>
+  <channel id="The Discovery Channel HD">
+    <display-name lang="en">The Discovery Channel HD</display-name>
+  </channel>
+  <channel id="Discovery Shed">
+    <display-name lang="en">Discovery Shed</display-name>
+  </channel>
+  <channel id="Do-It-Yourself Network">
+    <display-name lang="en">Do-It-Yourself Network</display-name>
+  </channel>
+  <channel id="Do-It-Yourself Network HD">
+    <display-name lang="en">Do-It-Yourself Network HD</display-name>
+  </channel>
+  <channel id="Discovery Turbo">
+    <display-name lang="en">Discovery Turbo</display-name>
+  </channel>
+  <channel id="TLC HD">
+    <display-name lang="en">TLC HD</display-name>
+  </channel>
+  <channel id="TLC">
+    <display-name lang="en">TLC</display-name>
+  </channel>
+  <channel id="TLC+1">
+    <display-name lang="en">TLC+1</display-name>
+  </channel>
+  <channel id="TLC+2">
+    <display-name lang="en">TLC+2</display-name>
+  </channel>
+  <channel id="Universal Channel HD">
+    <display-name lang="en">Universal Channel HD</display-name>
+  </channel>
+  <channel id="Universal Channel">
+    <display-name lang="en">Universal Channel</display-name>
+  </channel>
+  <channel id="Universal Channel +1">
+    <display-name lang="en">Universal Channel +1</display-name>
+  </channel>
+  <channel id="ABC">
+    <display-name lang="en">ABC</display-name>
+  </channel>
+  <channel id="CBS">
+    <display-name lang="en">CBS</display-name>
+  </channel>
+  <channel id="CBS Drama">
+    <display-name lang="en">CBS Drama</display-name>
+  </channel>
+  <channel id="CBS Reality">
+    <display-name lang="en">CBS Reality</display-name>
+  </channel>
+  <channel id="CBS Reality +1">
+    <display-name lang="en">CBS Reality +1</display-name>
+  </channel>
+  <channel id="CBS Action">
+    <display-name lang="en">CBS Action</display-name>
+  </channel>
+  <channel id="CW">
+    <display-name lang="en">CW</display-name>
+  </channel>
+  <channel id="Challenge">
+    <display-name lang="en">Challenge</display-name>
+  </channel>
+  <channel id="Challenge +1">
+    <display-name lang="en">Challenge +1</display-name>
+  </channel>
+  <channel id="True Drama">
+    <display-name lang="en">True Drama</display-name>
+  </channel>
+  <channel id="True Entertainment">
+    <display-name lang="en">True Entertainment</display-name>
+  </channel>
+  <channel id="truTV">
+    <display-name lang="en">truTV</display-name>
+  </channel>
+  <channel id="truTV+1">
+    <display-name lang="en">truTV+1</display-name>
+  </channel>
+  <channel id="Drama">
+    <display-name lang="en">Drama</display-name>
+  </channel>
+  <channel id="W HD">
+    <display-name lang="en">W HD</display-name>
+  </channel>
+  <channel id="W">
+    <display-name lang="en">W</display-name>
+  </channel>
+  <channel id="W +1">
+    <display-name lang="en">W +1</display-name>
+  </channel>
+  <channel id="Pick">
+    <display-name lang="en">Pick</display-name>
+  </channel>
+  <channel id="Pick +1">
+    <display-name lang="en">Pick +1</display-name>
+  </channel>
+  <channel id="Really">
+    <display-name lang="en">Really</display-name>
+  </channel>
+  <channel id="Home">
+    <display-name lang="en">Home</display-name>
+  </channel>
+  <channel id="Home +1">
+    <display-name lang="en">Home +1</display-name>
+  </channel>
+  <channel id="Eden HD">
+    <display-name lang="en">Eden HD</display-name>
+  </channel>
+  <channel id="Eden">
+    <display-name lang="en">Eden</display-name>
+  </channel>
+  <channel id="Eden +1">
+    <display-name lang="en">Eden +1</display-name>
+  </channel>
+  <channel id="Alibi HD">
+    <display-name lang="en">Alibi HD</display-name>
+  </channel>
+  <channel id="Alibi">
+    <display-name lang="en">Alibi</display-name>
+  </channel>
+  <channel id="Alibi +1">
+    <display-name lang="en">Alibi +1</display-name>
+  </channel>
+  <channel id="Quest">
+    <display-name lang="en">Quest</display-name>
+  </channel>
+  <channel id="Quest +1">
+    <display-name lang="en">Quest +1</display-name>
+  </channel>
+  <channel id="Yesterday">
+    <display-name lang="en">Yesterday</display-name>
+  </channel>
+  <channel id="Yesterday +1">
+    <display-name lang="en">Yesterday +1</display-name>
+  </channel>
+  <channel id="Community Channel">
+    <display-name lang="en">Community Channel</display-name>
+  </channel>
+  <channel id="FYI">
+    <display-name lang="en">FYI</display-name>
+  </channel>
+  <channel id="FYI Channel HD">
+    <display-name lang="en">FYI Channel HD</display-name>
+  </channel>
+  <channel id="Food Network">
+    <display-name lang="en">Food Network</display-name>
+  </channel>
+  <channel id="Food Network +1">
+    <display-name lang="en">Food Network +1</display-name>
+  </channel>
+  <channel id="Good Food HD">
+    <display-name lang="en">Good Food HD</display-name>
+  </channel>
+  <channel id="Good Food">
+    <display-name lang="en">Good Food</display-name>
+  </channel>
+  <channel id="Good Food +1">
+    <display-name lang="en">Good Food +1</display-name>
+  </channel>
+  <channel id="Food Network HD">
+    <display-name lang="en">Food Network HD</display-name>
+  </channel>
+  <channel id="Cooking Channel">
+    <display-name lang="en">Cooking Channel</display-name>
+  </channel>
+  <channel id="Cooking Channel HD">
+    <display-name lang="en">Cooking Channel HD</display-name>
+  </channel>
+  <channel id="Travel Channel">
+    <display-name lang="en">Travel Channel</display-name>
+  </channel>
+  <channel id="Travel Channel +1">
+    <display-name lang="en">Travel Channel +1</display-name>
+  </channel>
+  <channel id="The Travel Channel">
+    <display-name lang="en">The Travel Channel</display-name>
+  </channel>
+  <channel id="The Travel Channel HD">
+    <display-name lang="en">The Travel Channel HD</display-name>
+  </channel>
+  <channel id="Destination America">
+    <display-name lang="en">Destination America</display-name>
+  </channel>
+  <channel id="Destination America HD">
+    <display-name lang="en">Destination America HD</display-name>
+  </channel>
+  <channel id="American Heroes Channel">
+    <display-name lang="en">American Heroes Channel</display-name>
+  </channel>
+  <channel id="Hallmark Channel">
+    <display-name lang="en">Hallmark Channel</display-name>
+  </channel>
+  <channel id="Hallmark Channel HD">
+    <display-name lang="en">Hallmark Channel HD</display-name>
+  </channel>
+  <channel id="5STAR">
+    <display-name lang="en">5STAR</display-name>
+  </channel>
+  <channel id="5STAR +1">
+    <display-name lang="en">5STAR +1</display-name>
+  </channel>
+  <channel id="5USA">
+    <display-name lang="en">5USA</display-name>
+  </channel>
+  <channel id="5USA +1">
+    <display-name lang="en">5USA +1</display-name>
+  </channel>
+  <channel id="Channel 5+24">
+    <display-name lang="en">Channel 5+24</display-name>
+  </channel>
+  <channel id="Syfy HD">
+    <display-name lang="en">Syfy HD</display-name>
+  </channel>
+  <channel id="Syfy">
+    <display-name lang="en">Syfy</display-name>
+  </channel>
+  <channel id="Syfy +1">
+    <display-name lang="en">Syfy +1</display-name>
+  </channel>
+  <channel id="FOX HD">
+    <display-name lang="en">FOX HD</display-name>
+  </channel>
+  <channel id="FOX">
+    <display-name lang="en">FOX</display-name>
+  </channel>
+  <channel id="FOX+">
+    <display-name lang="en">FOX+</display-name>
+  </channel>
+  <channel id="DMAX">
+    <display-name lang="en">DMAX</display-name>
+  </channel>
+  <channel id="DMAX +1">
+    <display-name lang="en">DMAX +1</display-name>
+  </channel>
+  <channel id="Forces TV">
+    <display-name lang="en">Forces TV</display-name>
+  </channel>
+  <channel id="WINS">
+    <display-name lang="en">WINS</display-name>
+  </channel>
+  <channel id="LOOK no farther for the best new products!">
+    <display-name lang="en">LOOK no farther for the best new products!</display-name>
+  </channel>
+  <channel id="HLN">
+    <display-name lang="en">HLN</display-name>
+  </channel>
+  <channel id="WOW TV has the coolest products out there!">
+    <display-name lang="en">WOW TV has the coolest products out there!</display-name>
+  </channel>
+  <channel id="HSN">
+    <display-name lang="en">HSN</display-name>
+  </channel>
+  <channel id="Get the BUZZ about the greatest products!">
+    <display-name lang="en">Get the BUZZ about the greatest products!</display-name>
+  </channel>
+  <channel id="DIRECTV Lifetime">
+    <display-name lang="en">DIRECTV Lifetime</display-name>
+  </channel>
+  <channel id="XTRA has the best As Seen on TV products!">
+    <display-name lang="en">XTRA has the best As Seen on TV products!</display-name>
+  </channel>
+  <channel id="CASH">
+    <display-name lang="en">CASH</display-name>
+  </channel>
+  <channel id="Gemporia">
+    <display-name lang="en">Gemporia</display-name>
+  </channel>
+  <channel id="Shop BEST for the hottest products on TV!">
+    <display-name lang="en">Shop BEST for the hottest products on TV!</display-name>
+  </channel>
+  <channel id="Viceland HD">
+    <display-name lang="en">Viceland HD</display-name>
+  </channel>
+  <channel id="Viceland">
+    <display-name lang="en">Viceland</display-name>
+  </channel>
+  <channel id="LOGO">
+    <display-name lang="en">LOGO</display-name>
+  </channel>
+  <channel id="Sprout">
+    <display-name lang="en">Sprout</display-name>
+  </channel>
+  <channel id="ION Television DirecTV/Dish/Cable White Area">
+    <display-name lang="en">ION Television DirecTV/Dish/Cable White Area</display-name>
+  </channel>
+  <channel id="ION Television West DirecTV/Dish (Pacific)">
+    <display-name lang="en">ION Television West DirecTV/Dish (Pacific)</display-name>
+  </channel>
+  <channel id="Freeform">
+    <display-name lang="en">Freeform</display-name>
+  </channel>
+  <channel id="Freeform HD">
+    <display-name lang="en">Freeform HD</display-name>
+  </channel>
+  <channel id="Revenue Frontier Deals for DirecTV">
+    <display-name lang="en">Revenue Frontier Deals for DirecTV</display-name>
+  </channel>
+  <channel id="SALE: great prices on the hottest products!">
+    <display-name lang="en">SALE: great prices on the hottest products!</display-name>
+  </channel>
+  <channel id="BET">
+    <display-name lang="en">BET</display-name>
+  </channel>
+  <channel id="UP">
+    <display-name lang="en">UP</display-name>
+  </channel>
+  <channel id="Revenue Frontier Value for DirecTV">
+    <display-name lang="en">Revenue Frontier Value for DirecTV</display-name>
+  </channel>
+  <channel id="CSPAN">
+    <display-name lang="en">CSPAN</display-name>
+  </channel>
+  <channel id="CSPAN2">
+    <display-name lang="en">CSPAN2</display-name>
+  </channel>
+  <channel id="INSP">
+    <display-name lang="en">INSP</display-name>
+  </channel>
+  <channel id="Impact Network">
+    <display-name lang="en">Impact Network</display-name>
+  </channel>
+  <channel id="ASPiRE">
+    <display-name lang="en">ASPiRE</display-name>
+  </channel>
+  <channel id="ASPiRE HD">
+    <display-name lang="en">ASPiRE HD</display-name>
+  </channel>
+  <channel id="Justice Central SD">
+    <display-name lang="en">Justice Central SD</display-name>
+  </channel>
+  <channel id="REVOLT">
+    <display-name lang="en">REVOLT</display-name>
+  </channel>
+  <channel id="MBC Drama HD">
+    <display-name lang="en">MBC Drama HD</display-name>
+  </channel>
+  <channel id="NTN24 Nuestra Tele Noticias 24">
+    <display-name lang="en">NTN24 Nuestra Tele Noticias 24</display-name>
+  </channel>
+  <channel id="ATRES Series English">
+    <display-name lang="en">ATRES Series English</display-name>
+  </channel>
+  <channel id="IVC Net">
+    <display-name lang="en">IVC Net</display-name>
+  </channel>
+  <channel id="Zoomoo">
+    <display-name lang="en">Zoomoo</display-name>
+  </channel>
+  <channel id="NBC Universo Stream">
+    <display-name lang="en">NBC Universo Stream</display-name>
+  </channel>
+  <channel id="Univision TL Novelasun">
+    <display-name lang="en">Univision TL Novelasun</display-name>
+  </channel>
+  <channel id="HITN">
+    <display-name lang="en">HITN</display-name>
+  </channel>
+  <channel id="IFC">
+    <display-name lang="en">IFC</display-name>
+  </channel>
+  <channel id="SECA">
+    <display-name lang="en">SECA</display-name>
+  </channel>
+  <channel id="INCTV">
+    <display-name lang="en">INCTV</display-name>
+  </channel>
+  <channel id="Kapatid">
+    <display-name lang="en">Kapatid</display-name>
+  </channel>
+  <channel id="GZTV">
+    <display-name lang="en">GZTV</display-name>
+  </channel>
+  <channel id="AMC from BT">
+    <display-name lang="en">AMC from BT</display-name>
+  </channel>
+  <channel id="AMC HD from BT">
+    <display-name lang="en">AMC HD from BT</display-name>
+  </channel>
+  <channel id="AMC">
+    <display-name lang="en">AMC</display-name>
+  </channel>
+  <channel id="AMC HD">
+    <display-name lang="en">AMC HD</display-name>
+  </channel>
+  <channel id="Film4 HD">
+    <display-name lang="en">Film4 HD</display-name>
+  </channel>
+  <channel id="Film4">
+    <display-name lang="en">Film4</display-name>
+  </channel>
+  <channel id="Film4 +1">
+    <display-name lang="en">Film4 +1</display-name>
+  </channel>
+  <channel id="Showcase">
+    <display-name lang="en">Showcase</display-name>
+  </channel>
+  <channel id="Showcase +1">
+    <display-name lang="en">Showcase +1</display-name>
+  </channel>
+  <channel id="Sky Box Office">
+    <display-name lang="en">Sky Box Office</display-name>
+  </channel>
+  <channel id="Sky Box Office HD">
+    <display-name lang="en">Sky Box Office HD</display-name>
+  </channel>
+  <channel id="Sky Movies Action &amp; Adventure HD">
+    <display-name lang="en">Sky Movies Action &amp; Adventure HD</display-name>
+  </channel>
+  <channel id="Sky Movies Action &amp; Adventure">
+    <display-name lang="en">Sky Movies Action &amp; Adventure</display-name>
+  </channel>
+  <channel id="Sky Movies Crime &amp; Thriller HD">
+    <display-name lang="en">Sky Movies Crime &amp; Thriller HD</display-name>
+  </channel>
+  <channel id="Sky Movies Crime &amp; Thriller">
+    <display-name lang="en">Sky Movies Crime &amp; Thriller</display-name>
+  </channel>
+  <channel id="Sky Movies Drama &amp; Romance HD">
+    <display-name lang="en">Sky Movies Drama &amp; Romance HD</display-name>
+  </channel>
+  <channel id="Sky Movies Drama &amp; Romance">
+    <display-name lang="en">Sky Movies Drama &amp; Romance</display-name>
+  </channel>
+  <channel id="Sky Movies Premiere HD">
+    <display-name lang="en">Sky Movies Premiere HD</display-name>
+  </channel>
+  <channel id="Sky Movies Premiere">
+    <display-name lang="en">Sky Movies Premiere</display-name>
+  </channel>
+  <channel id="Sky Movies Premiere +1">
+    <display-name lang="en">Sky Movies Premiere +1</display-name>
+  </channel>
+  <channel id="Sky Movies Robots">
+    <display-name lang="en">Sky Movies Robots</display-name>
+  </channel>
+  <channel id="Sky Movies Robots HD ">
+    <display-name lang="en">Sky Movies Robots HD </display-name>
+  </channel>
+  <channel id="Sky Movies Showcase HD">
+    <display-name lang="en">Sky Movies Showcase HD</display-name>
+  </channel>
+  <channel id="Sky Movies Comedy HD">
+    <display-name lang="en">Sky Movies Comedy HD</display-name>
+  </channel>
+  <channel id="Sky Movies Comedy">
+    <display-name lang="en">Sky Movies Comedy</display-name>
+  </channel>
+  <channel id="Sky Movies Disney HD">
+    <display-name lang="en">Sky Movies Disney HD</display-name>
+  </channel>
+  <channel id="Sky Movies Disney">
+    <display-name lang="en">Sky Movies Disney</display-name>
+  </channel>
+  <channel id="Sky Movies Family HD">
+    <display-name lang="en">Sky Movies Family HD</display-name>
+  </channel>
+  <channel id="Sky Movies Family">
+    <display-name lang="en">Sky Movies Family</display-name>
+  </channel>
+  <channel id="Sky Movies Greats HD ">
+    <display-name lang="en">Sky Movies Greats HD </display-name>
+  </channel>
+  <channel id="Sky Movies Greats">
+    <display-name lang="en">Sky Movies Greats</display-name>
+  </channel>
+  <channel id="Sky Movies Sci-fi/Horror HD">
+    <display-name lang="en">Sky Movies Sci-fi/Horror HD</display-name>
+  </channel>
+  <channel id="Sky Movies Sci-fi/Horror">
+    <display-name lang="en">Sky Movies Sci-fi/Horror</display-name>
+  </channel>
+  <channel id="Sky Movies Select HD">
+    <display-name lang="en">Sky Movies Select HD</display-name>
+  </channel>
+  <channel id="Sky Movies Select">
+    <display-name lang="en">Sky Movies Select</display-name>
+  </channel>
+  <channel id="Sky Movies Showcase">
+    <display-name lang="en">Sky Movies Showcase</display-name>
+  </channel>
+  <channel id="TCM HD">
+    <display-name lang="en">TCM HD</display-name>
+  </channel>
+  <channel id="TCM">
+    <display-name lang="en">TCM</display-name>
+  </channel>
+  <channel id="TCM+1">
+    <display-name lang="en">TCM+1</display-name>
+  </channel>
+  <channel id="True Crime">
+    <display-name lang="en">True Crime</display-name>
+  </channel>
+  <channel id="True Crime +1">
+    <display-name lang="en">True Crime +1</display-name>
+  </channel>
+  <channel id="Movies4Men">
+    <display-name lang="en">Movies4Men</display-name>
+  </channel>
+  <channel id="Movies4Men +1">
+    <display-name lang="en">Movies4Men +1</display-name>
+  </channel>
+  <channel id="True Movies 1">
+    <display-name lang="en">True Movies 1</display-name>
+  </channel>
+  <channel id="True Movies 2">
+    <display-name lang="en">True Movies 2</display-name>
+  </channel>
+  <channel id="more>movies">
+    <display-name lang="en">more>movies</display-name>
+  </channel>
+  <channel id="more>movies +1">
+    <display-name lang="en">more>movies +1</display-name>
+  </channel>
+  <channel id="Movies 24">
+    <display-name lang="en">Movies 24</display-name>
+  </channel>
+  <channel id="Movies 24+">
+    <display-name lang="en">Movies 24+</display-name>
+  </channel>
+  <channel id="Hallmark Movies &amp; Mysteries HD">
+    <display-name lang="en">Hallmark Movies &amp; Mysteries HD</display-name>
+  </channel>
+  <channel id="Horror Channel">
+    <display-name lang="en">Horror Channel</display-name>
+  </channel>
+  <channel id="Horror Channel +1">
+    <display-name lang="en">Horror Channel +1</display-name>
+  </channel>
+  <channel id="Sony Movie Channel">
+    <display-name lang="en">Sony Movie Channel</display-name>
+  </channel>
+  <channel id="Sony Movie Channel +1">
+    <display-name lang="en">Sony Movie Channel +1</display-name>
+  </channel>
+  <channel id="Talking Pictures">
+    <display-name lang="en">Talking Pictures</display-name>
+  </channel>
+  <channel id="Home Box Office">
+    <display-name lang="en">Home Box Office</display-name>
+  </channel>
+  <channel id="HBO HD">
+    <display-name lang="en">HBO HD</display-name>
+  </channel>
+  <channel id="HBO 2 HD">
+    <display-name lang="en">HBO 2 HD</display-name>
+  </channel>
+  <channel id="HBO Signature">
+    <display-name lang="en">HBO Signature</display-name>
+  </channel>
+  <channel id="HBO Signature HD">
+    <display-name lang="en">HBO Signature HD</display-name>
+  </channel>
+  <channel id="HBO (Pacific)">
+    <display-name lang="en">HBO (Pacific)</display-name>
+  </channel>
+  <channel id="HBO HD (Pacific)">
+    <display-name lang="en">HBO HD (Pacific)</display-name>
+  </channel>
+  <channel id="HBO2 (Pacific)">
+    <display-name lang="en">HBO2 (Pacific)</display-name>
+  </channel>
+  <channel id="HBO 2 HD (Pacific)">
+    <display-name lang="en">HBO 2 HD (Pacific)</display-name>
+  </channel>
+  <channel id="HBO Comedy HD">
+    <display-name lang="en">HBO Comedy HD</display-name>
+  </channel>
+  <channel id="HBO Family">
+    <display-name lang="en">HBO Family</display-name>
+  </channel>
+  <channel id="HBO Family HD">
+    <display-name lang="en">HBO Family HD</display-name>
+  </channel>
+  <channel id="HBO Family (Pacific)">
+    <display-name lang="en">HBO Family (Pacific)</display-name>
+  </channel>
+  <channel id="HBO Zone HD">
+    <display-name lang="en">HBO Zone HD</display-name>
+  </channel>
+  <channel id="Program Guide Message Channel">
+    <display-name lang="en">Program Guide Message Channel</display-name>
+  </channel>
+  <channel id="HBO Latino">
+    <display-name lang="en">HBO Latino</display-name>
+  </channel>
+  <channel id="HBO Latino HD">
+    <display-name lang="en">HBO Latino HD</display-name>
+  </channel>
+  <channel id="CineMAX HD">
+    <display-name lang="en">CineMAX HD</display-name>
+  </channel>
+  <channel id="CineMAX">
+    <display-name lang="en">CineMAX</display-name>
+  </channel>
+  <channel id="CineMAX HD (Pacific)">
+    <display-name lang="en">CineMAX HD (Pacific)</display-name>
+  </channel>
+  <channel id="CineMAX (Pacific)">
+    <display-name lang="en">CineMAX (Pacific)</display-name>
+  </channel>
+  <channel id="MoreMAX">
+    <display-name lang="en">MoreMAX</display-name>
+  </channel>
+  <channel id="MoreMax HD">
+    <display-name lang="en">MoreMax HD</display-name>
+  </channel>
+  <channel id="ActionMAX HD">
+    <display-name lang="en">ActionMAX HD</display-name>
+  </channel>
+  <channel id="5 StarMAX HD East">
+    <display-name lang="en">5 StarMAX HD East</display-name>
+  </channel>
+  <channel id="MovieMax HD">
+    <display-name lang="en">MovieMax HD</display-name>
+  </channel>
+  <channel id="ThrillerMAX HD">
+    <display-name lang="en">ThrillerMAX HD</display-name>
+  </channel>
+  <channel id="Cinemax Spanish HD">
+    <display-name lang="en">Cinemax Spanish HD</display-name>
+  </channel>
+  <channel id="Starz HD">
+    <display-name lang="en">Starz HD</display-name>
+  </channel>
+  <channel id="Starz HD (Pacific)">
+    <display-name lang="en">Starz HD (Pacific)</display-name>
+  </channel>
+  <channel id="Starz (Pacific)">
+    <display-name lang="en">Starz (Pacific)</display-name>
+  </channel>
+  <channel id="Starz Kids HD">
+    <display-name lang="en">Starz Kids HD</display-name>
+  </channel>
+  <channel id="Starz Comedy HD">
+    <display-name lang="en">Starz Comedy HD</display-name>
+  </channel>
+  <channel id="Starz Edge">
+    <display-name lang="en">Starz Edge</display-name>
+  </channel>
+  <channel id="Starz Edge HD">
+    <display-name lang="en">Starz Edge HD</display-name>
+  </channel>
+  <channel id="Starz in Black">
+    <display-name lang="en">Starz in Black</display-name>
+  </channel>
+  <channel id="Starz in Black HD">
+    <display-name lang="en">Starz in Black HD</display-name>
+  </channel>
+  <channel id="Starz Cinema HD">
+    <display-name lang="en">Starz Cinema HD</display-name>
+  </channel>
+  <channel id="Encore">
+    <display-name lang="en">Encore</display-name>
+  </channel>
+  <channel id="Encore HD">
+    <display-name lang="en">Encore HD</display-name>
+  </channel>
+  <channel id="Encore (Pacific)">
+    <display-name lang="en">Encore (Pacific)</display-name>
+  </channel>
+  <channel id="Encore Classic">
+    <display-name lang="en">Encore Classic</display-name>
+  </channel>
+  <channel id="DIRECTV Encore Westerns">
+    <display-name lang="en">DIRECTV Encore Westerns</display-name>
+  </channel>
+  <channel id="Encore Westerns">
+    <display-name lang="en">Encore Westerns</display-name>
+  </channel>
+  <channel id="Encore Suspense">
+    <display-name lang="en">Encore Suspense</display-name>
+  </channel>
+  <channel id="Encore Black">
+    <display-name lang="en">Encore Black</display-name>
+  </channel>
+  <channel id="Encore Action">
+    <display-name lang="en">Encore Action</display-name>
+  </channel>
+  <channel id="Encore Action HD">
+    <display-name lang="en">Encore Action HD</display-name>
+  </channel>
+  <channel id="Encore Family">
+    <display-name lang="en">Encore Family</display-name>
+  </channel>
+  <channel id="Showtime">
+    <display-name lang="en">Showtime</display-name>
+  </channel>
+  <channel id="Showtime HD">
+    <display-name lang="en">Showtime HD</display-name>
+  </channel>
+  <channel id="Showtime HD (Pacific)">
+    <display-name lang="en">Showtime HD (Pacific)</display-name>
+  </channel>
+  <channel id="Showtime (Pacific)">
+    <display-name lang="en">Showtime (Pacific)</display-name>
+  </channel>
+  <channel id="SHO 2">
+    <display-name lang="en">SHO 2</display-name>
+  </channel>
+  <channel id="SHO 2 HD">
+    <display-name lang="en">SHO 2 HD</display-name>
+  </channel>
+  <channel id="Showtime Showcase">
+    <display-name lang="en">Showtime Showcase</display-name>
+  </channel>
+  <channel id="Showtime Showcase HD">
+    <display-name lang="en">Showtime Showcase HD</display-name>
+  </channel>
+  <channel id="Showtime Extreme">
+    <display-name lang="en">Showtime Extreme</display-name>
+  </channel>
+  <channel id="Showtime Extreme HD">
+    <display-name lang="en">Showtime Extreme HD</display-name>
+  </channel>
+  <channel id="Showtime Beyond HD">
+    <display-name lang="en">Showtime Beyond HD</display-name>
+  </channel>
+  <channel id="Showtime Next HD">
+    <display-name lang="en">Showtime Next HD</display-name>
+  </channel>
+  <channel id="Showtime Women HD">
+    <display-name lang="en">Showtime Women HD</display-name>
+  </channel>
+  <channel id="The Movie Channel HD">
+    <display-name lang="en">The Movie Channel HD</display-name>
+  </channel>
+  <channel id="The Movie Channel">
+    <display-name lang="en">The Movie Channel</display-name>
+  </channel>
+  <channel id="The Movie Channel (Pacific)">
+    <display-name lang="en">The Movie Channel (Pacific)</display-name>
+  </channel>
+  <channel id="The Movie Channel Extra HD">
+    <display-name lang="en">The Movie Channel Extra HD</display-name>
+  </channel>
+  <channel id="Flix">
+    <display-name lang="en">Flix</display-name>
+  </channel>
+  <channel id="SundanceTV">
+    <display-name lang="en">SundanceTV</display-name>
+  </channel>
+  <channel id="SundanceTV HD">
+    <display-name lang="en">SundanceTV HD</display-name>
+  </channel>
+  <channel id="IFC HD">
+    <display-name lang="en">IFC HD</display-name>
+  </channel>
+  <channel id="HDNet Movies">
+    <display-name lang="en">HDNet Movies</display-name>
+  </channel>
+  <channel id="MGM HD">
+    <display-name lang="en">MGM HD</display-name>
+  </channel>
+  <channel id="Sony Movie Channel HD">
+    <display-name lang="en">Sony Movie Channel HD</display-name>
+  </channel>
+  <channel id="Universal HD">
+    <display-name lang="en">Universal HD</display-name>
+  </channel>
+  <channel id="Smithsonian HD Network">
+    <display-name lang="en">Smithsonian HD Network</display-name>
+  </channel>
+  <channel id="Shorts HD">
+    <display-name lang="en">Shorts HD</display-name>
+  </channel>
+  <channel id="Lifetime Movie Network">
+    <display-name lang="en">Lifetime Movie Network</display-name>
+  </channel>
+  <channel id="Lifetime Movie Network HD">
+    <display-name lang="en">Lifetime Movie Network HD</display-name>
+  </channel>
+  <channel id="Turner Classic Movies">
+    <display-name lang="en">Turner Classic Movies</display-name>
+  </channel>
+  <channel id="Turner Classic Movies HD">
+    <display-name lang="en">Turner Classic Movies HD</display-name>
+  </channel>
+  <channel id="Chiller">
+    <display-name lang="en">Chiller</display-name>
+  </channel>
+  <channel id="Sony Entertainment TV Asia">
+    <display-name lang="en">Sony Entertainment TV Asia</display-name>
+  </channel>
+  <channel id="Star Life OK">
+    <display-name lang="en">Star Life OK</display-name>
+  </channel>
+  <channel id="Star Plus HD">
+    <display-name lang="en">Star Plus HD</display-name>
+  </channel>
+  <channel id="Phoenix CNE Channel">
+    <display-name lang="en">Phoenix CNE Channel</display-name>
+  </channel>
+  <channel id="Zee TV">
+    <display-name lang="en">Zee TV</display-name>
+  </channel>
+  <channel id="Zing">
+    <display-name lang="en">Zing</display-name>
+  </channel>
+  <channel id="Zee Cinema">
+    <display-name lang="en">Zee Cinema</display-name>
+  </channel>
+  <channel id="TV5">
+    <display-name lang="en">TV5</display-name>
+  </channel>
+  <channel id="ARY News">
+    <display-name lang="en">ARY News</display-name>
+  </channel>
+  <channel id="Star Jalsha">
+    <display-name lang="en">Star Jalsha</display-name>
+  </channel>
+  <channel id="Star GOLD">
+    <display-name lang="en">Star GOLD</display-name>
+  </channel>
+  <channel id="B4U Movies">
+    <display-name lang="en">B4U Movies</display-name>
+  </channel>
+  <channel id="Nollywood Movies">
+    <display-name lang="en">Nollywood Movies</display-name>
+  </channel>
+  <channel id="Sony SAB">
+    <display-name lang="en">Sony SAB</display-name>
+  </channel>
+  <channel id="Colors">
+    <display-name lang="en">Colors</display-name>
+  </channel>
+  <channel id="Rishtey">
+    <display-name lang="en">Rishtey</display-name>
+  </channel>
+  <channel id="Star Plus">
+    <display-name lang="en">Star Plus</display-name>
+  </channel>
+  <channel id="BBC News Channel HD">
+    <display-name lang="en">BBC News Channel HD</display-name>
+  </channel>
+  <channel id="BBC News Channel">
+    <display-name lang="en">BBC News Channel</display-name>
+  </channel>
+  <channel id="BBC World News HD">
+    <display-name lang="en">BBC World News HD</display-name>
+  </channel>
+  <channel id="Sky News HD">
+    <display-name lang="en">Sky News HD</display-name>
+  </channel>
+  <channel id="BBC Parliament">
+    <display-name lang="en">BBC Parliament</display-name>
+  </channel>
+  <channel id="Sky News">
+    <display-name lang="en">Sky News</display-name>
+  </channel>
+  <channel id="Fox News Channel HD">
+    <display-name lang="en">Fox News Channel HD</display-name>
+  </channel>
+  <channel id="Fox News Channel">
+    <display-name lang="en">Fox News Channel</display-name>
+  </channel>
+  <channel id="Fox News Channel Stream">
+    <display-name lang="en">Fox News Channel Stream</display-name>
+  </channel>
+  <channel id="Fox Business HD">
+    <display-name lang="en">Fox Business HD</display-name>
+  </channel>
+  <channel id="Fox Business">
+    <display-name lang="en">Fox Business</display-name>
+  </channel>
+  <channel id="Fox Business Stream">
+    <display-name lang="en">Fox Business Stream</display-name>
+  </channel>
+  <channel id="Al Jazeera English">
+    <display-name lang="en">Al Jazeera English</display-name>
+  </channel>
+  <channel id="Al Jazeera America">
+    <display-name lang="en">Al Jazeera America</display-name>
+  </channel>
+  <channel id="Al Jazeera America HD">
+    <display-name lang="en">Al Jazeera America HD</display-name>
+  </channel>
+  <channel id="Free Speech TV">
+    <display-name lang="en">Free Speech TV</display-name>
+  </channel>
+  <channel id="Newsmax TV">
+    <display-name lang="en">Newsmax TV</display-name>
+  </channel>
+  <channel id="RFD TV">
+    <display-name lang="en">RFD TV</display-name>
+  </channel>
+  <channel id="Bloomberg Business Television">
+    <display-name lang="en">Bloomberg Business Television</display-name>
+  </channel>
+  <channel id="Bloomberg HD">
+    <display-name lang="en">Bloomberg HD</display-name>
+  </channel>
+  <channel id="Bloomberg TV">
+    <display-name lang="en">Bloomberg TV</display-name>
+  </channel>
+  <channel id="CNBC UK">
+    <display-name lang="en">CNBC UK</display-name>
+  </channel>
+  <channel id="CNBC HD">
+    <display-name lang="en">CNBC HD</display-name>
+  </channel>
+  <channel id="CNBC">
+    <display-name lang="en">CNBC</display-name>
+  </channel>
+  <channel id="CNBC World">
+    <display-name lang="en">CNBC World</display-name>
+  </channel>
+  <channel id="CNN">
+    <display-name lang="en">CNN</display-name>
+  </channel>
+  <channel id="NHK World">
+    <display-name lang="en">NHK World</display-name>
+  </channel>
+  <channel id="Euronews">
+    <display-name lang="en">Euronews</display-name>
+  </channel>
+  <channel id="MSNBC">
+    <display-name lang="en">MSNBC</display-name>
+  </channel>
+  <channel id="MSNBC HD">
+    <display-name lang="en">MSNBC HD</display-name>
+  </channel>
+  <channel id="Performance One Weather Nation">
+    <display-name lang="en">Performance One Weather Nation</display-name>
+  </channel>
+  <channel id="Performance One Weather Nation HD">
+    <display-name lang="en">Performance One Weather Nation HD</display-name>
+  </channel>
+  <channel id="The Weather Channel">
+    <display-name lang="en">The Weather Channel</display-name>
+  </channel>
+  <channel id="The Weather Channel HD">
+    <display-name lang="en">The Weather Channel HD</display-name>
+  </channel>
+  <channel id="NASA TV">
+    <display-name lang="en">NASA TV</display-name>
+  </channel>
+  <channel id="DOG TV">
+    <display-name lang="en">DOG TV</display-name>
+  </channel>
+  <channel id="RT HD">
+    <display-name lang="en">RT HD</display-name>
+  </channel>
+  <channel id="FRANCE 24 English">
+    <display-name lang="en">FRANCE 24 English</display-name>
+  </channel>
+  <channel id="RT">
+    <display-name lang="en">RT</display-name>
+  </channel>
+  <channel id="Cable News Network">
+    <display-name lang="en">Cable News Network</display-name>
+  </channel>
+  <channel id="CNN HD">
+    <display-name lang="en">CNN HD</display-name>
+  </channel>
+  <channel id="E! Entertainment HD">
+    <display-name lang="en">E! Entertainment HD</display-name>
+  </channel>
+  <channel id="E! Entertainment">
+    <display-name lang="en">E! Entertainment</display-name>
+  </channel>
+  <channel id="E! Entertainment Plus 1">
+    <display-name lang="en">E! Entertainment Plus 1</display-name>
+  </channel>
+  <channel id="VH1 HD">
+    <display-name lang="en">VH1 HD</display-name>
+  </channel>
+  <channel id="VH1">
+    <display-name lang="en">VH1</display-name>
+  </channel>
+  <channel id="VH1 Classic">
+    <display-name lang="en">VH1 Classic</display-name>
+  </channel>
+  <channel id="Viva">
+    <display-name lang="en">Viva</display-name>
+  </channel>
+  <channel id="Capital TV">
+    <display-name lang="en">Capital TV</display-name>
+  </channel>
+  <channel id="Heart TV">
+    <display-name lang="en">Heart TV</display-name>
+  </channel>
+  <channel id="Vintage TV">
+    <display-name lang="en">Vintage TV</display-name>
+  </channel>
+  <channel id="4Music">
+    <display-name lang="en">4Music</display-name>
+  </channel>
+  <channel id="Kiss TV">
+    <display-name lang="en">Kiss TV</display-name>
+  </channel>
+  <channel id="MTV HD">
+    <display-name lang="en">MTV HD</display-name>
+  </channel>
+  <channel id="MTV">
+    <display-name lang="en">MTV</display-name>
+  </channel>
+  <channel id="MTV Music +1">
+    <display-name lang="en">MTV Music +1</display-name>
+  </channel>
+  <channel id="MTV +1">
+    <display-name lang="en">MTV +1</display-name>
+  </channel>
+  <channel id="MTV Music">
+    <display-name lang="en">MTV Music</display-name>
+  </channel>
+  <channel id="MTV Base">
+    <display-name lang="en">MTV Base</display-name>
+  </channel>
+  <channel id="MTV Hits">
+    <display-name lang="en">MTV Hits</display-name>
+  </channel>
+  <channel id="MTV Dance">
+    <display-name lang="en">MTV Dance</display-name>
+  </channel>
+  <channel id="MTV Rocks">
+    <display-name lang="en">MTV Rocks</display-name>
+  </channel>
+  <channel id="MTV Classic">
+    <display-name lang="en">MTV Classic</display-name>
+  </channel>
+  <channel id="MTV Live HD">
+    <display-name lang="en">MTV Live HD</display-name>
+  </channel>
+  <channel id="NOW Music">
+    <display-name lang="en">NOW Music</display-name>
+  </channel>
+  <channel id="MTV - Music Television">
+    <display-name lang="en">MTV - Music Television</display-name>
+  </channel>
+  <channel id="MTV - Music Television HD">
+    <display-name lang="en">MTV - Music Television HD</display-name>
+  </channel>
+  <channel id="MTV2: Music Television">
+    <display-name lang="en">MTV2: Music Television</display-name>
+  </channel>
+  <channel id="MTV2: Music Television HD">
+    <display-name lang="en">MTV2: Music Television HD</display-name>
+  </channel>
+  <channel id="MTVLIVE">
+    <display-name lang="en">MTVLIVE</display-name>
+  </channel>
+  <channel id="The Box">
+    <display-name lang="en">The Box</display-name>
+  </channel>
+  <channel id="Magic">
+    <display-name lang="en">Magic</display-name>
+  </channel>
+  <channel id="Heat TV">
+    <display-name lang="en">Heat TV</display-name>
+  </channel>
+  <channel id="Smash Hits!">
+    <display-name lang="en">Smash Hits!</display-name>
+  </channel>
+  <channel id="Chart Show TV">
+    <display-name lang="en">Chart Show TV</display-name>
+  </channel>
+  <channel id="Scuzz">
+    <display-name lang="en">Scuzz</display-name>
+  </channel>
+  <channel id="Kerrang! TV">
+    <display-name lang="en">Kerrang! TV</display-name>
+  </channel>
+  <channel id="Starz">
+    <display-name lang="en">Starz</display-name>
+  </channel>
+  <channel id="Chart Show Dance">
+    <display-name lang="en">Chart Show Dance</display-name>
+  </channel>
+  <channel id="Flava">
+    <display-name lang="en">Flava</display-name>
+  </channel>
+  <channel id="The Vault">
+    <display-name lang="en">The Vault</display-name>
+  </channel>
+  <channel id="Chilled ">
+    <display-name lang="en">Chilled </display-name>
+  </channel>
+  <channel id="Starz TV">
+    <display-name lang="en">Starz TV</display-name>
+  </channel>
+  <channel id="Clubland TV">
+    <display-name lang="en">Clubland TV</display-name>
+  </channel>
+  <channel id="Channel AKA">
+    <display-name lang="en">Channel AKA</display-name>
+  </channel>
+  <channel id="Keep It Country">
+    <display-name lang="en">Keep It Country</display-name>
+  </channel>
+  <channel id="Great American Country">
+    <display-name lang="en">Great American Country</display-name>
+  </channel>
+  <channel id="Country Music Television">
+    <display-name lang="en">Country Music Television</display-name>
+  </channel>
+  <channel id="Country Music Television HD">
+    <display-name lang="en">Country Music Television HD</display-name>
+  </channel>
+  <channel id="Irish TV">
+    <display-name lang="en">Irish TV</display-name>
+  </channel>
+  <channel id="Eurosport HD">
+    <display-name lang="en">Eurosport HD</display-name>
+  </channel>
+  <channel id="Eurosport 1">
+    <display-name lang="en">Eurosport 1</display-name>
+  </channel>
+  <channel id="Eurosport 2 HD">
+    <display-name lang="en">Eurosport 2 HD</display-name>
+  </channel>
+  <channel id="Eurosport 2">
+    <display-name lang="en">Eurosport 2</display-name>
+  </channel>
+  <channel id="Sky Sports News HQ HD">
+    <display-name lang="en">Sky Sports News HQ HD</display-name>
+  </channel>
+  <channel id="Sky Sports News HQ">
+    <display-name lang="en">Sky Sports News HQ</display-name>
+  </channel>
+  <channel id="Sky Sports 1 HD">
+    <display-name lang="en">Sky Sports 1 HD</display-name>
+  </channel>
+  <channel id="Sky Sports 1">
+    <display-name lang="en">Sky Sports 1</display-name>
+  </channel>
+  <channel id="Sky Sports 2 HD">
+    <display-name lang="en">Sky Sports 2 HD</display-name>
+  </channel>
+  <channel id="Sky Sports 2 ">
+    <display-name lang="en">Sky Sports 2 </display-name>
+  </channel>
+  <channel id="Sky Sports 3 HD">
+    <display-name lang="en">Sky Sports 3 HD</display-name>
+  </channel>
+  <channel id="Sky Sports 3">
+    <display-name lang="en">Sky Sports 3</display-name>
+  </channel>
+  <channel id="Sky Sports 4 HD">
+    <display-name lang="en">Sky Sports 4 HD</display-name>
+  </channel>
+  <channel id="Sky Sports 4">
+    <display-name lang="en">Sky Sports 4</display-name>
+  </channel>
+  <channel id="Sky Sports 5 HD">
+    <display-name lang="en">Sky Sports 5 HD</display-name>
+  </channel>
+  <channel id="Sky Sports 5">
+    <display-name lang="en">Sky Sports 5</display-name>
+  </channel>
+  <channel id="Sky Sports F1 HD">
+    <display-name lang="en">Sky Sports F1 HD</display-name>
+  </channel>
+  <channel id="Sky Sports F1">
+    <display-name lang="en">Sky Sports F1</display-name>
+  </channel>
+  <channel id="Sky Sports Box Office HD">
+    <display-name lang="en">Sky Sports Box Office HD</display-name>
+  </channel>
+  <channel id="Sky Sports Box Office">
+    <display-name lang="en">Sky Sports Box Office</display-name>
+  </channel>
+  <channel id="BT Sport 1HD">
+    <display-name lang="en">BT Sport 1HD</display-name>
+  </channel>
+  <channel id="BT Sport 1">
+    <display-name lang="en">BT Sport 1</display-name>
+  </channel>
+  <channel id="BT Sport 2 HD">
+    <display-name lang="en">BT Sport 2 HD</display-name>
+  </channel>
+  <channel id="BT Sport 2">
+    <display-name lang="en">BT Sport 2</display-name>
+  </channel>
+  <channel id="BT Sport Europe HD">
+    <display-name lang="en">BT Sport Europe HD</display-name>
+  </channel>
+  <channel id="BT Sport Europe">
+    <display-name lang="en">BT Sport Europe</display-name>
+  </channel>
+  <channel id="BT Sport//ESPN HD">
+    <display-name lang="en">BT Sport//ESPN HD</display-name>
+  </channel>
+  <channel id="BT Sport//ESPN">
+    <display-name lang="en">BT Sport//ESPN</display-name>
+  </channel>
+  <channel id="Premier Sports HD">
+    <display-name lang="en">Premier Sports HD</display-name>
+  </channel>
+  <channel id="Premier Sports">
+    <display-name lang="en">Premier Sports</display-name>
+  </channel>
+  <channel id="Bike">
+    <display-name lang="en">Bike</display-name>
+  </channel>
+  <channel id="Racing UK HD">
+    <display-name lang="en">Racing UK HD</display-name>
+  </channel>
+  <channel id="Racing UK">
+    <display-name lang="en">Racing UK</display-name>
+  </channel>
+  <channel id="At The Races">
+    <display-name lang="en">At The Races</display-name>
+  </channel>
+  <channel id="BoxNation HD">
+    <display-name lang="en">BoxNation HD</display-name>
+  </channel>
+  <channel id="BoxNation">
+    <display-name lang="en">BoxNation</display-name>
+  </channel>
+  <channel id="Chelsea TV HD">
+    <display-name lang="en">Chelsea TV HD</display-name>
+  </channel>
+  <channel id="Chelsea TV">
+    <display-name lang="en">Chelsea TV</display-name>
+  </channel>
+  <channel id="The Active Channel">
+    <display-name lang="en">The Active Channel</display-name>
+  </channel>
+  <channel id="MUTV HD">
+    <display-name lang="en">MUTV HD</display-name>
+  </channel>
+  <channel id="MUTV">
+    <display-name lang="en">MUTV</display-name>
+  </channel>
+  <channel id="LFC TV HD">
+    <display-name lang="en">LFC TV HD</display-name>
+  </channel>
+  <channel id="LFC TV">
+    <display-name lang="en">LFC TV</display-name>
+  </channel>
+  <channel id="Motors TV">
+    <display-name lang="en">Motors TV</display-name>
+  </channel>
+  <channel id="ESPN Deportes">
+    <display-name lang="en">ESPN Deportes</display-name>
+  </channel>
+  <channel id="ESPN Deportes HD">
+    <display-name lang="en">ESPN Deportes HD</display-name>
+  </channel>
+  <channel id="beIN Sports En Espaol">
+    <display-name lang="en">beIN Sports En Espaol</display-name>
+  </channel>
+  <channel id="beIN Sports En Espaol HD">
+    <display-name lang="en">beIN Sports En Espaol HD</display-name>
+  </channel>
+  <channel id="GOL TV">
+    <display-name lang="en">GOL TV</display-name>
+  </channel>
+  <channel id="TRACE Sport Stars">
+    <display-name lang="en">TRACE Sport Stars</display-name>
+  </channel>
+  <channel id="TyC Sports">
+    <display-name lang="en">TyC Sports</display-name>
+  </channel>
+  <channel id="Time Warner Cable Deportes HD">
+    <display-name lang="en">Time Warner Cable Deportes HD</display-name>
+  </channel>
+  <channel id="Time Warner Cable Deportes SD">
+    <display-name lang="en">Time Warner Cable Deportes SD</display-name>
+  </channel>
+  <channel id="MLS Direct Kick - Direct TV - MLSSO">
+    <display-name lang="en">MLS Direct Kick - Direct TV - MLSSO</display-name>
+  </channel>
+  <channel id="MLS Direct Kick - Direct TV - MLSSO2">
+    <display-name lang="en">MLS Direct Kick - Direct TV - MLSSO2</display-name>
+  </channel>
+  <channel id="MLS Direct Kick - Direct TV - MLSSO3">
+    <display-name lang="en">MLS Direct Kick - Direct TV - MLSSO3</display-name>
+  </channel>
+  <channel id="MLS Direct Kick - Direct TV - MLSSO4">
+    <display-name lang="en">MLS Direct Kick - Direct TV - MLSSO4</display-name>
+  </channel>
+  <channel id="MLS Direct Kick - Direct TV - MLSSO5">
+    <display-name lang="en">MLS Direct Kick - Direct TV - MLSSO5</display-name>
+  </channel>
+  <channel id="MLS Direct Kick - Direct TV - MLSSO6">
+    <display-name lang="en">MLS Direct Kick - Direct TV - MLSSO6</display-name>
+  </channel>
+  <channel id="Local Origination - LOOR489">
+    <display-name lang="en">Local Origination - LOOR489</display-name>
+  </channel>
+  <channel id="Local Origination - LOOR490">
+    <display-name lang="en">Local Origination - LOOR490</display-name>
+  </channel>
+  <channel id="NBC">
+    <display-name lang="en">NBC</display-name>
+  </channel>
+  <channel id="NBCSN HD">
+    <display-name lang="en">NBCSN HD</display-name>
+  </channel>
+  <channel id="NBCSN">
+    <display-name lang="en">NBCSN</display-name>
+  </channel>
+  <channel id="NBC Sports Extra Time 1 HD">
+    <display-name lang="en">NBC Sports Extra Time 1 HD</display-name>
+  </channel>
+  <channel id="NBC Sports Extra Time 2 HD">
+    <display-name lang="en">NBC Sports Extra Time 2 HD</display-name>
+  </channel>
+  <channel id="NBC Sports Extra Time 3 HD">
+    <display-name lang="en">NBC Sports Extra Time 3 HD</display-name>
+  </channel>
+  <channel id="NBC Sports Extra Time 4 HD">
+    <display-name lang="en">NBC Sports Extra Time 4 HD</display-name>
+  </channel>
+  <channel id="NBC Sports Extra Time 5 HD">
+    <display-name lang="en">NBC Sports Extra Time 5 HD</display-name>
+  </channel>
+  <channel id="Special Events Channel">
+    <display-name lang="en">Special Events Channel</display-name>
+  </channel>
+  <channel id="Spike">
+    <display-name lang="en">Spike</display-name>
+  </channel>
+  <channel id="BET:BlackEntTV">
+    <display-name lang="en">BET:BlackEntTV</display-name>
+  </channel>
+  <channel id="Propeller TV">
+    <display-name lang="en">Propeller TV</display-name>
+  </channel>
+  <channel id="HLN HD">
+    <display-name lang="en">HLN HD</display-name>
+  </channel>
+  <channel id="ESPNEWS HD">
+    <display-name lang="en">ESPNEWS HD</display-name>
+  </channel>
+  <channel id="ESPNEWS">
+    <display-name lang="en">ESPNEWS</display-name>
+  </channel>
+  <channel id="ESPN University HD">
+    <display-name lang="en">ESPN University HD</display-name>
+  </channel>
+  <channel id="ESPN">
+    <display-name lang="en">ESPN</display-name>
+  </channel>
+  <channel id="ESPNHD">
+    <display-name lang="en">ESPNHD</display-name>
+  </channel>
+  <channel id="ESPN (Alternate)">
+    <display-name lang="en">ESPN (Alternate)</display-name>
+  </channel>
+  <channel id="ESPN2 (Alternate)">
+    <display-name lang="en">ESPN2 (Alternate)</display-name>
+  </channel>
+  <channel id="ESPN2">
+    <display-name lang="en">ESPN2</display-name>
+  </channel>
+  <channel id="ESPN2 HD">
+    <display-name lang="en">ESPN2 HD</display-name>
+  </channel>
+  <channel id="ESPNU">
+    <display-name lang="en">ESPNU</display-name>
+  </channel>
+  <channel id="GSN">
+    <display-name lang="en">GSN</display-name>
+  </channel>
+  <channel id="NFL NETWORK">
+    <display-name lang="en">NFL NETWORK</display-name>
+  </channel>
+  <channel id="NFL Network HD">
+    <display-name lang="en">NFL Network HD</display-name>
+  </channel>
+  <channel id="MLB Network">
+    <display-name lang="en">MLB Network</display-name>
+  </channel>
+  <channel id="MLB Network HD">
+    <display-name lang="en">MLB Network HD</display-name>
+  </channel>
+  <channel id="MLB Network HD Alternate">
+    <display-name lang="en">MLB Network HD Alternate</display-name>
+  </channel>
+  <channel id="MLB Network Alternate">
+    <display-name lang="en">MLB Network Alternate</display-name>
+  </channel>
+  <channel id="MavTV">
+    <display-name lang="en">MavTV</display-name>
+  </channel>
+  <channel id="NHL Network">
+    <display-name lang="en">NHL Network</display-name>
+  </channel>
+  <channel id="NHL Network HD">
+    <display-name lang="en">NHL Network HD</display-name>
+  </channel>
+  <channel id="NBA TV">
+    <display-name lang="en">NBA TV</display-name>
+  </channel>
+  <channel id="NBA TV HDTV">
+    <display-name lang="en">NBA TV HDTV</display-name>
+  </channel>
+  <channel id="Tennis Channel">
+    <display-name lang="en">Tennis Channel</display-name>
+  </channel>
+  <channel id="Tennis Channel HD">
+    <display-name lang="en">Tennis Channel HD</display-name>
+  </channel>
+  <channel id="The Golf Channel">
+    <display-name lang="en">The Golf Channel</display-name>
+  </channel>
+  <channel id="The Golf Channel HD">
+    <display-name lang="en">The Golf Channel HD</display-name>
+  </channel>
+  <channel id="Fox Sports 1">
+    <display-name lang="en">Fox Sports 1</display-name>
+  </channel>
+  <channel id="Fox Sports 1 HD">
+    <display-name lang="en">Fox Sports 1 HD</display-name>
+  </channel>
+  <channel id="Fox Sports Arizona - FSAZ (Alternate Feed)">
+    <display-name lang="en">Fox Sports Arizona - FSAZ (Alternate Feed)</display-name>
+  </channel>
+  <channel id="CBS Sports Network">
+    <display-name lang="en">CBS Sports Network</display-name>
+  </channel>
+  <channel id="CBS Sports Network HD">
+    <display-name lang="en">CBS Sports Network HD</display-name>
+  </channel>
+  <channel id="DirecTV Sports Mix">
+    <display-name lang="en">DirecTV Sports Mix</display-name>
+  </channel>
+  <channel id="Audience Channel">
+    <display-name lang="en">Audience Channel</display-name>
+  </channel>
+  <channel id="Audience Channel HD">
+    <display-name lang="en">Audience Channel HD</display-name>
+  </channel>
+  <channel id="TV Games Network">
+    <display-name lang="en">TV Games Network</display-name>
+  </channel>
+  <channel id="Pursuit Channel">
+    <display-name lang="en">Pursuit Channel</display-name>
+  </channel>
+  <channel id="The Sportsman Channel">
+    <display-name lang="en">The Sportsman Channel</display-name>
+  </channel>
+  <channel id="Outdoor Channel">
+    <display-name lang="en">Outdoor Channel</display-name>
+  </channel>
+  <channel id="Fox College Sports (Central)">
+    <display-name lang="en">Fox College Sports (Central)</display-name>
+  </channel>
+  <channel id="Fox College Sports (Pacific)">
+    <display-name lang="en">Fox College Sports (Pacific)</display-name>
+  </channel>
+  <channel id="Fox College Sports (Atlantic)">
+    <display-name lang="en">Fox College Sports (Atlantic)</display-name>
+  </channel>
+  <channel id="Big Ten Network">
+    <display-name lang="en">Big Ten Network</display-name>
+  </channel>
+  <channel id="Big Ten HD">
+    <display-name lang="en">Big Ten HD</display-name>
+  </channel>
+  <channel id="Big Ten Network Overflow">
+    <display-name lang="en">Big Ten Network Overflow</display-name>
+  </channel>
+  <channel id="Big Ten Network Overflow HD">
+    <display-name lang="en">Big Ten Network Overflow HD</display-name>
+  </channel>
+  <channel id="Big Ten Network Overflow 2">
+    <display-name lang="en">Big Ten Network Overflow 2</display-name>
+  </channel>
+  <channel id="Big Ten Network Overflow 3">
+    <display-name lang="en">Big Ten Network Overflow 3</display-name>
+  </channel>
+  <channel id="Big Ten Network Overflow 4">
+    <display-name lang="en">Big Ten Network Overflow 4</display-name>
+  </channel>
+  <channel id="SEC Network">
+    <display-name lang="en">SEC Network</display-name>
+  </channel>
+  <channel id="SEC Network HD">
+    <display-name lang="en">SEC Network HD</display-name>
+  </channel>
+  <channel id="ESPN Classic">
+    <display-name lang="en">ESPN Classic</display-name>
+  </channel>
+  <channel id="ESPN Bases Loaded">
+    <display-name lang="en">ESPN Bases Loaded</display-name>
+  </channel>
+  <channel id="Fox Sports 2">
+    <display-name lang="en">Fox Sports 2</display-name>
+  </channel>
+  <channel id="Fox Sports 2 HD">
+    <display-name lang="en">Fox Sports 2 HD</display-name>
+  </channel>
+  <channel id="beIN Sports">
+    <display-name lang="en">beIN Sports</display-name>
+  </channel>
+  <channel id="beIN Sports HD">
+    <display-name lang="en">beIN Sports HD</display-name>
+  </channel>
+  <channel id="Fox Soccer Plus">
+    <display-name lang="en">Fox Soccer Plus</display-name>
+  </channel>
+  <channel id="Fox Soccer Plus HD">
+    <display-name lang="en">Fox Soccer Plus HD</display-name>
+  </channel>
+  <channel id="Fox Deportes">
+    <display-name lang="en">Fox Deportes</display-name>
+  </channel>
+  <channel id="Fox Deportes HD">
+    <display-name lang="en">Fox Deportes HD</display-name>
+  </channel>
+  <channel id="New England Sports Network">
+    <display-name lang="en">New England Sports Network</display-name>
+  </channel>
+  <channel id="New England Sports Network HD">
+    <display-name lang="en">New England Sports Network HD</display-name>
+  </channel>
+  <channel id="New England Sports Network Plus">
+    <display-name lang="en">New England Sports Network Plus</display-name>
+  </channel>
+  <channel id="New England Sports Network Plus HD">
+    <display-name lang="en">New England Sports Network Plus HD</display-name>
+  </channel>
+  <channel id="Comcast SportsNet New England">
+    <display-name lang="en">Comcast SportsNet New England</display-name>
+  </channel>
+  <channel id="Comcast SportsNet New England HD">
+    <display-name lang="en">Comcast SportsNet New England HD</display-name>
+  </channel>
+  <channel id="Comcast SportsNet New England Overflow">
+    <display-name lang="en">Comcast SportsNet New England Overflow</display-name>
+  </channel>
+  <channel id="Yankees Entertainment &amp; Sports Network">
+    <display-name lang="en">Yankees Entertainment &amp; Sports Network</display-name>
+  </channel>
+  <channel id="Yes Network HD (24/7 feed)">
+    <display-name lang="en">Yes Network HD (24/7 feed)</display-name>
+  </channel>
+  <channel id="MSG HD Zone 1">
+    <display-name lang="en">MSG HD Zone 1</display-name>
+  </channel>
+  <channel id="MSG Zone 1">
+    <display-name lang="en">MSG Zone 1</display-name>
+  </channel>
+  <channel id="MSG Plus HD Zone 1">
+    <display-name lang="en">MSG Plus HD Zone 1</display-name>
+  </channel>
+  <channel id="MSG Plus Zone 1">
+    <display-name lang="en">MSG Plus Zone 1</display-name>
+  </channel>
+  <channel id="Sportsnet NY">
+    <display-name lang="en">Sportsnet NY</display-name>
+  </channel>
+  <channel id="Sportsnet NY HD">
+    <display-name lang="en">Sportsnet NY HD</display-name>
+  </channel>
+  <channel id="MASN - Mid Atlantic Sports Network">
+    <display-name lang="en">MASN - Mid Atlantic Sports Network</display-name>
+  </channel>
+  <channel id="Mid Atlantic Sports Network Alternate">
+    <display-name lang="en">Mid Atlantic Sports Network Alternate</display-name>
+  </channel>
+  <channel id="MASN HD">
+    <display-name lang="en">MASN HD</display-name>
+  </channel>
+  <channel id="Mid Atlantic Sports Network Alternate">
+    <display-name lang="en">Mid Atlantic Sports Network Alternate</display-name>
+  </channel>
+  <channel id="MASN2 HD">
+    <display-name lang="en">MASN2 HD</display-name>
+  </channel>
+  <channel id="Comcast SportsNet Mid-Atlantic">
+    <display-name lang="en">Comcast SportsNet Mid-Atlantic</display-name>
+  </channel>
+  <channel id="Comcast SportsNet Mid-Atlantic HD">
+    <display-name lang="en">Comcast SportsNet Mid-Atlantic HD</display-name>
+  </channel>
+  <channel id="Comcast SportsNet Mid-Atlantic Plus">
+    <display-name lang="en">Comcast SportsNet Mid-Atlantic Plus</display-name>
+  </channel>
+  <channel id="Comcast SportsNet Mid-Atlantic Plus">
+    <display-name lang="en">Comcast SportsNet Mid-Atlantic Plus</display-name>
+  </channel>
+  <channel id="Fox Sports South - Main Feed">
+    <display-name lang="en">Fox Sports South - Main Feed</display-name>
+  </channel>
+  <channel id="Fox Sports South HD(Full Time)">
+    <display-name lang="en">Fox Sports South HD(Full Time)</display-name>
+  </channel>
+  <channel id="Fox Sports South Plus">
+    <display-name lang="en">Fox Sports South Plus</display-name>
+  </channel>
+  <channel id="Fox Sports South Overflow">
+    <display-name lang="en">Fox Sports South Overflow</display-name>
+  </channel>
+  <channel id="Fox Sports South Plus">
+    <display-name lang="en">Fox Sports South Plus</display-name>
+  </channel>
+  <channel id="Regional Sports Alt Message Channel">
+    <display-name lang="en">Regional Sports Alt Message Channel</display-name>
+  </channel>
+  <channel id="Regional Sports Alt Message Channel">
+    <display-name lang="en">Regional Sports Alt Message Channel</display-name>
+  </channel>
+  <channel id="Fox Sports Florida">
+    <display-name lang="en">Fox Sports Florida</display-name>
+  </channel>
+  <channel id="Fox Sports Florida (No Florida feed)">
+    <display-name lang="en">Fox Sports Florida (No Florida feed)</display-name>
+  </channel>
+  <channel id="Fox Sports Florida (South)">
+    <display-name lang="en">Fox Sports Florida (South)</display-name>
+  </channel>
+  <channel id="Fox Sports Florida HD">
+    <display-name lang="en">Fox Sports Florida HD</display-name>
+  </channel>
+  <channel id="ROOT Sports Pittsburgh (Alt feed)">
+    <display-name lang="en">ROOT Sports Pittsburgh (Alt feed)</display-name>
+  </channel>
+  <channel id="ROOT Sports Pittsburgh HD">
+    <display-name lang="en">ROOT Sports Pittsburgh HD</display-name>
+  </channel>
+  <channel id="Fox Sports Ohio 1 (Cleveland feed)">
+    <display-name lang="en">Fox Sports Ohio 1 (Cleveland feed)</display-name>
+  </channel>
+  <channel id="Fox Sports Ohio 2 (Cincinnati feed)">
+    <display-name lang="en">Fox Sports Ohio 2 (Cincinnati feed)</display-name>
+  </channel>
+  <channel id="Fox Sports Ohio">
+    <display-name lang="en">Fox Sports Ohio</display-name>
+  </channel>
+  <channel id="Fox Sports Ohio HD">
+    <display-name lang="en">Fox Sports Ohio HD</display-name>
+  </channel>
+  <channel id="Sportstime Ohio HD">
+    <display-name lang="en">Sportstime Ohio HD</display-name>
+  </channel>
+  <channel id="Sportstime Ohio">
+    <display-name lang="en">Sportstime Ohio</display-name>
+  </channel>
+  <channel id="Fox Sports Detroit - FSD">
+    <display-name lang="en">Fox Sports Detroit - FSD</display-name>
+  </channel>
+  <channel id="Fox Sports Detroit HD">
+    <display-name lang="en">Fox Sports Detroit HD</display-name>
+  </channel>
+  <channel id="Comcast SportsNet Chicago">
+    <display-name lang="en">Comcast SportsNet Chicago</display-name>
+  </channel>
+  <channel id="Comcast SportsNet Chicago HD">
+    <display-name lang="en">Comcast SportsNet Chicago HD</display-name>
+  </channel>
+  <channel id="Comcast SportsNet Chicago Plus">
+    <display-name lang="en">Comcast SportsNet Chicago Plus</display-name>
+  </channel>
+  <channel id="Comcast SportsNet Chicago Plus 2">
+    <display-name lang="en">Comcast SportsNet Chicago Plus 2</display-name>
+  </channel>
+  <channel id="Fox Sports North">
+    <display-name lang="en">Fox Sports North</display-name>
+  </channel>
+  <channel id="Fox Sports North HD">
+    <display-name lang="en">Fox Sports North HD</display-name>
+  </channel>
+  <channel id="Fox Sports Midwest - Satellite Feed">
+    <display-name lang="en">Fox Sports Midwest - Satellite Feed</display-name>
+  </channel>
+  <channel id="Fox Sports Midwest HD - Satellite Feed">
+    <display-name lang="en">Fox Sports Midwest HD - Satellite Feed</display-name>
+  </channel>
+  <channel id="Fox Sports Midwest Plus (KC)">
+    <display-name lang="en">Fox Sports Midwest Plus (KC)</display-name>
+  </channel>
+  <channel id="ROOT Sports Southwest">
+    <display-name lang="en">ROOT Sports Southwest</display-name>
+  </channel>
+  <channel id="ROOT Sports Southwest Plus">
+    <display-name lang="en">ROOT Sports Southwest Plus</display-name>
+  </channel>
+  <channel id="Regional Sports Alt Message Channel">
+    <display-name lang="en">Regional Sports Alt Message Channel</display-name>
+  </channel>
+  <channel id="Fox Sports Southwest (Main Feed)">
+    <display-name lang="en">Fox Sports Southwest (Main Feed)</display-name>
+  </channel>
+  <channel id="Fox Sports Southwest HD">
+    <display-name lang="en">Fox Sports Southwest HD</display-name>
+  </channel>
+  <channel id="Longhorn Network HD">
+    <display-name lang="en">Longhorn Network HD</display-name>
+  </channel>
+  <channel id="Altitude Sports 2">
+    <display-name lang="en">Altitude Sports 2</display-name>
+  </channel>
+  <channel id="Altitude Sports and Entertainment Networ">
+    <display-name lang="en">Altitude Sports and Entertainment Networ</display-name>
+  </channel>
+  <channel id="Altitude Sports 2">
+    <display-name lang="en">Altitude Sports 2</display-name>
+  </channel>
+  <channel id="Altitude Sports and Entertainment Network">
+    <display-name lang="en">Altitude Sports and Entertainment Network</display-name>
+  </channel>
+  <channel id="Altitude Sports and Entertainment Network HD 24/7">
+    <display-name lang="en">Altitude Sports and Entertainment Network HD 24/7</display-name>
+  </channel>
+  <channel id="ROOT (ROOT Sports Rocky Mtn Utah)">
+    <display-name lang="en">ROOT (ROOT Sports Rocky Mtn Utah)</display-name>
+  </channel>
+  <channel id="ROOT HD (ROOT Sports Rocky Mtn Utah)">
+    <display-name lang="en">ROOT HD (ROOT Sports Rocky Mtn Utah)</display-name>
+  </channel>
+  <channel id="ROOT Sports Rocky Mountain">
+    <display-name lang="en">ROOT Sports Rocky Mountain</display-name>
+  </channel>
+  <channel id="ROOT Sports Rocky Mountain (alt)">
+    <display-name lang="en">ROOT Sports Rocky Mountain (alt)</display-name>
+  </channel>
+  <channel id="ROOT Sports Northwest">
+    <display-name lang="en">ROOT Sports Northwest</display-name>
+  </channel>
+  <channel id="ROOT Sports Northwest (Alt) - RTN2">
+    <display-name lang="en">ROOT Sports Northwest (Alt) - RTN2</display-name>
+  </channel>
+  <channel id="ROOT Sports Northwest HD">
+    <display-name lang="en">ROOT Sports Northwest HD</display-name>
+  </channel>
+  <channel id="ROOT Sports Northwest (Alt) - RTN2">
+    <display-name lang="en">ROOT Sports Northwest (Alt) - RTN2</display-name>
+  </channel>
+  <channel id="ROOT Sports Northwest HD">
+    <display-name lang="en">ROOT Sports Northwest HD</display-name>
+  </channel>
+  <channel id="ROOT Sports Pittsburgh (Main Transponder)">
+    <display-name lang="en">ROOT Sports Pittsburgh (Main Transponder)</display-name>
+  </channel>
+  <channel id="Regional Sports Alt Message Channel">
+    <display-name lang="en">Regional Sports Alt Message Channel</display-name>
+  </channel>
+  <channel id="Regional Sports Alt Message Channel">
+    <display-name lang="en">Regional Sports Alt Message Channel</display-name>
+  </channel>
+  <channel id="Time Warner Cable Sportsnet SD">
+    <display-name lang="en">Time Warner Cable Sportsnet SD</display-name>
+  </channel>
+  <channel id="Time Warner Cable Sportsnet HD">
+    <display-name lang="en">Time Warner Cable Sportsnet HD</display-name>
+  </channel>
+  <channel id="Fox Sports Arizona - FSAZ">
+    <display-name lang="en">Fox Sports Arizona - FSAZ</display-name>
+  </channel>
+  <channel id="Fox Sports Arizona - FSAZ (Alternate Fee">
+    <display-name lang="en">Fox Sports Arizona - FSAZ (Alternate Fee</display-name>
+  </channel>
+  <channel id="Fox Sports Arizona HD">
+    <display-name lang="en">Fox Sports Arizona HD</display-name>
+  </channel>
+  <channel id="Fox Sports Arizona Plus">
+    <display-name lang="en">Fox Sports Arizona Plus</display-name>
+  </channel>
+  <channel id="Fox Sports Ohio 2 HD (Cincinnati Alternative Feed)">
+    <display-name lang="en">Fox Sports Ohio 2 HD (Cincinnati Alternative Feed)</display-name>
+  </channel>
+  <channel id="Fox Sports Ohio 2 (Cincinnati Alternative Feed)">
+    <display-name lang="en">Fox Sports Ohio 2 (Cincinnati Alternative Feed)</display-name>
+  </channel>
+  <channel id="Fox Sports Prime Ticket">
+    <display-name lang="en">Fox Sports Prime Ticket</display-name>
+  </channel>
+  <channel id="Fox Sports Prime Ticket HD">
+    <display-name lang="en">Fox Sports Prime Ticket HD</display-name>
+  </channel>
+  <channel id="Fox Sports San Diego">
+    <display-name lang="en">Fox Sports San Diego</display-name>
+  </channel>
+  <channel id="Fox Sports San Diego HD">
+    <display-name lang="en">Fox Sports San Diego HD</display-name>
+  </channel>
+  <channel id="Fox Sports Southeast HD">
+    <display-name lang="en">Fox Sports Southeast HD</display-name>
+  </channel>
+  <channel id="Fox Sports Southeast">
+    <display-name lang="en">Fox Sports Southeast</display-name>
+  </channel>
+  <channel id="FOX Sports Sun">
+    <display-name lang="en">FOX Sports Sun</display-name>
+  </channel>
+  <channel id="FOX Sports Sun HD">
+    <display-name lang="en">FOX Sports Sun HD</display-name>
+  </channel>
+  <channel id="FOX Sports Sun (Alt) - SUN">
+    <display-name lang="en">FOX Sports Sun (Alt) - SUN</display-name>
+  </channel>
+  <channel id="Fox Sports West">
+    <display-name lang="en">Fox Sports West</display-name>
+  </channel>
+  <channel id="Fox Sports West HD">
+    <display-name lang="en">Fox Sports West HD</display-name>
+  </channel>
+  <channel id="Comcast SportsNet Bay Area">
+    <display-name lang="en">Comcast SportsNet Bay Area</display-name>
+  </channel>
+  <channel id="Comcast SportsNet Bay Area HD">
+    <display-name lang="en">Comcast SportsNet Bay Area HD</display-name>
+  </channel>
+  <channel id="Comcast SportsNet California SAT">
+    <display-name lang="en">Comcast SportsNet California SAT</display-name>
+  </channel>
+  <channel id="Comcast SportsNet California SAT HD">
+    <display-name lang="en">Comcast SportsNet California SAT HD</display-name>
+  </channel>
+  <channel id="NFL SUNDAY TICKET MIX 1">
+    <display-name lang="en">NFL SUNDAY TICKET MIX 1</display-name>
+  </channel>
+  <channel id="NFL SUNDAY TICKET MIX 2">
+    <display-name lang="en">NFL SUNDAY TICKET MIX 2</display-name>
+  </channel>
+  <channel id="NFL SUNDAY TICKET RED ZONE">
+    <display-name lang="en">NFL SUNDAY TICKET RED ZONE</display-name>
+  </channel>
+  <channel id="NFL RedZone HD">
+    <display-name lang="en">NFL RedZone HD</display-name>
+  </channel>
+  <channel id="NFL Sunday Ticket - 704">
+    <display-name lang="en">NFL Sunday Ticket - 704</display-name>
+  </channel>
+  <channel id="NFL Sunday Ticket - 705">
+    <display-name lang="en">NFL Sunday Ticket - 705</display-name>
+  </channel>
+  <channel id="NFL Sunday Ticket - 706">
+    <display-name lang="en">NFL Sunday Ticket - 706</display-name>
+  </channel>
+  <channel id="NFL Sunday Ticket - 707">
+    <display-name lang="en">NFL Sunday Ticket - 707</display-name>
+  </channel>
+  <channel id="NFL Sunday Ticket - 708">
+    <display-name lang="en">NFL Sunday Ticket - 708</display-name>
+  </channel>
+  <channel id="NFL Sunday Ticket - 709">
+    <display-name lang="en">NFL Sunday Ticket - 709</display-name>
+  </channel>
+  <channel id="NFL Sunday Ticket - 710">
+    <display-name lang="en">NFL Sunday Ticket - 710</display-name>
+  </channel>
+  <channel id="NFL Sunday Ticket - 711">
+    <display-name lang="en">NFL Sunday Ticket - 711</display-name>
+  </channel>
+  <channel id="NFL Sunday Ticket - 712">
+    <display-name lang="en">NFL Sunday Ticket - 712</display-name>
+  </channel>
+  <channel id="NFL Sunday Ticket - 713">
+    <display-name lang="en">NFL Sunday Ticket - 713</display-name>
+  </channel>
+  <channel id="NFL Sunday Ticket - 714">
+    <display-name lang="en">NFL Sunday Ticket - 714</display-name>
+  </channel>
+  <channel id="NFL Sunday Ticket - 715">
+    <display-name lang="en">NFL Sunday Ticket - 715</display-name>
+  </channel>
+  <channel id="NFL Sunday Ticket - 716">
+    <display-name lang="en">NFL Sunday Ticket - 716</display-name>
+  </channel>
+  <channel id="NFL Sunday Ticket - NFL717">
+    <display-name lang="en">NFL Sunday Ticket - NFL717</display-name>
+  </channel>
+  <channel id="NFL Sunday Ticket - NFL718">
+    <display-name lang="en">NFL Sunday Ticket - NFL718</display-name>
+  </channel>
+  <channel id="MLB Network Strike Zone HD">
+    <display-name lang="en">MLB Network Strike Zone HD</display-name>
+  </channel>
+  <channel id="DirecTV - MLB Extra Innings - MLBEI">
+    <display-name lang="en">DirecTV - MLB Extra Innings - MLBEI</display-name>
+  </channel>
+  <channel id="MLB Extra Innings 721">
+    <display-name lang="en">MLB Extra Innings 721</display-name>
+  </channel>
+  <channel id="MLB Extra Innings 722">
+    <display-name lang="en">MLB Extra Innings 722</display-name>
+  </channel>
+  <channel id="MLB Extra Innings 723">
+    <display-name lang="en">MLB Extra Innings 723</display-name>
+  </channel>
+  <channel id="MLB Extra Innings 724">
+    <display-name lang="en">MLB Extra Innings 724</display-name>
+  </channel>
+  <channel id="MLB Extra Innings 725">
+    <display-name lang="en">MLB Extra Innings 725</display-name>
+  </channel>
+  <channel id="MLB Extra Innings 726">
+    <display-name lang="en">MLB Extra Innings 726</display-name>
+  </channel>
+  <channel id="MLB Extra Innings 727">
+    <display-name lang="en">MLB Extra Innings 727</display-name>
+  </channel>
+  <channel id="MLB Extra Innings 728">
+    <display-name lang="en">MLB Extra Innings 728</display-name>
+  </channel>
+  <channel id="MLB Extra Innings 729">
+    <display-name lang="en">MLB Extra Innings 729</display-name>
+  </channel>
+  <channel id="MLB Extra Innings 730">
+    <display-name lang="en">MLB Extra Innings 730</display-name>
+  </channel>
+  <channel id="MLB Extra Innings 731">
+    <display-name lang="en">MLB Extra Innings 731</display-name>
+  </channel>
+  <channel id="MLB Extra Innings 732">
+    <display-name lang="en">MLB Extra Innings 732</display-name>
+  </channel>
+  <channel id="MLB Extra Innings 733">
+    <display-name lang="en">MLB Extra Innings 733</display-name>
+  </channel>
+  <channel id="MLB Extra Innings 734">
+    <display-name lang="en">MLB Extra Innings 734</display-name>
+  </channel>
+  <channel id="MLB Extra Innings 735">
+    <display-name lang="en">MLB Extra Innings 735</display-name>
+  </channel>
+  <channel id="MLB Extra Innings 736">
+    <display-name lang="en">MLB Extra Innings 736</display-name>
+  </channel>
+  <channel id="MLB Extra Innings 737">
+    <display-name lang="en">MLB Extra Innings 737</display-name>
+  </channel>
+  <channel id="MLB Extra Innings 738">
+    <display-name lang="en">MLB Extra Innings 738</display-name>
+  </channel>
+  <channel id="MLB Extra Innings 739">
+    <display-name lang="en">MLB Extra Innings 739</display-name>
+  </channel>
+  <channel id="MLB Extra Innings 740">
+    <display-name lang="en">MLB Extra Innings 740</display-name>
+  </channel>
+  <channel id="MLB Extra Innings 741">
+    <display-name lang="en">MLB Extra Innings 741</display-name>
+  </channel>
+  <channel id="MLB Extra Innings 742">
+    <display-name lang="en">MLB Extra Innings 742</display-name>
+  </channel>
+  <channel id="MLB Extra Innings 743">
+    <display-name lang="en">MLB Extra Innings 743</display-name>
+  </channel>
+  <channel id="MLB Extra Innings 744">
+    <display-name lang="en">MLB Extra Innings 744</display-name>
+  </channel>
+  <channel id="MLB Extra Innings 745">
+    <display-name lang="en">MLB Extra Innings 745</display-name>
+  </channel>
+  <channel id="MLB Extra Innings 746">
+    <display-name lang="en">MLB Extra Innings 746</display-name>
+  </channel>
+  <channel id="MLB Extra Innings 747">
+    <display-name lang="en">MLB Extra Innings 747</display-name>
+  </channel>
+  <channel id="MLB Extra Innings 748">
+    <display-name lang="en">MLB Extra Innings 748</display-name>
+  </channel>
+  <channel id="MLB Extra Innings 749">
+    <display-name lang="en">MLB Extra Innings 749</display-name>
+  </channel>
+  <channel id="NBA League Pass 750">
+    <display-name lang="en">NBA League Pass 750</display-name>
+  </channel>
+  <channel id="NBA League Pass 751">
+    <display-name lang="en">NBA League Pass 751</display-name>
+  </channel>
+  <channel id="NBA League Pass 752">
+    <display-name lang="en">NBA League Pass 752</display-name>
+  </channel>
+  <channel id="NBA League Pass 753">
+    <display-name lang="en">NBA League Pass 753</display-name>
+  </channel>
+  <channel id="NBA League Pass 754">
+    <display-name lang="en">NBA League Pass 754</display-name>
+  </channel>
+  <channel id="NBA League Pass 755">
+    <display-name lang="en">NBA League Pass 755</display-name>
+  </channel>
+  <channel id="NBA League Pass 756">
+    <display-name lang="en">NBA League Pass 756</display-name>
+  </channel>
+  <channel id="NBA League Pass 757">
+    <display-name lang="en">NBA League Pass 757</display-name>
+  </channel>
+  <channel id="NBA League Pass 758">
+    <display-name lang="en">NBA League Pass 758</display-name>
+  </channel>
+  <channel id="NBA League Pass 759">
+    <display-name lang="en">NBA League Pass 759</display-name>
+  </channel>
+  <channel id="NBA League Pass 760">
+    <display-name lang="en">NBA League Pass 760</display-name>
+  </channel>
+  <channel id="NBA League Pass 761">
+    <display-name lang="en">NBA League Pass 761</display-name>
+  </channel>
+  <channel id="NBA League Pass 762">
+    <display-name lang="en">NBA League Pass 762</display-name>
+  </channel>
+  <channel id="NBA League Pass 763">
+    <display-name lang="en">NBA League Pass 763</display-name>
+  </channel>
+  <channel id="NBA League Pass 764">
+    <display-name lang="en">NBA League Pass 764</display-name>
+  </channel>
+  <channel id="NBA League Pass 765">
+    <display-name lang="en">NBA League Pass 765</display-name>
+  </channel>
+  <channel id="NBA League Pass 766">
+    <display-name lang="en">NBA League Pass 766</display-name>
+  </channel>
+  <channel id="NBA League Pass 767">
+    <display-name lang="en">NBA League Pass 767</display-name>
+  </channel>
+  <channel id="NBA League Pass 768">
+    <display-name lang="en">NBA League Pass 768</display-name>
+  </channel>
+  <channel id="NHL Center Ice 769">
+    <display-name lang="en">NHL Center Ice 769</display-name>
+  </channel>
+  <channel id="NHL Center Ice 770">
+    <display-name lang="en">NHL Center Ice 770</display-name>
+  </channel>
+  <channel id="NHL Center Ice 771">
+    <display-name lang="en">NHL Center Ice 771</display-name>
+  </channel>
+  <channel id="NHL Center Ice 772">
+    <display-name lang="en">NHL Center Ice 772</display-name>
+  </channel>
+  <channel id="NHL Center Ice 773">
+    <display-name lang="en">NHL Center Ice 773</display-name>
+  </channel>
+  <channel id="NHL Center Ice 774">
+    <display-name lang="en">NHL Center Ice 774</display-name>
+  </channel>
+  <channel id="NHL Center Ice 775">
+    <display-name lang="en">NHL Center Ice 775</display-name>
+  </channel>
+  <channel id="NHL Center Ice 776">
+    <display-name lang="en">NHL Center Ice 776</display-name>
+  </channel>
+  <channel id="NHL Center Ice 777">
+    <display-name lang="en">NHL Center Ice 777</display-name>
+  </channel>
+  <channel id="NHL Center Ice 778">
+    <display-name lang="en">NHL Center Ice 778</display-name>
+  </channel>
+  <channel id="NHL Center Ice 779">
+    <display-name lang="en">NHL Center Ice 779</display-name>
+  </channel>
+  <channel id="NHL Center Ice 780">
+    <display-name lang="en">NHL Center Ice 780</display-name>
+  </channel>
+  <channel id="NHL Center Ice 781">
+    <display-name lang="en">NHL Center Ice 781</display-name>
+  </channel>
+  <channel id="NHL Center Ice 782">
+    <display-name lang="en">NHL Center Ice 782</display-name>
+  </channel>
+  <channel id="NHL Center Ice 783">
+    <display-name lang="en">NHL Center Ice 783</display-name>
+  </channel>
+  <channel id="NHL Center Ice 784">
+    <display-name lang="en">NHL Center Ice 784</display-name>
+  </channel>
+  <channel id="NHL Center Ice 785">
+    <display-name lang="en">NHL Center Ice 785</display-name>
+  </channel>
+  <channel id="NHL Center Ice 786">
+    <display-name lang="en">NHL Center Ice 786</display-name>
+  </channel>
+  <channel id="NHL Center Ice 787">
+    <display-name lang="en">NHL Center Ice 787</display-name>
+  </channel>
+  <channel id="Fox Deportes">
+    <display-name lang="en">Fox Deportes</display-name>
+  </channel>
+  <channel id="Fox Deportes HD">
+    <display-name lang="en">Fox Deportes HD</display-name>
+  </channel>
+  <channel id="beIN Sports En Espaol">
+    <display-name lang="en">beIN Sports En Espaol</display-name>
+  </channel>
+  <channel id="beIN Sports En Espaol HD">
+    <display-name lang="en">beIN Sports En Espaol HD</display-name>
+  </channel>
+  <channel id="TyC Sports">
+    <display-name lang="en">TyC Sports</display-name>
+  </channel>
+  <channel id="Super Casino">
+    <display-name lang="en">Super Casino</display-name>
+  </channel>
+  <channel id="Centroamerica TV">
+    <display-name lang="en">Centroamerica TV</display-name>
+  </channel>
+  <channel id="Telecentro TV">
+    <display-name lang="en">Telecentro TV</display-name>
+  </channel>
+  <channel id="Hola TV">
+    <display-name lang="en">Hola TV</display-name>
+  </channel>
+  <channel id="Peru Magico">
+    <display-name lang="en">Peru Magico</display-name>
+  </channel>
+  <channel id="ESPN Deportes">
+    <display-name lang="en">ESPN Deportes</display-name>
+  </channel>
+  <channel id="ESPN Deportes HD">
+    <display-name lang="en">ESPN Deportes HD</display-name>
+  </channel>
+  <channel id="AIT International">
+    <display-name lang="en">AIT International</display-name>
+  </channel>
+  <channel id="YourTV">
+    <display-name lang="en">YourTV</display-name>
+  </channel>
+  <channel id="QVC">
+    <display-name lang="en">QVC</display-name>
+  </channel>
+  <channel id="Gem Shopping Network">
+    <display-name lang="en">Gem Shopping Network</display-name>
+  </channel>
+  <channel id="Ideal World">
+    <display-name lang="en">Ideal World</display-name>
+  </channel>
+  <channel id="Create and Craft">
+    <display-name lang="en">Create and Craft</display-name>
+  </channel>
+  <channel id="QVC HD">
+    <display-name lang="en">QVC HD</display-name>
+  </channel>
+  <channel id="QVC Plus">
+    <display-name lang="en">QVC Plus</display-name>
+  </channel>
+  <channel id="Jewelry Television">
+    <display-name lang="en">Jewelry Television</display-name>
+  </channel>
+  <channel id="Shop at Bid">
+    <display-name lang="en">Shop at Bid</display-name>
+  </channel>
+  <channel id="Best Direct">
+    <display-name lang="en">Best Direct</display-name>
+  </channel>
+  <channel id="Gems TV">
+    <display-name lang="en">Gems TV</display-name>
+  </channel>
+  <channel id="EVINE Live">
+    <display-name lang="en">EVINE Live</display-name>
+  </channel>
+  <channel id="SHOPnow">
+    <display-name lang="en">SHOPnow</display-name>
+  </channel>
+  <channel id="ION Television DirecTV/Dish HD">
+    <display-name lang="en">ION Television DirecTV/Dish HD</display-name>
+  </channel>
+  <channel id="Cloo">
+    <display-name lang="en">Cloo</display-name>
+  </channel>
+  <channel id="Liquidation Channel">
+    <display-name lang="en">Liquidation Channel</display-name>
+  </channel>
+  <channel id="SALE: great prices on the hottest produc">
+    <display-name lang="en">SALE: great prices on the hottest produc</display-name>
+  </channel>
+  <channel id="Shop MALL for the hottest new products!">
+    <display-name lang="en">Shop MALL for the hottest new products!</display-name>
+  </channel>
+  <channel id="Great IDEAS for the products you need!">
+    <display-name lang="en">Great IDEAS for the products you need!</display-name>
+  </channel>
+  <channel id="Shop MALL for the hottest new products!">
+    <display-name lang="en">Shop MALL for the hottest new products!</display-name>
+  </channel>
+  <channel id="XTRA has the best As Seen on TV products">
+    <display-name lang="en">XTRA has the best As Seen on TV products</display-name>
+  </channel>
+  <channel id="Celebrity Shopping Network">
+    <display-name lang="en">Celebrity Shopping Network</display-name>
+  </channel>
+  <channel id="Jewelry Television">
+    <display-name lang="en">Jewelry Television</display-name>
+  </channel>
+  <channel id="Americas Auction Network DirecTV">
+    <display-name lang="en">Americas Auction Network DirecTV</display-name>
+  </channel>
+  <channel id="DirecTV NEWDT">
+    <display-name lang="en">DirecTV NEWDT</display-name>
+  </channel>
+  <channel id="DirecTV DT87">
+    <display-name lang="en">DirecTV DT87</display-name>
+  </channel>
+  <channel id="DITV104">
+    <display-name lang="en">DITV104</display-name>
+  </channel>
+  <channel id="DITV108">
+    <display-name lang="en">DITV108</display-name>
+  </channel>
+  <channel id="DITV109">
+    <display-name lang="en">DITV109</display-name>
+  </channel>
+  <channel id="DITV110">
+    <display-name lang="en">DITV110</display-name>
+  </channel>
+  <channel id="DITV111">
+    <display-name lang="en">DITV111</display-name>
+  </channel>
+  <channel id="DITV115">
+    <display-name lang="en">DITV115</display-name>
+  </channel>
+  <channel id="DITV117">
+    <display-name lang="en">DITV117</display-name>
+  </channel>
+  <channel id="DITV118">
+    <display-name lang="en">DITV118</display-name>
+  </channel>
+  <channel id="DITV119">
+    <display-name lang="en">DITV119</display-name>
+  </channel>
+  <channel id="DITV120">
+    <display-name lang="en">DITV120</display-name>
+  </channel>
+  <channel id="DITV121">
+    <display-name lang="en">DITV121</display-name>
+  </channel>
+  <channel id="DITV122">
+    <display-name lang="en">DITV122</display-name>
+  </channel>
+  <channel id="DITV123">
+    <display-name lang="en">DITV123</display-name>
+  </channel>
+  <channel id="DITV124">
+    <display-name lang="en">DITV124</display-name>
+  </channel>
+  <channel id="DITV125">
+    <display-name lang="en">DITV125</display-name>
+  </channel>
+  <channel id="DITV126">
+    <display-name lang="en">DITV126</display-name>
+  </channel>
+  <channel id="DITV127">
+    <display-name lang="en">DITV127</display-name>
+  </channel>
+  <channel id="DITV128">
+    <display-name lang="en">DITV128</display-name>
+  </channel>
+  <channel id="DITV129">
+    <display-name lang="en">DITV129</display-name>
+  </channel>
+  <channel id="DITV130">
+    <display-name lang="en">DITV130</display-name>
+  </channel>
+  <channel id="DITV132">
+    <display-name lang="en">DITV132</display-name>
+  </channel>
+  <channel id="DITV133 (DirecTv)">
+    <display-name lang="en">DITV133 (DirecTv)</display-name>
+  </channel>
+  <channel id="DITV134">
+    <display-name lang="en">DITV134</display-name>
+  </channel>
+  <channel id="DITV135">
+    <display-name lang="en">DITV135</display-name>
+  </channel>
+  <channel id="DITV136">
+    <display-name lang="en">DITV136</display-name>
+  </channel>
+  <channel id="DITV137">
+    <display-name lang="en">DITV137</display-name>
+  </channel>
+  <channel id="DITV138">
+    <display-name lang="en">DITV138</display-name>
+  </channel>
+  <channel id="DITV139 (DirecTv)">
+    <display-name lang="en">DITV139 (DirecTv)</display-name>
+  </channel>
+  <channel id="DITV140">
+    <display-name lang="en">DITV140</display-name>
+  </channel>
+  <channel id="DITV141">
+    <display-name lang="en">DITV141</display-name>
+  </channel>
+  <channel id="DITV142">
+    <display-name lang="en">DITV142</display-name>
+  </channel>
+  <channel id="DITV143">
+    <display-name lang="en">DITV143</display-name>
+  </channel>
+  <channel id="DITV144">
+    <display-name lang="en">DITV144</display-name>
+  </channel>
+  <channel id="DITV145">
+    <display-name lang="en">DITV145</display-name>
+  </channel>
+  <channel id="DITV146">
+    <display-name lang="en">DITV146</display-name>
+  </channel>
+  <channel id="DITV147">
+    <display-name lang="en">DITV147</display-name>
+  </channel>
+  <channel id="DITV148">
+    <display-name lang="en">DITV148</display-name>
+  </channel>
+  <channel id="DITV149">
+    <display-name lang="en">DITV149</display-name>
+  </channel>
+  <channel id="DITV150">
+    <display-name lang="en">DITV150</display-name>
+  </channel>
+  <channel id="DITV151">
+    <display-name lang="en">DITV151</display-name>
+  </channel>
+  <channel id="DITV152">
+    <display-name lang="en">DITV152</display-name>
+  </channel>
+  <channel id="DITV153">
+    <display-name lang="en">DITV153</display-name>
+  </channel>
+  <channel id="DITV154">
+    <display-name lang="en">DITV154</display-name>
+  </channel>
+  <channel id="DITV155">
+    <display-name lang="en">DITV155</display-name>
+  </channel>
+  <channel id="DITV156 (DirecTv)">
+    <display-name lang="en">DITV156 (DirecTv)</display-name>
+  </channel>
+  <channel id="DITV157">
+    <display-name lang="en">DITV157</display-name>
+  </channel>
+  <channel id="DITV158 (DIRECTV)">
+    <display-name lang="en">DITV158 (DIRECTV)</display-name>
+  </channel>
+  <channel id="DITV159">
+    <display-name lang="en">DITV159</display-name>
+  </channel>
+  <channel id="DITV160">
+    <display-name lang="en">DITV160</display-name>
+  </channel>
+  <channel id="DITV161 (DIRECTV)">
+    <display-name lang="en">DITV161 (DIRECTV)</display-name>
+  </channel>
+  <channel id="DITV162">
+    <display-name lang="en">DITV162</display-name>
+  </channel>
+  <channel id="DITV163 (DIRECTV)">
+    <display-name lang="en">DITV163 (DIRECTV)</display-name>
+  </channel>
+  <channel id="DITV164">
+    <display-name lang="en">DITV164</display-name>
+  </channel>
+  <channel id="DITV165">
+    <display-name lang="en">DITV165</display-name>
+  </channel>
+  <channel id="DITV166">
+    <display-name lang="en">DITV166</display-name>
+  </channel>
+  <channel id="DITV167 (DIRECTV)">
+    <display-name lang="en">DITV167 (DIRECTV)</display-name>
+  </channel>
+  <channel id="DITV168">
+    <display-name lang="en">DITV168</display-name>
+  </channel>
+  <channel id="DITV170">
+    <display-name lang="en">DITV170</display-name>
+  </channel>
+  <channel id="DITV171">
+    <display-name lang="en">DITV171</display-name>
+  </channel>
+  <channel id="DITV172 (DIRECTV)">
+    <display-name lang="en">DITV172 (DIRECTV)</display-name>
+  </channel>
+  <channel id="DITV174">
+    <display-name lang="en">DITV174</display-name>
+  </channel>
+  <channel id="DITV175">
+    <display-name lang="en">DITV175</display-name>
+  </channel>
+  <channel id="DITV176 (DIRECTV)">
+    <display-name lang="en">DITV176 (DIRECTV)</display-name>
+  </channel>
+  <channel id="DITV177 (DIRECTV)">
+    <display-name lang="en">DITV177 (DIRECTV)</display-name>
+  </channel>
+  <channel id="DITV179 (DIRECTV)">
+    <display-name lang="en">DITV179 (DIRECTV)</display-name>
+  </channel>
+  <channel id="DITV 187">
+    <display-name lang="en">DITV 187</display-name>
+  </channel>
+  <channel id="DITV188 (DIRECTV)">
+    <display-name lang="en">DITV188 (DIRECTV)</display-name>
+  </channel>
+  <channel id="DITV189 (DIRECTV)">
+    <display-name lang="en">DITV189 (DIRECTV)</display-name>
+  </channel>
+  <channel id="DITV178">
+    <display-name lang="en">DITV178</display-name>
+  </channel>
+  <channel id="DITV180">
+    <display-name lang="en">DITV180</display-name>
+  </channel>
+  <channel id="DITV181">
+    <display-name lang="en">DITV181</display-name>
+  </channel>
+  <channel id="DITV182">
+    <display-name lang="en">DITV182</display-name>
+  </channel>
+  <channel id="DITV183">
+    <display-name lang="en">DITV183</display-name>
+  </channel>
+  <channel id="DITV184">
+    <display-name lang="en">DITV184</display-name>
+  </channel>
+  <channel id="DITV185">
+    <display-name lang="en">DITV185</display-name>
+  </channel>
+  <channel id="DITV186">
+    <display-name lang="en">DITV186</display-name>
+  </channel>
+  <channel id="DITV190">
+    <display-name lang="en">DITV190</display-name>
+  </channel>
+  <channel id="DITV191">
+    <display-name lang="en">DITV191</display-name>
+  </channel>
+  <channel id="DITV192">
+    <display-name lang="en">DITV192</display-name>
+  </channel>
+  <channel id="DITV193">
+    <display-name lang="en">DITV193</display-name>
+  </channel>
+  <channel id="DITV194">
+    <display-name lang="en">DITV194</display-name>
+  </channel>
+  <channel id="DITV198">
+    <display-name lang="en">DITV198</display-name>
+  </channel>
+  <channel id="DITV199">
+    <display-name lang="en">DITV199</display-name>
+  </channel>
+  <channel id="DirecTV DT222">
+    <display-name lang="en">DirecTV DT222</display-name>
+  </channel>
+  <channel id="DirecTV DT224">
+    <display-name lang="en">DirecTV DT224</display-name>
+  </channel>
+  <channel id="Direct TV 225 HOME">
+    <display-name lang="en">Direct TV 225 HOME</display-name>
+  </channel>
+  <channel id="Direct TV DT227">
+    <display-name lang="en">Direct TV DT227</display-name>
+  </channel>
+  <channel id="DirecTV DT262">
+    <display-name lang="en">DirecTV DT262</display-name>
+  </channel>
+  <channel id="DirecTV 314">
+    <display-name lang="en">DirecTV 314</display-name>
+  </channel>
+  <channel id="DITV322">
+    <display-name lang="en">DITV322</display-name>
+  </channel>
+  <channel id="DTV323">
+    <display-name lang="en">DTV323</display-name>
+  </channel>
+  <channel id="DirecTV 442">
+    <display-name lang="en">DirecTV 442</display-name>
+  </channel>
+  <channel id="DITV582">
+    <display-name lang="en">DITV582</display-name>
+  </channel>
+  <channel id="DITV583">
+    <display-name lang="en">DITV583</display-name>
+  </channel>
+  <channel id="DITV584">
+    <display-name lang="en">DITV584</display-name>
+  </channel>
+  <channel id="DirecTV Celebrity Shopping Network">
+    <display-name lang="en">DirecTV Celebrity Shopping Network</display-name>
+  </channel>
+  <channel id="DirecTV PPV Previews">
+    <display-name lang="en">DirecTV PPV Previews</display-name>
+  </channel>
+  <channel id="PPV - PPV169">
+    <display-name lang="en">PPV - PPV169</display-name>
+  </channel>
+  <channel id="PPV - PPV173">
+    <display-name lang="en">PPV - PPV173</display-name>
+  </channel>
+  <channel id="PPV - PPV196">
+    <display-name lang="en">PPV - PPV196</display-name>
+  </channel>
+  <channel id="PPV - PPV197">
+    <display-name lang="en">PPV - PPV197</display-name>
+  </channel>
+  <channel id="Local Origination - LOOR200">
+    <display-name lang="en">Local Origination - LOOR200</display-name>
+  </channel>
+  <channel id="Local Origination - LOOR201">
+    <display-name lang="en">Local Origination - LOOR201</display-name>
+  </channel>
+  <channel id="Audience Channel">
+    <display-name lang="en">Audience Channel</display-name>
+  </channel>
+  <channel id="Audience Channel HD">
+    <display-name lang="en">Audience Channel HD</display-name>
+  </channel>
+  <channel id="Playboy TV">
+    <display-name lang="en">Playboy TV</display-name>
+  </channel>
+  <channel id="The Adult Channel">
+    <display-name lang="en">The Adult Channel</display-name>
+  </channel>
+  <channel id="Television X">
+    <display-name lang="en">Television X</display-name>
+  </channel>
+  <channel id="Viewers Wives">
+    <display-name lang="en">Viewers Wives</display-name>
+  </channel>
+  <channel id="Xtreme Filth">
+    <display-name lang="en">Xtreme Filth</display-name>
+  </channel>
+  <channel id="Pay-Per-View Adult">
+    <display-name lang="en">Pay-Per-View Adult</display-name>
+  </channel>
+  <channel id="Playboy Premium HD">
+    <display-name lang="en">Playboy Premium HD</display-name>
+  </channel>
+  <channel id="Playboy Premium">
+    <display-name lang="en">Playboy Premium</display-name>
+  </channel>
+  <channel id="Playboy En Espaol">
+    <display-name lang="en">Playboy En Espaol</display-name>
+  </channel>
+  <channel id="VividTV">
+    <display-name lang="en">VividTV</display-name>
+  </channel>
+  <channel id="Playboy En Espaol">
+    <display-name lang="en">Playboy En Espaol</display-name>
+  </channel>
+  <channel id="Penthouse TV XX5 Premium">
+    <display-name lang="en">Penthouse TV XX5 Premium</display-name>
+  </channel>
+  <channel id="Exxxtsy Premium">
+    <display-name lang="en">Exxxtsy Premium</display-name>
+  </channel>
+  <channel id="Playboy Premium HD">
+    <display-name lang="en">Playboy Premium HD</display-name>
+  </channel>
+  <channel id="Adult On Demand">
+    <display-name lang="en">Adult On Demand</display-name>
+  </channel>
+  <channel id="Adult On Demand">
+    <display-name lang="en">Adult On Demand</display-name>
+  </channel>
+  <channel id="Adult Pay-Per-View Previews">
+    <display-name lang="en">Adult Pay-Per-View Previews</display-name>
+  </channel>
+  <channel id="Reality Kings TV">
+    <display-name lang="en">Reality Kings TV</display-name>
+  </channel>
+  <channel id="Penthouse TV XX5 - New Frontier">
+    <display-name lang="en">Penthouse TV XX5 - New Frontier</display-name>
+  </channel>
+  <channel id="Bang U">
+    <display-name lang="en">Bang U</display-name>
+  </channel>
+  <channel id="BraZZers TV Plus">
+    <display-name lang="en">BraZZers TV Plus</display-name>
+  </channel>
+  <channel id="VividTV">
+    <display-name lang="en">VividTV</display-name>
+  </channel>
+  <channel id="Hustler TV">
+    <display-name lang="en">Hustler TV</display-name>
+  </channel>
+  <channel id="TV ONE">
+    <display-name lang="en">TV ONE</display-name>
+  </channel>
+  <channel id="BET HD">
+    <display-name lang="en">BET HD</display-name>
+  </channel>
+  <channel id="Centric">
+    <display-name lang="en">Centric</display-name>
+  </channel>
+  <channel id="Audience Channel">
+    <display-name lang="en">Audience Channel</display-name>
+  </channel>
+  <channel id="Audience Channel HD">
+    <display-name lang="en">Audience Channel HD</display-name>
+  </channel>
+  <channel id="SHOPnow">
+    <display-name lang="en">SHOPnow</display-name>
+  </channel>
+  <channel id="Fuse">
+    <display-name lang="en">Fuse</display-name>
+  </channel>
+  <channel id="AXS TV">
+    <display-name lang="en">AXS TV</display-name>
+  </channel>
+  <channel id="El Rey Network">
+    <display-name lang="en">El Rey Network</display-name>
+  </channel>
+  <channel id="Fusion">
+    <display-name lang="en">Fusion</display-name>
+  </channel>
+  <channel id="DirecTV SonLife Broadcasting">
+    <display-name lang="en">DirecTV SonLife Broadcasting</display-name>
+  </channel>
+  <channel id="Golden Eagle Broadcasting">
+    <display-name lang="en">Golden Eagle Broadcasting</display-name>
+  </channel>
+  <channel id="GOD TV">
+    <display-name lang="en">GOD TV</display-name>
+  </channel>
+  <channel id="God TV">
+    <display-name lang="en">God TV</display-name>
+  </channel>
+  <channel id="Jewish Life TV">
+    <display-name lang="en">Jewish Life TV</display-name>
+  </channel>
+  <channel id="World Harvest Television">
+    <display-name lang="en">World Harvest Television</display-name>
+  </channel>
+  <channel id="The Hope Channel">
+    <display-name lang="en">The Hope Channel</display-name>
+  </channel>
+  <channel id="Daystar Television Network">
+    <display-name lang="en">Daystar Television Network</display-name>
+  </channel>
+  <channel id="Eternal Word Television Network">
+    <display-name lang="en">Eternal Word Television Network</display-name>
+  </channel>
+  <channel id="The Church Channel">
+    <display-name lang="en">The Church Channel</display-name>
+  </channel>
+  <channel id="Trinity Broadcasting Network">
+    <display-name lang="en">Trinity Broadcasting Network</display-name>
+  </channel>
+  <channel id="The Word Network">
+    <display-name lang="en">The Word Network</display-name>
+  </channel>
+  <channel id="BYU-TV">
+    <display-name lang="en">BYU-TV</display-name>
+  </channel>
+  <channel id="Link TV">
+    <display-name lang="en">Link TV</display-name>
+  </channel>
+  <channel id="Christian Television Network">
+    <display-name lang="en">Christian Television Network</display-name>
+  </channel>
+  <channel id="TCT WORLD">
+    <display-name lang="en">TCT WORLD</display-name>
+  </channel>
+  <channel id="NRB Network">
+    <display-name lang="en">NRB Network</display-name>
+  </channel>
+  <channel id="UplifTV">
+    <display-name lang="en">UplifTV</display-name>
+  </channel>
+  <channel id="Cablecast">
+    <display-name lang="en">Cablecast</display-name>
+  </channel>
+  <channel id="WCBSDT (WCBS-DT)">
+    <display-name lang="en">WCBSDT (WCBS-DT)</display-name>
+  </channel>
+  <channel id="KCBSDT (KCBS-DT)">
+    <display-name lang="en">KCBSDT (KCBS-DT)</display-name>
+  </channel>
+  <channel id="WNBCDT (WNBC-DT)">
+    <display-name lang="en">WNBCDT (WNBC-DT)</display-name>
+  </channel>
+  <channel id="KNBCDT (KNBC-DT)">
+    <display-name lang="en">KNBCDT (KNBC-DT)</display-name>
+  </channel>
+  <channel id="WABCDT (WABC-DT)">
+    <display-name lang="en">WABCDT (WABC-DT)</display-name>
+  </channel>
+  <channel id="KABCDT (KABC-DT)">
+    <display-name lang="en">KABCDT (KABC-DT)</display-name>
+  </channel>
+  <channel id="WNYWDT (WNYW-DT)">
+    <display-name lang="en">WNYWDT (WNYW-DT)</display-name>
+  </channel>
+  <channel id="KTTVDT (KTTV-DT)">
+    <display-name lang="en">KTTVDT (KTTV-DT)</display-name>
+  </channel>
+  <channel id="PPV en Espaol">
+    <display-name lang="en">PPV en Espaol</display-name>
+  </channel>
+  <channel id="Compre AQUI los productos mejores del TV">
+    <display-name lang="en">Compre AQUI los productos mejores del TV</display-name>
+  </channel>
+  <channel id="Univision Network">
+    <display-name lang="en">Univision Network</display-name>
+  </channel>
+  <channel id="Univision Network HD">
+    <display-name lang="en">Univision Network HD</display-name>
+  </channel>
+  <channel id="Univision Network (Pacific)">
+    <display-name lang="en">Univision Network (Pacific)</display-name>
+  </channel>
+  <channel id="Galavision Cable Network">
+    <display-name lang="en">Galavision Cable Network</display-name>
+  </channel>
+  <channel id="Galavision Cable Network HD">
+    <display-name lang="en">Galavision Cable Network HD</display-name>
+  </channel>
+  <channel id="Mega TV">
+    <display-name lang="en">Mega TV</display-name>
+  </channel>
+  <channel id="Mega TV HD">
+    <display-name lang="en">Mega TV HD</display-name>
+  </channel>
+  <channel id="Telemundo Television Network">
+    <display-name lang="en">Telemundo Television Network</display-name>
+  </channel>
+  <channel id="Telemundo Television Network (Pacific)">
+    <display-name lang="en">Telemundo Television Network (Pacific)</display-name>
+  </channel>
+  <channel id="UniMas Satellite Feed (Pacific)">
+    <display-name lang="en">UniMas Satellite Feed (Pacific)</display-name>
+  </channel>
+  <channel id="UniMas HD (Pacific)">
+    <display-name lang="en">UniMas HD (Pacific)</display-name>
+  </channel>
+  <channel id="TV Venezuela">
+    <display-name lang="en">TV Venezuela</display-name>
+  </channel>
+  <channel id="NBC Universo">
+    <display-name lang="en">NBC Universo</display-name>
+  </channel>
+  <channel id="NBC Universo HD">
+    <display-name lang="en">NBC Universo HD</display-name>
+  </channel>
+  <channel id="Telefe Internacional">
+    <display-name lang="en">Telefe Internacional</display-name>
+  </channel>
+  <channel id="Mexicanal">
+    <display-name lang="en">Mexicanal</display-name>
+  </channel>
+  <channel id="Discovery en Espaol">
+    <display-name lang="en">Discovery en Espaol</display-name>
+  </channel>
+  <channel id="WAPA America">
+    <display-name lang="en">WAPA America</display-name>
+  </channel>
+  <channel id="Video Rola">
+    <display-name lang="en">Video Rola</display-name>
+  </channel>
+  <channel id="RCN Nuestra Tele">
+    <display-name lang="en">RCN Nuestra Tele</display-name>
+  </channel>
+  <channel id="CARACOL INTERNATIONAL">
+    <display-name lang="en">CARACOL INTERNATIONAL</display-name>
+  </channel>
+  <channel id="Nuestra Tele Noticias 24 Horas">
+    <display-name lang="en">Nuestra Tele Noticias 24 Horas</display-name>
+  </channel>
+  <channel id="CNN En Espaol - Mexico and US">
+    <display-name lang="en">CNN En Espaol - Mexico and US</display-name>
+  </channel>
+  <channel id="eStudio5">
+    <display-name lang="en">eStudio5</display-name>
+  </channel>
+  <channel id="FoxLife US">
+    <display-name lang="en">FoxLife US</display-name>
+  </channel>
+  <channel id="Cine Estelar">
+    <display-name lang="en">Cine Estelar</display-name>
+  </channel>
+  <channel id="Cine Latino US">
+    <display-name lang="en">Cine Latino US</display-name>
+  </channel>
+  <channel id="Cine Nostalgia">
+    <display-name lang="en">Cine Nostalgia</display-name>
+  </channel>
+  <channel id="BandaMax US Feed">
+    <display-name lang="en">BandaMax US Feed</display-name>
+  </channel>
+  <channel id="DOMINICANA">
+    <display-name lang="en">DOMINICANA</display-name>
+  </channel>
+  <channel id="Nat Geo Mundo">
+    <display-name lang="en">Nat Geo Mundo</display-name>
+  </channel>
+  <channel id="Discovery Familia En Espaol">
+    <display-name lang="en">Discovery Familia En Espaol</display-name>
+  </channel>
+  <channel id="TV Chile Internacional">
+    <display-name lang="en">TV Chile Internacional</display-name>
+  </channel>
+  <channel id="Ecuavisa International">
+    <display-name lang="en">Ecuavisa International</display-name>
+  </channel>
+  <channel id="Sur Peru">
+    <display-name lang="en">Sur Peru</display-name>
+  </channel>
+  <channel id="V-Me">
+    <display-name lang="en">V-Me</display-name>
+  </channel>
+  <channel id="Azteca America Network">
+    <display-name lang="en">Azteca America Network</display-name>
+  </channel>
+  <channel id="DirecTV 442">
+    <display-name lang="en">DirecTV 442</display-name>
+  </channel>
+  <channel id="Pasiones TV US">
+    <display-name lang="en">Pasiones TV US</display-name>
+  </channel>
+  <channel id="Tr3s: MTV Musica y Mas">
+    <display-name lang="en">Tr3s: MTV Musica y Mas</display-name>
+  </channel>
+  <channel id="XEIMT International (US feed)">
+    <display-name lang="en">XEIMT International (US feed)</display-name>
+  </channel>
+  <channel id="Canal Once">
+    <display-name lang="en">Canal Once</display-name>
+  </channel>
+  <channel id="ETBN Enlace USA">
+    <display-name lang="en">ETBN Enlace USA</display-name>
+  </channel>
+  <channel id="ViendoMovies">
+    <display-name lang="en">ViendoMovies</display-name>
+  </channel>
+  <channel id="De Pelicula US Feed">
+    <display-name lang="en">De Pelicula US Feed</display-name>
+  </channel>
+  <channel id="De Pelicula Clasico">
+    <display-name lang="en">De Pelicula Clasico</display-name>
+  </channel>
+  <channel id="Foro TV US Feed">
+    <display-name lang="en">Foro TV US Feed</display-name>
+  </channel>
+  <channel id="Univision Deportes Network">
+    <display-name lang="en">Univision Deportes Network</display-name>
+  </channel>
+  <channel id="Univision Deportes Network HD">
+    <display-name lang="en">Univision Deportes Network HD</display-name>
+  </channel>
+  <channel id="GOL TV">
+    <display-name lang="en">GOL TV</display-name>
+  </channel>
+  <channel id="Ecuador TV International">
+    <display-name lang="en">Ecuador TV International</display-name>
+  </channel>
+  <channel id="Time Warner Cable Deportes HD">
+    <display-name lang="en">Time Warner Cable Deportes HD</display-name>
+  </channel>
+  <channel id="Time Warner Cable Deportes SD">
+    <display-name lang="en">Time Warner Cable Deportes SD</display-name>
+  </channel>
+  <channel id="TVE America Television Espaola">
+    <display-name lang="en">TVE America Television Espaola</display-name>
+  </channel>
+  <channel id="Latin American Satellite">
+    <display-name lang="en">Latin American Satellite</display-name>
+  </channel>
+  <channel id="Univision Deportes Network">
+    <display-name lang="en">Univision Deportes Network</display-name>
+  </channel>
+  <channel id="Univision Deportes Network HD">
+    <display-name lang="en">Univision Deportes Network HD</display-name>
+  </channel>
+  <channel id="Fox Deportes">
+    <display-name lang="en">Fox Deportes</display-name>
+  </channel>
+  <channel id="Audience Channel">
+    <display-name lang="en">Audience Channel</display-name>
+  </channel>
+  <channel id="Information Channel - INFO574">
+    <display-name lang="en">Information Channel - INFO574</display-name>
+  </channel>
+  <channel id="Zee Lamhe">
+    <display-name lang="en">Zee Lamhe</display-name>
+  </channel>
+  <channel id="MTV India">
+    <display-name lang="en">MTV India</display-name>
+  </channel>
+  <channel id="Zee Bollywood">
+    <display-name lang="en">Zee Bollywood</display-name>
+  </channel>
+  <channel id="Filmy">
+    <display-name lang="en">Filmy</display-name>
+  </channel>
+  <channel id="UTV Movies">
+    <display-name lang="en">UTV Movies</display-name>
+  </channel>
+  <channel id="Willow Cricket">
+    <display-name lang="en">Willow Cricket</display-name>
+  </channel>
+  <channel id="Cricket Ticket 3">
+    <display-name lang="en">Cricket Ticket 3</display-name>
+  </channel>
+  <channel id="Phoenix Satellite TV">
+    <display-name lang="en">Phoenix Satellite TV</display-name>
+  </channel>
+  <channel id="Phoenix Info News">
+    <display-name lang="en">Phoenix Info News</display-name>
+  </channel>
+  <channel id="CCTV4-China Central TV">
+    <display-name lang="en">CCTV4-China Central TV</display-name>
+  </channel>
+  <channel id="CCTV News">
+    <display-name lang="en">CCTV News</display-name>
+  </channel>
+  <channel id="JSTV EPG">
+    <display-name lang="en">JSTV EPG</display-name>
+  </channel>
+  <channel id="Charming China">
+    <display-name lang="en">Charming China</display-name>
+  </channel>
+  <channel id="CTI Zhong Tian Channel">
+    <display-name lang="en">CTI Zhong Tian Channel</display-name>
+  </channel>
+  <channel id="CBO">
+    <display-name lang="en">CBO</display-name>
+  </channel>
+  <channel id="The Filipino Channel (Pacific)">
+    <display-name lang="en">The Filipino Channel (Pacific)</display-name>
+  </channel>
+  <channel id="GMA Pinoy TV">
+    <display-name lang="en">GMA Pinoy TV</display-name>
+  </channel>
+  <channel id="ABS-CBN News Channel">
+    <display-name lang="en">ABS-CBN News Channel</display-name>
+  </channel>
+  <channel id="Cinema One">
+    <display-name lang="en">Cinema One</display-name>
+  </channel>
+  <channel id="Bro Channel">
+    <display-name lang="en">Bro Channel</display-name>
+  </channel>
+  <channel id="WRR 1019">
+    <display-name lang="en">WRR 1019</display-name>
+  </channel>
+  <channel id="DZMM Radyo Patrol">
+    <display-name lang="en">DZMM Radyo Patrol</display-name>
+  </channel>
+  <channel id="MYX Channel">
+    <display-name lang="en">MYX Channel</display-name>
+  </channel>
+  <channel id="GMA Life TV">
+    <display-name lang="en">GMA Life TV</display-name>
+  </channel>
+  <channel id="Saigon Broadcasting Network">
+    <display-name lang="en">Saigon Broadcasting Network</display-name>
+  </channel>
+  <channel id="VGN TV">
+    <display-name lang="en">VGN TV</display-name>
+  </channel>
+  <channel id="Tai Seng Vietnam">
+    <display-name lang="en">Tai Seng Vietnam</display-name>
+  </channel>
+  <channel id="Vien Thao TV">
+    <display-name lang="en">Vien Thao TV</display-name>
+  </channel>
+  <channel id="Vietface TV">
+    <display-name lang="en">Vietface TV</display-name>
+  </channel>
+  <channel id="Honvietv">
+    <display-name lang="en">Honvietv</display-name>
+  </channel>
+  <channel id="TViet Network">
+    <display-name lang="en">TViet Network</display-name>
+  </channel>
+  <channel id="SBS TV Korea">
+    <display-name lang="en">SBS TV Korea</display-name>
+  </channel>
+  <channel id="MBC America">
+    <display-name lang="en">MBC America</display-name>
+  </channel>
+  <channel id="PI KBS World">
+    <display-name lang="en">PI KBS World</display-name>
+  </channel>
+  <channel id="YTN Radio Korea">
+    <display-name lang="en">YTN Radio Korea</display-name>
+  </channel>
+  <channel id="SBS Plus">
+    <display-name lang="en">SBS Plus</display-name>
+  </channel>
+  <channel id="MBC Every 1">
+    <display-name lang="en">MBC Every 1</display-name>
+  </channel>
+  <channel id="tvN">
+    <display-name lang="en">tvN</display-name>
+  </channel>
+  <channel id="EBS America">
+    <display-name lang="en">EBS America</display-name>
+  </channel>
+  <channel id="MBN Plus">
+    <display-name lang="en">MBN Plus</display-name>
+  </channel>
+  <channel id="Tan Tv">
+    <display-name lang="en">Tan Tv</display-name>
+  </channel>
+  <channel id="National Geographic Channel Korea">
+    <display-name lang="en">National Geographic Channel Korea</display-name>
+  </channel>
+  <channel id="CTS Korean Christian Channel">
+    <display-name lang="en">CTS Korean Christian Channel</display-name>
+  </channel>
+  <channel id="Radio Korea">
+    <display-name lang="en">Radio Korea</display-name>
+  </channel>
+  <channel id="DTV ARANG">
+    <display-name lang="en">DTV ARANG</display-name>
+  </channel>
+  <channel id="88 TV">
+    <display-name lang="en">88 TV</display-name>
+  </channel>
+  <channel id="Phoenix Hong Kong Channel">
+    <display-name lang="en">Phoenix Hong Kong Channel</display-name>
+  </channel>
+  <channel id="88 Films">
+    <display-name lang="en">88 Films</display-name>
+  </channel>
+  <channel id="iCable Finance Info News Channel">
+    <display-name lang="en">iCable Finance Info News Channel</display-name>
+  </channel>
+  <channel id="i-CABLE News">
+    <display-name lang="en">i-CABLE News</display-name>
+  </channel>
+  <channel id="CTI Zhong Tian Channel">
+    <display-name lang="en">CTI Zhong Tian Channel</display-name>
+  </channel>
+  <channel id="CCTV4-China Central TV">
+    <display-name lang="en">CCTV4-China Central TV</display-name>
+  </channel>
+  <channel id="Phoenix Satellite TV">
+    <display-name lang="en">Phoenix Satellite TV</display-name>
+  </channel>
+  <channel id="Charming China">
+    <display-name lang="en">Charming China</display-name>
+  </channel>
+  <channel id="CCTV News">
+    <display-name lang="en">CCTV News</display-name>
+  </channel>
+  <channel id="Rede Globo TV Internacional">
+    <display-name lang="en">Rede Globo TV Internacional</display-name>
+  </channel>
+  <channel id="Premiere Futebol Clube">
+    <display-name lang="en">Premiere Futebol Clube</display-name>
+  </channel>
+  <channel id="Channel One Russia Worldwide Network">
+    <display-name lang="en">Channel One Russia Worldwide Network</display-name>
+  </channel>
+  <channel id="RTR Planeta">
+    <display-name lang="en">RTR Planeta</display-name>
+  </channel>
+  <channel id="Dom Kino">
+    <display-name lang="en">Dom Kino</display-name>
+  </channel>
+  <channel id="Muzika Pervogo (M1-NY)">
+    <display-name lang="en">Muzika Pervogo (M1-NY)</display-name>
+  </channel>
+  <channel id="Vremya">
+    <display-name lang="en">Vremya</display-name>
+  </channel>
+  <channel id="Carousel">
+    <display-name lang="en">Carousel</display-name>
+  </channel>
+  <channel id="NTV America (HTB)">
+    <display-name lang="en">NTV America (HTB)</display-name>
+  </channel>
+  <channel id="Rossiya 24">
+    <display-name lang="en">Rossiya 24</display-name>
+  </channel>
+  <channel id="RTV International">
+    <display-name lang="en">RTV International</display-name>
+  </channel>
+  <channel id="Anheuser Busch Private Network">
+    <display-name lang="en">Anheuser Busch Private Network</display-name>
+  </channel>
+  <channel id="Anheuser Busch Private Network">
+    <display-name lang="en">Anheuser Busch Private Network</display-name>
+  </channel>
+  <channel id="Absolute 80s">
+    <display-name lang="en">Absolute 80s</display-name>
+  </channel>
+  <channel id="Absolute Classic Rock">
+    <display-name lang="en">Absolute Classic Rock</display-name>
+  </channel>
+  <channel id="Absolute Radio">
+    <display-name lang="en">Absolute Radio</display-name>
+  </channel>
+  <channel id="BBC Alba">
+    <display-name lang="en">BBC Alba</display-name>
+  </channel>
+  <channel id="BBC Asian Network">
+    <display-name lang="en">BBC Asian Network</display-name>
+  </channel>
+  <channel id="BBC Radio 1">
+    <display-name lang="en">BBC Radio 1</display-name>
+  </channel>
+  <channel id="BBC Radio 1Xtra">
+    <display-name lang="en">BBC Radio 1Xtra</display-name>
+  </channel>
+  <channel id="BBC Radio 2">
+    <display-name lang="en">BBC Radio 2</display-name>
+  </channel>
+  <channel id="BBC Radio 3">
+    <display-name lang="en">BBC Radio 3</display-name>
+  </channel>
+  <channel id="BBC Radio 4 LW">
+    <display-name lang="en">BBC Radio 4 LW</display-name>
+  </channel>
+  <channel id="BBC Radio 4 FM">
+    <display-name lang="en">BBC Radio 4 FM</display-name>
+  </channel>
+  <channel id="BBC Radio 4 Extra">
+    <display-name lang="en">BBC Radio 4 Extra</display-name>
+  </channel>
+  <channel id="BBC Radio 5 live">
+    <display-name lang="en">BBC Radio 5 live</display-name>
+  </channel>
+  <channel id="BBC Radio 5 live sports extra">
+    <display-name lang="en">BBC Radio 5 live sports extra</display-name>
+  </channel>
+  <channel id="BBC Radio 6 Music">
+    <display-name lang="en">BBC Radio 6 Music</display-name>
+  </channel>
+  <channel id="BBC Radio Cymru">
+    <display-name lang="en">BBC Radio Cymru</display-name>
+  </channel>
+  <channel id="BBC Radio London">
+    <display-name lang="en">BBC Radio London</display-name>
+  </channel>
+  <channel id="BBC Radio Nan Gidheal">
+    <display-name lang="en">BBC Radio Nan Gidheal</display-name>
+  </channel>
+  <channel id="BBC Radio Scotland FM">
+    <display-name lang="en">BBC Radio Scotland FM</display-name>
+  </channel>
+  <channel id="BBC Radio Ulster">
+    <display-name lang="en">BBC Radio Ulster</display-name>
+  </channel>
+  <channel id="BBC Radio Wales">
+    <display-name lang="en">BBC Radio Wales</display-name>
+  </channel>
+  <channel id="BBC World Service">
+    <display-name lang="en">BBC World Service</display-name>
+  </channel>
+  <channel id="958 Capital FM">
+    <display-name lang="en">958 Capital FM</display-name>
+  </channel>
+  <channel id="Capital XTRA">
+    <display-name lang="en">Capital XTRA</display-name>
+  </channel>
+  <channel id="Classic FM">
+    <display-name lang="en">Classic FM</display-name>
+  </channel>
+  <channel id="Heart London">
+    <display-name lang="en">Heart London</display-name>
+  </channel>
+  <channel id="Kiss 100">
+    <display-name lang="en">Kiss 100</display-name>
+  </channel>
+  <channel id="Jazz FM">
+    <display-name lang="en">Jazz FM</display-name>
+  </channel>
+  <channel id="LBC">
+    <display-name lang="en">LBC</display-name>
+  </channel>
+  <channel id="Magic 1054">
+    <display-name lang="en">Magic 1054</display-name>
+  </channel>
+  <channel id="Newstalk 106-108 FM">
+    <display-name lang="en">Newstalk 106-108 FM</display-name>
+  </channel>
+  <channel id="Planet Rock">
+    <display-name lang="en">Planet Rock</display-name>
+  </channel>
+  <channel id="Radio X">
+    <display-name lang="en">Radio X</display-name>
+  </channel>
+  <channel id="RT Radio 1 FM">
+    <display-name lang="en">RT Radio 1 FM</display-name>
+  </channel>
+  <channel id="RTE 2FM">
+    <display-name lang="en">RTE 2FM</display-name>
+  </channel>
+  <channel id="RT lyric fm">
+    <display-name lang="en">RT lyric fm</display-name>
+  </channel>
+  <channel id="RT Raidi na Gaeltachta">
+    <display-name lang="en">RT Raidi na Gaeltachta</display-name>
+  </channel>
+  <channel id="1022 Smooth Radio">
+    <display-name lang="en">1022 Smooth Radio</display-name>
+  </channel>
+  <channel id="S4C">
+    <display-name lang="en">S4C</display-name>
+  </channel>
+  <channel id="talkSPORT">
+    <display-name lang="en">talkSPORT</display-name>
+  </channel>
+  <channel id="MHz Worldview National Channel">
+    <display-name lang="en">MHz Worldview National Channel</display-name>
+  </channel>
+  <channel id="DMX: Big Band/Swing">
+    <display-name lang="en">DMX: Big Band/Swing</display-name>
+  </channel>
+  <channel id="DMX: Malt Shop Oldies">
+    <display-name lang="en">DMX: Malt Shop Oldies</display-name>
+  </channel>
+  <channel id="DMX: 60s Revolution">
+    <display-name lang="en">DMX: 60s Revolution</display-name>
+  </channel>
+  <channel id="DMX: 70s Hits">
+    <display-name lang="en">DMX: 70s Hits</display-name>
+  </channel>
+  <channel id="DMX: 80s Hits">
+    <display-name lang="en">DMX: 80s Hits</display-name>
+  </channel>
+  <channel id="DMX: 90s Hits">
+    <display-name lang="en">DMX: 90s Hits</display-name>
+  </channel>
+  <channel id="DMX: Rat Pack">
+    <display-name lang="en">DMX: Rat Pack</display-name>
+  </channel>
+  <channel id="DMX: Traditional Country">
+    <display-name lang="en">DMX: Traditional Country</display-name>
+  </channel>
+  <channel id="DMX: Hit Country">
+    <display-name lang="en">DMX: Hit Country</display-name>
+  </channel>
+  <channel id="DMX: Red Rock and Blues">
+    <display-name lang="en">DMX: Red Rock and Blues</display-name>
+  </channel>
+  <channel id="DMX: Honky Tonk Tavern">
+    <display-name lang="en">DMX: Honky Tonk Tavern</display-name>
+  </channel>
+  <channel id="DMX: Bluegrass">
+    <display-name lang="en">DMX: Bluegrass</display-name>
+  </channel>
+  <channel id="DMX: Folk Rock">
+    <display-name lang="en">DMX: Folk Rock</display-name>
+  </channel>
+  <channel id="DMX: Modern Country">
+    <display-name lang="en">DMX: Modern Country</display-name>
+  </channel>
+  <channel id="DMX: Holiday &amp; Happenings">
+    <display-name lang="en">DMX: Holiday &amp; Happenings</display-name>
+  </channel>
+  <channel id="DMX: Todays Hits">
+    <display-name lang="en">DMX: Todays Hits</display-name>
+  </channel>
+  <channel id="DMX: Y2k Hits">
+    <display-name lang="en">DMX: Y2k Hits</display-name>
+  </channel>
+  <channel id="DMX: Hot Hits">
+    <display-name lang="en">DMX: Hot Hits</display-name>
+  </channel>
+  <channel id="DMX: Love Songs">
+    <display-name lang="en">DMX: Love Songs</display-name>
+  </channel>
+  <channel id="DMX: Beautiful Instrumentals">
+    <display-name lang="en">DMX: Beautiful Instrumentals</display-name>
+  </channel>
+  <channel id="DMX: Adult Contemporary">
+    <display-name lang="en">DMX: Adult Contemporary</display-name>
+  </channel>
+  <channel id="DMX: Silver Screen">
+    <display-name lang="en">DMX: Silver Screen</display-name>
+  </channel>
+  <channel id="DMX: Show Tunes">
+    <display-name lang="en">DMX: Show Tunes</display-name>
+  </channel>
+  <channel id="DMX: Groove Lounge">
+    <display-name lang="en">DMX: Groove Lounge</display-name>
+  </channel>
+  <channel id="DMX: Hot Jamz">
+    <display-name lang="en">DMX: Hot Jamz</display-name>
+  </channel>
+  <channel id="DMX: The Spirit">
+    <display-name lang="en">DMX: The Spirit</display-name>
+  </channel>
+  <channel id="DMX: Gospel Glory">
+    <display-name lang="en">DMX: Gospel Glory</display-name>
+  </channel>
+  <channel id="DMX: Hallelujah">
+    <display-name lang="en">DMX: Hallelujah</display-name>
+  </channel>
+  <channel id="DMX: Hair Guitar">
+    <display-name lang="en">DMX: Hair Guitar</display-name>
+  </channel>
+  <channel id="DMX: Full Metal Jacket">
+    <display-name lang="en">DMX: Full Metal Jacket</display-name>
+  </channel>
+  <channel id="DMX College Rock">
+    <display-name lang="en">DMX College Rock</display-name>
+  </channel>
+  <channel id="DMX: Adult Alternative">
+    <display-name lang="en">DMX: Adult Alternative</display-name>
+  </channel>
+  <channel id="DMX: Classic Rock">
+    <display-name lang="en">DMX: Classic Rock</display-name>
+  </channel>
+  <channel id="DMX: Alternative">
+    <display-name lang="en">DMX: Alternative</display-name>
+  </channel>
+  <channel id="DMX: Inkd">
+    <display-name lang="en">DMX: Inkd</display-name>
+  </channel>
+  <channel id="DMX: Singer-Songwriters">
+    <display-name lang="en">DMX: Singer-Songwriters</display-name>
+  </channel>
+  <channel id="DMX: Classic Hits Blend">
+    <display-name lang="en">DMX: Classic Hits Blend</display-name>
+  </channel>
+  <channel id="DMX: Reality Bites">
+    <display-name lang="en">DMX: Reality Bites</display-name>
+  </channel>
+  <channel id="DMX: Flashback New Wave">
+    <display-name lang="en">DMX: Flashback New Wave</display-name>
+  </channel>
+  <channel id="DMX: 8-Tracks">
+    <display-name lang="en">DMX: 8-Tracks</display-name>
+  </channel>
+  <channel id="DMX: Spike">
+    <display-name lang="en">DMX: Spike</display-name>
+  </channel>
+  <channel id="DMX: Classic R&amp;B">
+    <display-name lang="en">DMX: Classic R&amp;B</display-name>
+  </channel>
+  <channel id="DMX: Silky Soul">
+    <display-name lang="en">DMX: Silky Soul</display-name>
+  </channel>
+  <channel id="DMX: Old School Funk">
+    <display-name lang="en">DMX: Old School Funk</display-name>
+  </channel>
+  <channel id="DMX: Retro Disco">
+    <display-name lang="en">DMX: Retro Disco</display-name>
+  </channel>
+  <channel id="DMX: The Boombox">
+    <display-name lang="en">DMX: The Boombox</display-name>
+  </channel>
+  <channel id="DMX: Hype">
+    <display-name lang="en">DMX: Hype</display-name>
+  </channel>
+  <channel id="DMX: Coffeehouse Rock">
+    <display-name lang="en">DMX: Coffeehouse Rock</display-name>
+  </channel>
+  <channel id="DMX: Soft Hits">
+    <display-name lang="en">DMX: Soft Hits</display-name>
+  </channel>
+  <channel id="DMX: Classic Jazz Vocal Blend">
+    <display-name lang="en">DMX: Classic Jazz Vocal Blend</display-name>
+  </channel>
+  <channel id="DMX: Smooth Jazz">
+    <display-name lang="en">DMX: Smooth Jazz</display-name>
+  </channel>
+  <channel id="DMX: Jazz">
+    <display-name lang="en">DMX: Jazz</display-name>
+  </channel>
+  <channel id="DMX: Metro Blend">
+    <display-name lang="en">DMX: Metro Blend</display-name>
+  </channel>
+  <channel id="DMX: Blues">
+    <display-name lang="en">DMX: Blues</display-name>
+  </channel>
+  <channel id="DMX: Great Standards">
+    <display-name lang="en">DMX: Great Standards</display-name>
+  </channel>
+  <channel id="DMX: New Age">
+    <display-name lang="en">DMX: New Age</display-name>
+  </channel>
+  <channel id="DMX: Zen">
+    <display-name lang="en">DMX: Zen</display-name>
+  </channel>
+  <channel id="DMX: Subterranean">
+    <display-name lang="en">DMX: Subterranean</display-name>
+  </channel>
+  <channel id="DMX: Dance">
+    <display-name lang="en">DMX: Dance</display-name>
+  </channel>
+  <channel id="DMX: Modern Workout">
+    <display-name lang="en">DMX: Modern Workout</display-name>
+  </channel>
+  <channel id="DMX: PUMP!">
+    <display-name lang="en">DMX: PUMP!</display-name>
+  </channel>
+  <channel id="DMX: Classic Rock Workout">
+    <display-name lang="en">DMX: Classic Rock Workout</display-name>
+  </channel>
+  <channel id="DMX: Reggae">
+    <display-name lang="en">DMX: Reggae</display-name>
+  </channel>
+  <channel id="DMX: Symphonic">
+    <display-name lang="en">DMX: Symphonic</display-name>
+  </channel>
+  <channel id="DMX: Piano">
+    <display-name lang="en">DMX: Piano</display-name>
+  </channel>
+  <channel id="DMX: Lite Classical">
+    <display-name lang="en">DMX: Lite Classical</display-name>
+  </channel>
+  <channel id="DMX: Be-Tween">
+    <display-name lang="en">DMX: Be-Tween</display-name>
+  </channel>
+  <channel id="DMX: The Playground">
+    <display-name lang="en">DMX: The Playground</display-name>
+  </channel>
+  <channel id="DMX: Bailamos!">
+    <display-name lang="en">DMX: Bailamos!</display-name>
+  </channel>
+  <channel id="DMX: Fiesta Tropical">
+    <display-name lang="en">DMX: Fiesta Tropical</display-name>
+  </channel>
+  <channel id="DMX: Latin Hits">
+    <display-name lang="en">DMX: Latin Hits</display-name>
+  </channel>
+  <channel id="DMX: Music of the Americas">
+    <display-name lang="en">DMX: Music of the Americas</display-name>
+  </channel>
+  <channel id="DMX: Regional Mexican">
+    <display-name lang="en">DMX: Regional Mexican</display-name>
+  </channel>
+  <channel id="DMX: Salsa">
+    <display-name lang="en">DMX: Salsa</display-name>
+  </channel>
+  <channel id="Audio DMX Hurbano">
+    <display-name lang="en">Audio DMX Hurbano</display-name>
+  </channel>
+  <channel id="DMX: Mariachi">
+    <display-name lang="en">DMX: Mariachi</display-name>
+  </channel>
+  <channel id="DMX: Carnaval Brasileiro">
+    <display-name lang="en">DMX: Carnaval Brasileiro</display-name>
+  </channel>
+  <channel id="DMX: Rock en Espaol">
+    <display-name lang="en">DMX: Rock en Espaol</display-name>
+  </channel>
+  <channel id="DMX: Latin Jazz">
+    <display-name lang="en">DMX: Latin Jazz</display-name>
+  </channel>
+  <channel id="DMX: Familiar Favorites">
+    <display-name lang="en">DMX: Familiar Favorites</display-name>
+  </channel>
+  <channel id="DMX: Italian Bistro Blend">
+    <display-name lang="en">DMX: Italian Bistro Blend</display-name>
+  </channel>
+  <channel id="DMX: Italian Contemporary">
+    <display-name lang="en">DMX: Italian Contemporary</display-name>
+  </channel>
+  <channel id="DMX: Irish">
+    <display-name lang="en">DMX: Irish</display-name>
+  </channel>
+  <channel id="DMX: Tranquility">
+    <display-name lang="en">DMX: Tranquility</display-name>
+  </channel>
+  <channel id="DMX: Tranquility">
+    <display-name lang="en">DMX: Tranquility</display-name>
+  </channel>
+  <channel id="DMX: Rat Pack">
+    <display-name lang="en">DMX: Rat Pack</display-name>
+  </channel>
+  <channel id="DMX: Great Standards">
+    <display-name lang="en">DMX: Great Standards</display-name>
+  </channel>
+  <channel id="DMX: Groove Lounge">
+    <display-name lang="en">DMX: Groove Lounge</display-name>
+  </channel>
+  <channel id="DMX: Familiar Favorites">
+    <display-name lang="en">DMX: Familiar Favorites</display-name>
+  </channel>
+  <channel id="DMX: Irish">
+    <display-name lang="en">DMX: Irish</display-name>
+  </channel>
+  <channel id="DMX: PUMP!">
+    <display-name lang="en">DMX: PUMP!</display-name>
+  </channel>
+  <channel id="DMX: Holiday &amp; Happenings">
+    <display-name lang="en">DMX: Holiday &amp; Happenings</display-name>
+  </channel>
+  <channel id="DMX: Metro Blend">
+    <display-name lang="en">DMX: Metro Blend</display-name>
+  </channel>
+  <channel id="DMX: Italian Bistro Blend">
+    <display-name lang="en">DMX: Italian Bistro Blend</display-name>
+  </channel>
+  <channel id="DMX: Classic Rock Workout">
+    <display-name lang="en">DMX: Classic Rock Workout</display-name>
+  </channel>
+  <channel id="DMX: Modern Workout">
+    <display-name lang="en">DMX: Modern Workout</display-name>
+  </channel>
+  <channel id="DMX: Jazz">
+    <display-name lang="en">DMX: Jazz</display-name>
+  </channel>
+  <channel id="DMX: Italian Contemporary">
+    <display-name lang="en">DMX: Italian Contemporary</display-name>
+  </channel>
+  <channel id="DMX: Piano">
+    <display-name lang="en">DMX: Piano</display-name>
+  </channel>
+</tv>

@@ -163,7 +163,7 @@ msgid "Maintenance"
 msgstr ""
 
 msgctxt "#30126"
-msgid "Clear listings data and rescan"
+msgid "Wipe listings but keep channel info - removes the db file."
 msgstr ""
 
 msgctxt "#30127"
@@ -522,5 +522,53 @@ msgid "No Listings Found"
 msgstr ""
 
 msgctxt "#30824"
-msgid "To use this add-on you need to import your channel listings. You can create your own listings via the mc2xml or zap2xml apps on your PC. Alternatively you can link to your own addon_data zip hosted online."
+msgid "To use this add-on you need to either import your channel listings or create your own dummy channels using the TV Portal Tools."
+msgstr ""
+
+msgctxt "#30825"
+msgid "Wrong Password"
+msgstr ""
+
+msgctxt "#30826"
+msgid "You have entered an incorrect password for this account, please check settings and try again."
+msgstr ""
+
+msgctxt "#30827"
+msgid "Wrong Username"
+msgstr ""
+
+msgctxt "#30828"
+msgid "You have not entered a valid username, please either correct your login details or register for FREE at www.noobsandnerds.com."
+msgstr ""
+
+msgctxt "#30829"
+msgid "Account Restricted"
+msgstr ""
+
+msgctxt "#30830"
+msgid "There is a ban on your account, the most likely cause for this is account sharing. Please make sure you haven\'t accidentally left your login details on a shared computer."
+msgstr ""
+
+msgctxt "#30831"
+msgid "Re-Activate Account"
+msgstr ""
+
+msgctxt "#30832"
+msgid "You need to re-activate your account on the new forum. Simply visit the forum at www.noobsandnerds.com and login with your existing credentials."
+msgstr ""
+
+msgctxt "#30833"
+msgid "Servers Busy"
+msgstr ""
+
+msgctxt "#30834"
+msgid "Sorry the servers appear to be struggling with demand, please try again. Sorry for any inconvenience, we are currently working on improving the speeds."
+msgstr ""
+
+msgctxt "#30835"
+msgid "No Login Details"
+msgstr ""
+
+msgctxt "#30836"
+msgid "You have enabled the login feature but not entered any details. Please add your login details or disable the option."
 msgstr ""

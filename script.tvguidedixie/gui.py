@@ -729,7 +729,7 @@ class TVGuide(xbmcgui.WindowXML):
 
         elif buttonClicked == PopupMenu.C_POPUP_OTTOOLS:
             self.refresh = True
-            xbmc.executebuiltin('XBMC.RunScript(special://home/addons/script.tvportal/tools.py)')
+            xbmc.executebuiltin('XBMC.RunAddon(script.tvportal.tools)')
 
         elif buttonClicked == PopupMenu.C_POPUP_USTV:
             xbmc.executebuiltin('ActivateWindow(%d,"plugin://%s/?ch_fanart&mode=%d&name=%s&url=%s",return)' % (10025,'plugin.video.F.T.V', 131, 'My Recordings', 'url'))

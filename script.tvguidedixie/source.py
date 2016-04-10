@@ -63,6 +63,7 @@ AddonID          =  'script.tvportal'
 ADDON            =  xbmcaddon.Addon(id=AddonID)
 showSFchannels = ADDON.getSetting('showSFchannels')
 SF_CHANNELS    = ADDON.getSetting('SF_CHANNELS')
+adult          = ADDON.getSetting('adult')
 
 try:    sfile.makedirs(channelPath)
 except: pass
@@ -609,11 +610,11 @@ class Database(object):
             for x in channelarray:
                 if x in nk:
                     channels.append(x)
+            dixie.log('SF Folders Found: %s' % str(channels))
 
         else:
             channels = channelarray
 
-        print str(channels)
         return channels
 
 
@@ -705,7 +706,9 @@ class Database(object):
         _channels = self._getChannelList(onlyVisible = True, categories = categories)
 
         for channel in _channels:
-            if dixie.ADULT not in channel.categories:
+            if 'XXX' not in channel.categories and adult == 'false':
+                channels.append(channel)
+            else:
                 channels.append(channel)
 
         if channelStart < 0:
@@ -857,8 +860,8 @@ class Database(object):
         categoriesList.sort()
 
         try:
-            if not dixie.isProtected():
-                categoriesList.remove(dixie.ADULT)
+            if 'XXX' in categoriesList and adult == 'false':
+                categoriesList.remove('XXX')
         except:
             pass
 
@@ -1266,23 +1269,25 @@ class DIXIESource(Source):
     def getCategories(self):        
         cat  = dict()
         path = os.path.join(datapath, 'cats.xml')
+        dixie.log("Checking for category XML path at: "+path)
         try:
             if sfile.exists(path):
                 xml = sfile.read(path)
-        except: pass
+        except:
+            dixie.log("### Category Path Not found")
         
-        xml = xml.replace('&', '&amp;')
+#        xml = xml.replace('&', '&amp;')
         xml = StringIO.StringIO(xml)
         xml = ElementTree.iterparse(xml, events=("start", "end"))
 
         for event, elem in xml:
             try:
                 if event == 'end':
-                   if elem.tag == 'cats':
-                       channel  = elem.findtext('channel')
-                       category = elem.findtext('category')
-                       if channel != '' and category != '':
-                           cat[channel] = category
+                    if elem.tag == 'cats':
+                        channel  = elem.findtext('channel')
+                        category = elem.findtext('category')
+                        if channel != '' and category != '':
+                            cat[channel] = category
             except:
                 pass
 

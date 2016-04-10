@@ -40,19 +40,19 @@ def resetChannels():
     try:
         os.remove(chanchk)
     except:
-        print"### IMPORTANT ### Failed to remove the chanchk file in addon_data, please manually remove if it's still there"
+        dixie.log("### IMPORTANT ### Failed to remove the chanchk file in addon_data, please manually remove if it's still there")
 
     try:
         os.remove(cfg)
     except:
-        print"### IMPORTANT ### Failed to remove the settings.cfg file in addon_data, please manually remove if it's still there"
+        dixie.log("### IMPORTANT ### Failed to remove the settings.cfg file in addon_data, please manually remove if it's still there")
 
     if os.path.exists(chanxml):
         try:
             os.remove(chanxml)
             success = 1
         except:
-            print"### IMPORTANT ### Unable to remove the chan.xml file in your addon_data folder. Please manually delete"
+            dixie.log("### IMPORTANT ### Unable to remove the chan.xml file in your addon_data folder. Please manually delete")
 
     if sfile.exists(chan):
         xbmc.executebuiltin('Dialog.Show(busydialog)')
@@ -74,6 +74,6 @@ def resetChannels():
                 dialog.ok('TV Portal - Reset Categories', 'TV Portal Categories successfully reset to addon defaults. Any customisations you previously had are now lost.')
             except:
                 dialog.ok('TV Portal - Reset Categories', 'There was nothing to reset, please try running the add-on again so it can repopulate your categories.')
-                print"### IMPORTANT ### Unable to remove the cats.xml file in your addon_data folder. Please manually delete"
+                dixie.log("### IMPORTANT ### Unable to remove the cats.xml file in your addon_data folder. Please manually delete")
 if __name__ == '__main__':
     resetChannels()

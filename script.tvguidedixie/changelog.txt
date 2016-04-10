@@ -1,11 +1,23 @@
-v1.0.2:
+v.1.0.5:
+- Fixed bug with SF folder creation, the special path can now be used
+- Updated some logging methods
+
+v.1.0.4:
+- Added basic adult filter for categories, channels still show but not in cats
+- Improved the login functionlity
+
+v.1.0.3:
+- Improved the import function, now much better error checking
+- updated the cats.xml and chan.xml files to work with UK (Atlas), USA (DISH) & Canada (Vmedia)
+
+v.1.0.2:
 - Fixed glitch with resetting channels, wasn't removing the chanchk file
 
-v1.0.1:
+v.1.0.1:
 - Changed initial boot message to a tidier one
 - Updated artwork
 
-v1.0:
+v.1.0:
 - Initial fork of script.tvguidedixie v3.3.3 (Feb-28-16)
 - Changed login to noobsandnerds
 - Added option to bring up categories when clicking left in guide

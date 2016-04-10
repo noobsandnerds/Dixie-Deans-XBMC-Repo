@@ -28,21 +28,24 @@ import urllib
 import os
 import re
 import requests
+import time
 
 import utils
 import sfile
+import download
+import extract
 
 import sys
-path    = utils.OTT_HOME
+path    = utils.TVP_HOME
 sys.path.insert(0, path)
 
 from channel import Channel
 
 
-OTT_TITLE    = utils.OTT_TITLE
-OTT_ADDON    = utils.OTT_ADDON
-OTT_PROFILE  = utils.OTT_PROFILE
-OTT_CHANNELS = utils.OTT_CHANNELS
+TVP_TITLE    = utils.TVP_TITLE
+TVP_ADDON    = utils.TVP_ADDON
+TVP_PROFILE  = utils.TVP_PROFILE
+TVP_CHANNELS = utils.TVP_CHANNELS
 
 
 ADDONID  = utils.ADDONID
@@ -60,13 +63,13 @@ FRODO    = utils.FRODO
 GOTHAM   = utils.GOTHAM
 BASEURL  = utils.GetBaseUrl()
 
-KODISOURCE =  ADDON.getSetting('KODISOURCE') == 'true'
-USERLOGOS  =  OTT_ADDON.getSetting('logo.type') == '1'
-EXTRAS     =  os.path.join(OTT_PROFILE, 'extras')
+KODISOURCE = ADDON.getSetting('KODISOURCE') == 'true'
+USERLOGOS  =  TVP_ADDON.getSetting('logo.type') == '1'
+EXTRAS     =  os.path.join(TVP_PROFILE, 'extras')
 
 # -----Addon Modes ----- #
 
-_OTT           = 0
+_TVP           = 0
 _MAIN          = 100
 _EDIT          = 200
 _RENAME        = 300
@@ -107,10 +110,10 @@ START_WEIGHT = -1
 END_WEIGHT   = -1
 
 try:    
-    START_WEIGHT = int(xbmcgui.Window(10000).getProperty('OTT_TOOLS_START'))
+    START_WEIGHT = int(xbmcgui.Window(10000).getProperty('TVP_TOOLS_START'))
 
     try:   
-        END_WEIGHT = int(xbmcgui.Window(10000).getProperty('OTT_TOOLS_END'))
+        END_WEIGHT = int(xbmcgui.Window(10000).getProperty('TVP_TOOLS_END'))
     except: 
         pass
 except: 
@@ -123,159 +126,165 @@ if ALPHASORT:
 # -------------------------------------------------------------- #
 
 
-def main():
-    utils.CheckVersion()
 
-    addDir('Edit Channels',  _EDITCHANNELS, thumbnail=ICON, fanart=FANART, isFolder=True)
+#def main():
+#    utils.CheckVersion()
+
+#    addDir('Edit Channels',  _EDITCHANNELS, thumbnail=ICON, fanart=FANART, isFolder=True)
     
-    addDir('Add Skins',      _ADDSKINSLIST, thumbnail=ICON, fanart=FANART, isFolder=True)
-    addDir('Add Logo Packs', _ADDLOGOSLIST, thumbnail=ICON, fanart=FANART, isFolder=True)
+#    addDir('Add Skins',      _ADDSKINSLIST, thumbnail=ICON, fanart=FANART, isFolder=True)
+#    addDir('Add Logo Packs', _ADDLOGOSLIST, thumbnail=ICON, fanart=FANART, isFolder=True)
     
 
-def getSkinList(id):
-    regex = 'skin name="(.+?)" url="(.+?)" icon="(.+?)" fanart="(.+?)" description="(.+?)"'
-    url   =  BASEURL + 'skins/'
+#def getSkinList(id):
+#    regex = 'skin name="(.+?)" url="(.+?)" icon="(.+?)" fanart="(.+?)" description="(.+?)"'
+#    url   =  BASEURL + 'skins/'
 
-    skins = url + 'skinlist.xml'
-    req   = requests.get(skins)
-    html  = req.content
-    items = re.compile(regex).findall(html)
+#    skins = url + 'skinlist.xml'
+#    req   = requests.get(skins)
+#    html  = req.content
+#    items = re.compile(regex).findall(html)
 
-    for item in items:
-        label  = item[0]
-        id     = url + item[1]
-        icon   = url + item[2]
-        fanart = url + item[3]
-        desc   = item[4]
+#    for item in items:
+#        label  = item[0]
+#        id     = url + item[1]
+#        icon   = url + item[2]
+#        fanart = url + item[3]
+#        desc   = item[4]
         
-        addDir(label, _GETSKINS, id, desc=desc, thumbnail=icon, fanart=fanart, isFolder=False)
+#        addDir(label, _GETSKINS, id, desc=desc, thumbnail=icon, fanart=fanart, isFolder=False)
 
 
-def getSkin(label, url):
-    path    = os.path.join(EXTRAS, 'skins')
-    zipfile = os.path.join(path,   'skins.zip')
+#def getSkin(label, url):
+#    path    = os.path.join(EXTRAS, 'skins')
+#    zipfile = os.path.join(path,   'skins.zip')
     
-    if utils.DialogYesNo('Would you like to install ' + label, 'and make it your active skin?', 'It will be downloaded and installed into your system.'):
-        download(path, zipfile)
-        utils.DialogOK(label + ' skin has been installed successfully.', 'It is now set as your active EPG skin.', 'Please restart On-Tapp.TV. Thank you.')
-        OTT_ADDON.setSetting('dixie.skin', label)
+#    if utils.DialogYesNo('Would you like to install ' + label, 'and make it your active skin?', 'It will be downloaded and installed into your system.'):
+#        download(path, zipfile)
+#        utils.DialogOK(label + ' skin has been installed successfully.', 'It is now set as your active EPG skin.', 'Please restart TV Portal. Thank you.')
+#        TVP_ADDON.setSetting('common.skin', label)
 
 
-def getLogosList(id):
-    regex = 'logopack name="(.+?)" url="(.+?)" icon="(.+?)" fanart="(.+?)" description="(.+?)"'
-    url   =  BASEURL + 'logos/'
+#def getLogosList(id):
+#    regex = 'logopack name="(.+?)" url="(.+?)" icon="(.+?)" fanart="(.+?)" description="(.+?)"'
+#    url   =  BASEURL + 'logos/'
 
-    logos = url + 'logopacklist.xml'
-    req   = requests.get(logos)
-    html  = req.content
-    items = re.compile(regex).findall(html)
+#    logos = url + 'logopacklist.xml'
+#    req   = requests.get(logos)
+#    html  = req.content
+#    items = re.compile(regex).findall(html)
 
-    for item in items:
-        label  = item[0]
-        id     = url + item[1]
-        icon   = url + item[2]
-        fanart = url + item[3]
-        desc   = item[4]
+#    for item in items:
+#        label  = item[0]
+#        id     = url + item[1]
+#        icon   = url + item[2]
+#        fanart = url + item[3]
+#        desc   = item[4]
            
-        addDir(label, _GETLOGOS, id, desc=desc, thumbnail=icon, fanart=fanart, isFolder=False)
+#        addDir(label, _GETLOGOS, id, desc=desc, thumbnail=icon, fanart=fanart, isFolder=False)
 
 
-def getLogos(label, url):
-    path    = os.path.join(EXTRAS, 'logos')
-    zipfile = os.path.join(path,   'logos.zip')
+#def getLogos(label, url):
+#    path    = os.path.join(EXTRAS, 'logos')
+#    zipfile = os.path.join(path,   'logos.zip')
     
-    if utils.DialogYesNo('Would you like to install ' + label, 'and make it your active logo-pack?', 'It will be downloaded and installed into your system.'):
-        download(path, zipfile)
-        utils.DialogOK(label + ' logo-pack has been installed successfully.', 'It is now set as your active logo-pack.', 'Please restart On-Tapp.TV. Thank you.')
-        OTT_ADDON.setSetting('dixie.logo.folder', label)
+#    if utils.DialogYesNo('Would you like to install ' + label, 'and make it your active logo-pack?', 'It will be downloaded and installed into your system.'):
+#        download(path, zipfile)
+#        utils.DialogOK(label + ' logo-pack has been installed successfully.', 'It is now set as your active logo-pack.', 'Please restart TV Portal. Thank you.')
+#        OTT_ADDON.setSetting('common.logo.folder', label)
 
 
-def download(path, zipfile):    
-    import download
-    import extract
-    
+def download(path, zipfile):
     download.download(url, zipfile)
     extract.all(zipfile, path)
     sfile.remove(zipfile)
 
 
 def editChannels():
+    channelzip = xbmc.translatePath('special://home/addons/script.tvportal.tools/resources/channels.zip')
+    cfgfile    = os.path.join(TVP_PROFILE,'settings.cfg')
     channels   = getAllChannels(ALPHASORT)
     totalItems = len(channels)
+    if not totalItems:
+        utils.DialogOK('There are no channels scanned in, a dummy channel will now be created so you can start to create your own channels.')
+        if os.path.exists(cfgfile):
+            os.remove(cfgfile)
+        extract.all(channelzip,TVP_PROFILE)
+        xbmc.executebuiltin('Container.Refresh')
+    else:
+        for ch in channels:        
+            channel    = ch[2]
+            id         = ch[1]         
+            title      = channel.title
+            logo       = channel.logo
+            weight     = channel.weight
+            hidden     = channel.visible == 0
+            stream     = channel.streamUrl
+            userDef    = channel.userDef == 1
+            desc       = channel.desc
+            categories = channel.categories
+            isClone    = channel.isClone == 1
 
-    for ch in channels:        
-        channel    = ch[2]
-        id         = ch[1]         
-        title      = channel.title
-        logo       = channel.logo
-        weight     = channel.weight
-        hidden     = channel.visible == 0
-        stream     = channel.streamUrl
-        userDef    = channel.userDef == 1
-        desc       = channel.desc
-        categories = channel.categories
-        isClone    = channel.isClone == 1
+            if hidden and not SHOWHIDDEN:
+                continue
 
-        if hidden and not SHOWHIDDEN:
-            continue
-
-        menu  = []
-        #menu.append(('Rename channel', 'XBMC.RunPlugin(%s?mode=%d&id=%s)' % (sys.argv[0], _RENAME, urllib.quote_plus(id))))
-        #menu.append(('Change logo',    'XBMC.RunPlugin(%s?mode=%d&id=%s)' % (sys.argv[0], _LOGO,   urllib.quote_plus(id))))
-        menu.append(('Edit channel',   'XBMC.RunPlugin(%s?mode=%d&id=%s)' % (sys.argv[0], _EDIT,   urllib.quote_plus(id))))
-
-
-        if inSelection(weight):            
-            menu.append(('Hide selection', 'XBMC.RunPlugin(%s?mode=%d)' % (sys.argv[0], _HIDE)))
-            if SHOWHIDDEN:
-                menu.append(('Show selection', 'XBMC.RunPlugin(%s?mode=%d)' % (sys.argv[0], _SHOW)))
-        else:
-            hideLabel = 'Show channel' if hidden else 'Hide channel'
-            menu.append((hideLabel, 'XBMC.RunPlugin(%s?mode=%d&id=%s)' % (sys.argv[0], _TOGGLEHIDE, urllib.quote_plus(id))))
-
-        if (not ALPHASORT) and (weight != START_WEIGHT) and (weight != END_WEIGHT):
-            menu.append(('Select channel', 'XBMC.RunPlugin(%s?mode=%d&id=%s&weight=%d)' % (sys.argv[0], _SELECT, urllib.quote_plus(id), weight)))
-
-        if inSelection(weight):            
-            pass
-        elif isSelection() and (not ALPHASORT):
-            menu.append(('Insert selection above', 'XBMC.RunPlugin(%s?mode=%d&weight=%d)' % (sys.argv[0], _INSERTABOVE, weight)))
-            menu.append(('Insert selection below', 'XBMC.RunPlugin(%s?mode=%d&weight=%d)' % (sys.argv[0], _INSERTBELOW, weight)))
-
-        if START_WEIGHT > -1:
-            menu.append(('Clear selection', 'XBMC.RunPlugin(%s?mode=%d)' % (sys.argv[0], _CANCELSELECT)))
-
-        if not userDef:
-            menu.append(('Clone channel', 'XBMC.RunPlugin(%s?mode=%d&id=%s)' % (sys.argv[0], _CLONE, urllib.quote_plus(id))))
-
-        menu.append(('Create new channel', 'XBMC.RunPlugin(%s?mode=%d)' % (sys.argv[0], _NEWCHANNEL)))
-
-        if userDef or isClone:
-            menu.append(('Remove channel', 'XBMC.RunPlugin(%s?mode=%d&id=%s)' % (sys.argv[0], _REMOVE, urllib.quote_plus(id))))
-
-        #if len(stream):
-        #    menu.append(('Activate stream', 'XBMC.RunPlugin(%s?mode=%d&stream=%s)' % (sys.argv[0], _PLAY, urllib.quote_plus(stream))))
-
-        addStdMenu(menu)
+            menu  = []
+            #menu.append(('Rename channel', 'XBMC.RunPlugin(%s?mode=%d&id=%s)' % (sys.argv[0], _RENAME, urllib.quote_plus(id))))
+            #menu.append(('Change logo',    'XBMC.RunPlugin(%s?mode=%d&id=%s)' % (sys.argv[0], _LOGO,   urllib.quote_plus(id))))
+            menu.append(('Edit channel',   'XBMC.RunPlugin(%s?mode=%d&id=%s)' % (sys.argv[0], _EDIT,   urllib.quote_plus(id))))
 
 
-        if userDef:
-            title += ' (user-defined)'
+            if inSelection(weight):            
+                menu.append(('Hide selection', 'XBMC.RunPlugin(%s?mode=%d)' % (sys.argv[0], _HIDE)))
+                if SHOWHIDDEN:
+                    menu.append(('Show selection', 'XBMC.RunPlugin(%s?mode=%d)' % (sys.argv[0], _SHOW)))
+            else:
+                hideLabel = 'Show channel' if hidden else 'Hide channel'
+                menu.append((hideLabel, 'XBMC.RunPlugin(%s?mode=%d&id=%s)' % (sys.argv[0], _TOGGLEHIDE, urllib.quote_plus(id))))
 
-        if SHOWSTREAM:
-            if len(stream) > 0:
-                title += ' (stream set)'
+            if (not ALPHASORT) and (weight != START_WEIGHT) and (weight != END_WEIGHT):
+                menu.append(('Select channel', 'XBMC.RunPlugin(%s?mode=%d&id=%s&weight=%d)' % (sys.argv[0], _SELECT, urllib.quote_plus(id), weight)))
 
-        if len(desc):
-            title += ' - %s' % desc
+            if inSelection(weight):            
+                pass
+            elif isSelection() and (not ALPHASORT):
+                menu.append(('Insert selection above', 'XBMC.RunPlugin(%s?mode=%d&weight=%d)' % (sys.argv[0], _INSERTABOVE, weight)))
+                menu.append(('Insert selection below', 'XBMC.RunPlugin(%s?mode=%d&weight=%d)' % (sys.argv[0], _INSERTBELOW, weight)))
 
-        if hidden:
-            title = '[COLOR red]' + title  + '[/COLOR]'        
+            if START_WEIGHT > -1:
+                menu.append(('Clear selection', 'XBMC.RunPlugin(%s?mode=%d)' % (sys.argv[0], _CANCELSELECT)))
 
-        if inSelection(weight):            
-            title = '[I]' + title  + '[/I]'
+            if not userDef:
+                menu.append(('Clone channel', 'XBMC.RunPlugin(%s?mode=%d&id=%s)' % (sys.argv[0], _CLONE, urllib.quote_plus(id))))
 
-        addDir(title, _EDIT, id, weight=weight, thumbnail=logo, fanart=FANART, isFolder=False, menu=menu, infolabels={}, totalItems=totalItems)
+#            menu.append(('Create new channel', 'XBMC.RunPlugin(%s?mode=%d)' % (sys.argv[0], _NEWCHANNEL)))
+
+            if userDef or isClone:
+                menu.append(('Remove channel', 'XBMC.RunPlugin(%s?mode=%d&id=%s)' % (sys.argv[0], _REMOVE, urllib.quote_plus(id))))
+
+            #if len(stream):
+            #    menu.append(('Activate stream', 'XBMC.RunPlugin(%s?mode=%d&stream=%s)' % (sys.argv[0], _PLAY, urllib.quote_plus(stream))))
+
+            addStdMenu(menu)
+
+
+            if userDef:
+                title += ' (user-defined)'
+
+            if SHOWSTREAM:
+                if len(stream) > 0:
+                    title += ' (stream set)'
+
+            if len(desc):
+                title += ' - %s' % desc
+
+            if hidden:
+                title = '[COLOR red]' + title  + '[/COLOR]'        
+
+            if inSelection(weight):            
+                title = '[I]' + title  + '[/I]'
+
+            addDir(title, _EDIT, id, weight=weight, thumbnail=logo, fanart=FANART, isFolder=False, menu=menu, infolabels={}, totalItems=totalItems)
 
 
 def insertSelection(above, theWeight):
@@ -356,8 +365,8 @@ def isSelection():
 
     
 def cancelSelection():
-    xbmcgui.Window(10000).clearProperty('OTT_TOOLS_START')
-    xbmcgui.Window(10000).clearProperty('OTT_TOOLS_END')
+    xbmcgui.Window(10000).clearProperty('TVP_TOOLS_START')
+    xbmcgui.Window(10000).clearProperty('TVP_TOOLS_END')
     return True
 
 
@@ -365,52 +374,52 @@ def selectChannel(weight):
     value = str(weight)
 
     if START_WEIGHT < 0: # nothing set
-        xbmcgui.Window(10000).setProperty('OTT_TOOLS_START', value)
-        xbmcgui.Window(10000).setProperty('OTT_TOOLS_END',   value)
+        xbmcgui.Window(10000).setProperty('TVP_TOOLS_START', value)
+        xbmcgui.Window(10000).setProperty('TVP_TOOLS_END',   value)
         return True
 
     if weight > END_WEIGHT: #after current end
-        xbmcgui.Window(10000).setProperty('OTT_TOOLS_END', value)
+        xbmcgui.Window(10000).setProperty('TVP_TOOLS_END', value)
         return True
 
     if weight > START_WEIGHT and END_WEIGHT < 0: #only start set
-        xbmcgui.Window(10000).setProperty('OTT_TOOLS_END', value)
+        xbmcgui.Window(10000).setProperty('TVP_TOOLS_END', value)
         return True
 
     if weight > START_WEIGHT and weight < END_WEIGHT: #between current start and end
         startDelta = weight     - START_WEIGHT
         endDelta   = END_WEIGHT - weight
         if startDelta < endDelta:
-            xbmcgui.Window(10000).setProperty('OTT_TOOLS_START', value)
+            xbmcgui.Window(10000).setProperty('TVP_TOOLS_START', value)
         else:
-            xbmcgui.Window(10000).setProperty('OTT_TOOLS_END', value)
+            xbmcgui.Window(10000).setProperty('TVP_TOOLS_END', value)
         return True
 
     if weight < START_WEIGHT and END_WEIGHT < 0: #before start, end not set
-        xbmcgui.Window(10000).setProperty('OTT_TOOLS_START', value)
-        xbmcgui.Window(10000).setProperty('OTT_TOOLS_END',   str(START_WEIGHT))
+        xbmcgui.Window(10000).setProperty('TVP_TOOLS_START', value)
+        xbmcgui.Window(10000).setProperty('TVP_TOOLS_END',   str(START_WEIGHT))
         return True
 
     if weight < START_WEIGHT:
-        xbmcgui.Window(10000).setProperty('OTT_TOOLS_START', value)
+        xbmcgui.Window(10000).setProperty('TVP_TOOLS_START', value)
         return True
 
     return False
 
 
 def addStdMenu(menu):
-    sort = 'Sort by ONTapp.TV order' if ALPHASORT else 'Sort alphabetically'
+    sort = 'Sort by TV Portal order' if ALPHASORT else 'Sort alphabetically'
     menu.append((sort, 'XBMC.RunPlugin(%s?mode=%d)' % (sys.argv[0], _TOGGLESORT)))
 
-    if xbmcgui.Window(10000).getProperty('OTT_RUNNING').lower() != 'true':
-        menu.append(('Launch ONTapp.TV', 'XBMC.RunPlugin(%s?mode=%d)' % (sys.argv[0], _OTT)))
+    if xbmcgui.Window(10000).getProperty('TVP_RUNNING').lower() != 'true':
+        menu.append(('Launch TV Portal', 'XBMC.RunPlugin(%s?mode=%d)' % (sys.argv[0], _TVP)))
 
     menu.append(('Add-on settings', 'XBMC.RunPlugin(%s?mode=%d)' % (sys.argv[0], _SETTINGS)))
 
 
 def toggleSort():
     if ALPHASORT:
-        ADDON.setSetting('SORT', 'ONTapp.TV Order')
+        ADDON.setSetting('SORT', 'TV Portal Order')
     else:
         ADDON.setSetting('SORT', 'Alphabetical')
 
@@ -493,7 +502,7 @@ def editChannel(id):
     userDef    = int(channel.userDef) == 1
     isClone    = int(channel.isClone) == 1
 
-    hideLabel  = 'Show channel' if hidden else 'Hide channel'
+    hideLabel = 'Show channel' if hidden else 'Hide channel'
 
     menu = []
     menu.append(['Rename channel', RENAME])
@@ -603,7 +612,7 @@ def removeChannel(id):
     if not utils.DialogYesNo('Remove %s' % channel.title, noLabel='Cancel', yesLabel='Confirm'):
         return False
 
-    path = os.path.join(OTT_CHANNELS, id)
+    path = os.path.join(TVP_CHANNELS, id)
     utils.deleteFile(path)
 
     return True
@@ -621,7 +630,7 @@ def newChannel():
         id = createID(title)
 
         try:
-            current, dirs, files = sfile.walk(OTT_CHANNELS)
+            current, dirs, files = sfile.walk(TVP_CHANNELS)
         except Exception, e:
             return False
 
@@ -638,7 +647,7 @@ def newChannel():
         utils.DialogOK('%s clashes with an existing channel.' % title, 'Please enter a different name.')
 
     weight  = 0
-    channel = Channel(id, title, weight=weight, categories='', userDef=1, desc='')
+    channel = Channel(id, title, weight=weight, categories='', userDef=True, desc='')
     item    = [weight, id,  channel]
 
     channels = getAllChannels()
@@ -672,7 +681,7 @@ def updateLogo(id):
 
 def getImage(logo):
     if len(logo) == 0:
-        root = '/'
+        root = ''
     else:
         logo = logo.replace('\\', '/')
         root  = logo.rsplit('/', 1)[0] + '/'
@@ -714,7 +723,7 @@ def convertToHome(image):
 
 
 def updateChannel(channel, id):
-    path = os.path.join(OTT_CHANNELS, id)
+    path = os.path.join(TVP_CHANNELS, id)
 
     return channel.writeToFile(path)
 
@@ -734,7 +743,7 @@ def getAllChannels(alphaSort = False):
     channels = []
 
     try:
-        current, dirs, files = sfile.walk(OTT_CHANNELS)
+        current, dirs, files = sfile.walk(TVP_CHANNELS)
     except Exception, e:
         return channels
     
@@ -757,14 +766,14 @@ def getAllChannels(alphaSort = False):
 
 
 def getChannelFromFile(id):
-    path = os.path.join(OTT_CHANNELS, id)
+    path = os.path.join(TVP_CHANNELS, id)
 
     if not sfile.exists(path):
         return None
 
-    # f = open(path, mode='r')
+#    f = open(path, mode='r')
     cfg = sfile.readlines(path)
-    # f.close
+#    f.close
 
     return Channel(cfg)
 
@@ -846,7 +855,6 @@ def addDir(label, mode, id = '', weight = -1, desc='', thumbnail='', fanart=FANA
         liz.setInfo(type='Video', infoLabels=infolabels)
    
     liz.setProperty('Fanart_Image', fanart)
-
     if menu:
         liz.addContextMenuItems(menu, replaceItems=True)
 
@@ -879,7 +887,7 @@ cacheToDisc = True
 
 
 try:    mode = int(params['mode'])
-except: mode = _MAIN
+except: mode = _EDITCHANNELS
 
 try:    id = urllib.unquote_plus(params['id'])
 except: id = ''
@@ -891,8 +899,8 @@ utils.log('Mode = %d' % mode)
 utils.log(params)
 
 
-if mode == _MAIN:
-    main()
+#if mode == _MAIN:
+#    main()
 
 
 if mode == _RENAME:
@@ -913,8 +921,8 @@ if mode == _TOGGLESORT:
     doRefresh = toggleSort()
 
 
-if mode == _OTT:
-    xbmc.executebuiltin('RunScript(script.tvguidedixie)')
+if mode == _TVP:
+    xbmc.executebuiltin('RunScript(script.tvportal)')
 
 
 if mode == _SETTINGS:
@@ -935,8 +943,8 @@ if mode == _PLAY:
     try:
         stream   = urllib.unquote_plus(params['stream'])
 
-        #ottAddon = xbmcaddon.Addon(id = 'script.tvguidedixie')
-        #path     = ottAddon.getAddonInfo('path')
+        #tvpAddon = xbmcaddon.Addon(id = 'script.tvportal')
+        #path     = tvpAddon.getAddonInfo('path')
 
         #sys.path.insert(0, path)
 

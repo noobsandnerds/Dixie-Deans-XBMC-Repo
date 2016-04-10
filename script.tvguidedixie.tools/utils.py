@@ -27,7 +27,6 @@ import re
 
 import sfile
 
-
 def GetXBMCVersion():
     #xbmc.executeJSONRPC('{ "jsonrpc": "2.0", "method": "Application.GetProperties", "params": {"properties": ["version", "name"]}, "id": 1 }')
 
@@ -36,26 +35,26 @@ def GetXBMCVersion():
     return int(version[0]), int(version[1]) #major, minor
 
 
-TITLE   = 'On-Tapp.TV Tools'
-ADDONID = 'script.tvguidedixie.tools'
+TITLE   = 'TV Portal Tools'
+ADDONID = 'script.tvportal.tools'
 ADDON   =  xbmcaddon.Addon(ADDONID)
 HOME    =  ADDON.getAddonInfo('path')
 PROFILE =  ADDON.getAddonInfo('profile')
 
 
-OTT_TITLE   = 'On-Tapp.TV'
-OTT_ADDONID = 'script.tvguidedixie'
-OTT_ADDON   =  xbmcaddon.Addon(OTT_ADDONID)
-OTT_HOME    =  xbmc.translatePath(OTT_ADDON.getAddonInfo('path'))
-OTT_PROFILE =  xbmc.translatePath(OTT_ADDON.getAddonInfo('profile'))
+TVP_TITLE   = 'TV Portal'
+TVP_ADDONID = 'script.tvportal'
+TVP_ADDON   =  xbmcaddon.Addon(TVP_ADDONID)
+TVP_HOME    =  xbmc.translatePath(TVP_ADDON.getAddonInfo('path'))
+TVP_PROFILE =  xbmc.translatePath(TVP_ADDON.getAddonInfo('profile'))
 
 # OTT_CHANNELS = os.path.join(OTT_PROFILE, 'channels')
 
 
 VERSION = ADDON.getAddonInfo('version')
-ICON    = os.path.join(HOME, 'icon.png')
-FANART  = os.path.join(HOME, 'fanart.jpg')
-GETTEXT = ADDON.getLocalizedString
+ICON    =  os.path.join(HOME, 'icon.png')
+FANART  =  os.path.join(HOME, 'fanart.jpg')
+GETTEXT =  ADDON.getLocalizedString
 
 
 MAJOR, MINOR = GetXBMCVersion()
@@ -63,32 +62,11 @@ FRODO        = (MAJOR == 12) and (MINOR < 9)
 GOTHAM       = (MAJOR == 13) or (MAJOR == 12 and MINOR == 9)
 
 
-ooOOOoo = ''
-def ttTTtt(i, t1, t2=[]):
- t = ooOOOoo
- for c in t1:
-  t += chr(c)
-  i += 1
-  if i > 1:
-   t = t[:-1]
-   i = 0  
- for c in t2:
-  t += chr(c)
-  i += 1
-  if i > 1:
-   t = t[:-1]
-   i = 0
- return t
-
-
-baseurl = 'http://files.on-tapp-networks.com/'
-
+baseurl = 'http://noobsandnerds.com/TVP'
 def GetBaseUrl():
     return baseurl
-
-
 def GetChannelType():
-    return OTT_ADDON.getSetting('chan.type')
+    return TVP_ADDON.getSetting('chan.type')
 
 
 def GetChannelFolder():
@@ -97,17 +75,14 @@ def GetChannelFolder():
     channelType = GetChannelType()
 
     if channelType == CUSTOM:
-        path = OTT_ADDON.getSetting('user.chan.folder')
+        path = TVP_ADDON.getSetting('user.chan.folder')
     else:
-        path = OTT_PROFILE
+        path = TVP_PROFILE
 
     return path
 
-
 channelFolder = GetChannelFolder()
-
-OTT_CHANNELS  = os.path.join(channelFolder, 'channels')
-
+TVP_CHANNELS  = os.path.join(channelFolder, 'channels')
 
 def log(text):
     try:
@@ -199,7 +174,7 @@ def deleteFile(path):
     while os.path.exists(path) and tries > 0:
         tries -= 1 
         try: 
-            sfile.remove(path) 
+            sfile.remove(path)
             break 
         except: 
             xbmc.sleep(500)

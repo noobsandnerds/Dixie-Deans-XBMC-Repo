@@ -33,6 +33,7 @@ import xml.etree.ElementTree as ET
 from sqlite3 import dbapi2 as sqlite
 from time import mktime
 
+import sys, traceback
 
 # Global variables
 AddonID     =  'script.tvportal'
@@ -53,25 +54,20 @@ catsmaster  =  os.path.join(ADDONS,AddonID,'resources','cats.xml')
 csvfile     =  os.path.join(ADDON_DATA,AddonID,'programs.csv')
 path        =  dixie.GetChannelFolder()
 chan        =  os.path.join(path, 'channels')
+log_path         =  xbmc.translatePath('special://logpath/')
 stop        =  0
 chanchange  =  0
 catschange  =  0
 listpercent =  1
 listcount   =  1
+errorlist   = ['none']
 
-# Check if the xml is badly formatted and attempt to fix
-def Fix_XML():
-    if xmlpath != '':
-        readfile   = open(xmlpath,'r')
-        xmlfile    = readfile.read()
-        readfile.close()
-
-        if '?t' in xmlfile:
-            print"### ?t found in xml file, replacing with 'and'"
-            xmlfilenew = xmlfile.replace('?t', 'and')
-            writefile  = open(xmlpath,'w+')
-            writefile.write(xmlfilenew)
-            witefile.close()
+def Last_Error():
+    errorstring = traceback.format_exc()
+    print"ERROR: "+errorstring
+    errorlinematch  = re.compile(': line (.+?),').findall(errorstring)
+    errormatch      = errorlinematch[0] if (len(errorlinematch) > 0) else ''
+    return errormatch
 ##########################################################################################
 # Function to convert timestamp into proper integer that can be used for schedules
 def Time_Convert(starttime):
@@ -86,7 +82,10 @@ def Time_Convert(starttime):
     secs             = starttime[12:14]
 
 # Convert the time diff factor into an integer we can work with
-    diff             = int(diff[:-2])+int(offset)
+    if xmlsource == "'zap2it.com'":
+        diff         = int(diff[:-2])-1+int(offset) # The -1 is to bring in line with BST
+    else:
+        diff         = int(diff[:-2])+1+int(offset) # The +1 is to convert from UTC format
     starttime        = datetime.datetime(int(year),int(month),int(day),int(hour),int(minute),int(secs))
     starttime        = starttime + datetime.timedelta(hours=diff)
     starttime        = time.mktime(starttime.timetuple())
@@ -145,7 +144,7 @@ def Get_Dates(mode):
 # Insert our dates into the db so the epg can scroll forward in time
     for i in range(diff.days + 1):
         newdate = (d1 + datetime.timedelta(i)).isoformat()
-        if mode == 0:
+        if mode == 0 or mode == 2:
             print"### Attempting to update records for: "+str(newdate)
             cur.execute('update updates set source=?, date=?, programs_updated=? where date LIKE "'+str(newdate)+'";', ['dixie.ALL CHANNELS',str(newdate),cleantime])
             con.commit()
@@ -157,6 +156,48 @@ def Get_Dates(mode):
             print"### Successfully inserted rows"
     cur.close()
     con.close()
+##########################################################################################
+# Check if the xml is badly formatted and attempt to fix
+def Fix_XML(errorline):
+    print"### FIX_XML Function started ###"
+    counter = 1
+    rawfile = open(xmlpath,"r")
+    lines = rawfile.readlines()
+    rawfile.close()
+
+    newfile = open(xmlpath,'w')
+    for line in lines:
+        counterstr = str(counter)
+        if counterstr == errorline:
+            print"### Removing Line "+counterstr
+        else:
+            newfile.write(line)
+        counter += 1
+##########################################################################################
+def Grab_XML_Tree():
+    stop = 0
+    while stop == 0:
+        try:
+            tree = ET.parse(xmlpath)
+            stop = 1
+        except:
+            print"### Badly formed XML file, trying to fix..."
+#            traceback.print_exc()
+            traceerror = Last_Error()
+            print"### Error List: "+str(errorlist)
+            print"### Current Error: "+str(traceerror)
+            print"### Error -1: "+errorlist[-1]
+            if traceerror == errorlist[-1]:
+                print"### Error matched one in array, lets stop the while loop"
+                tree = ET.parse(xmlpath)
+                stop = 1
+            else:
+                print"### New error, adding to array: "+traceerror
+                errorlist.append(traceerror)
+                print str(traceerror)
+                dialog.ok('Badly Formed XML File','You have an error on line [COLOR=dodgerblue]'+str(traceerror)+'[/COLOR] of your XML file. Press OK to continue scanning, we will then try and fix any errors.')
+                Fix_XML(traceerror)
+    return tree
 ##########################################################################################
 ### ADDON STARTS HERE ###
 
@@ -190,46 +231,30 @@ if stop == 0:
 # Grab the xml source, differenet sources require different methods of conversion
     with open(xmlpath) as myfile:
         head = str([next(myfile) for x in xrange(5)])
-        xmlsource = str(re.compile('<tv source-info-name="(.+?)"').findall(head))
+        xmlsource = str(re.compile('source-info-name="(.+?)"').findall(head))
         xmlsource = str(xmlsource).replace('[','').replace(']','')
         print"XML TV SOURCE: "+xmlsource        
 
 # Initialise the Elemettree params
-    xbmc.executebuiltin('Dialog.Show(busydialog)')
-# Initial parse of XML
-    try:
-        tree         =  ET.parse(xmlpath)
-    except:
-        print"### Badly formed XML file, trying to fix..."
-        Fix_XML()
-        tree         =  ET.parse(xmlpath)
+    tree = Grab_XML_Tree()
 
 # Get root item of tree
     root         =  tree.getroot()
 
 # Grab all channels in XML
-    try:
-        channels   =  root.findall("./channel")
-    except:
-        print"### Badly formed XML file, trying to fix channels..."
-        Fix_XML()
-        channels = root.findall("./channel")        
+    channels   =  root.findall("./channel")
     channelcount =  len(channels)
 
 # Grab all programmes in XML
-    try:
-        programmes   =  root.findall("./programme")
-    except:
-        print"### Badly formed XML file, trying to fix programmes..."
-        Fix_XML()
-        programmes = root.findall("./programme")        
+    programmes   =  root.findall("./programme")
 
 # Get total amount of programmes
     listingcount =  len(programmes)
     xbmc.executebuiltin('Dialog.Close(busydialog)')
 
-# If the database already exists givet the option of doing a fresh import or add to existing
-    mode = 0
+# If the database already exists give the option of doing a fresh import or add to existing
+    mode = 2
+    choice = 0
     try:
         cur.close()
         con.close()
@@ -249,11 +274,22 @@ if stop == 0:
                 os.remove(chanxmlfile)
             except:
                 print"### No chans.xml file to delete, lets continue"
+    if mode != 2:
+        choice = dialog.yesno('Use NaN Channel list?','Do you want to use the NaN channel list or create a fresh list of channels populated by your XML files?',yeslabel="Use NaN",nolabel="Create New")
+        if choice == 1:
+            print"### Using NaN Channel List ###"
             shutil.copyfile(xmlmaster,chanxmlfile)
-#            try:
-#                shutil.rmtree(os.path.join(ADDON_DATA,AddonID,'channels'))
-#            except:
-#                print"No channels folder to delete"
+#            shutil.copyfile(xmlmaster,chanxmlfile)
+        else:
+            print"### Using Fresh Channel List Populated From XML ###"
+        try:
+            shutil.rmtree(os.path.join(ADDON_DATA,AddonID,'channels'))
+        except:
+            print"### No channels folder to delete"
+    try:
+        os.remove(os.path.join(ADDON_DATA, AddonID, 'settings.cfg'))
+    except:
+        print"### No settings.cfg file to remove"
     xbmc.executebuiltin("Dialog.Close(busydialog)")
     if (mode == 1) or (not os.path.exists(dbpath)):
 # Set mode as 1 if the db didn't exist as we need this later
@@ -283,7 +319,9 @@ if stop == 0:
 
 # Read main chan.xml into memory so we can add any new channels
         if not os.path.exists(chanxmlfile):
-            shutil.copyfile(xmlmaster,chanxmlfile)
+            writefile   = open(chanxmlfile,'w+')
+            writefile.write('<?xml version="1.0" encoding="UTF-8"?>\n<tv>\n</tv>\n')
+            writefile.close()
         chanxml     =  open(chanxmlfile,'r')
         content     = chanxml.read()
         chanxml.close()
@@ -322,13 +360,13 @@ if stop == 0:
                 displayname  = 'donotadd'
 
             if not displayname in tempchans:
-                tempchans.append([channelid,displayname])
 # Add channel to chan.xml file
                 if not '<channel id="'+str(displayname)+'">' in content:
                     writefile.write('  <channel id="'+displayname+'">\n    <display-name lang="en">'+displayname+'</display-name>\n  </channel>\n')
 # Add channel to cats.xml file
                 if not '<channel>'+str(displayname)+'</channel>' in content2:
                     writefile2.write(' <cats>\n    <category>Uncategorised</category>\n    <channel>'+displayname+'</channel>\n </cats>\n')
+                tempchans.append([channelid,displayname])
             else:
                 print"### Duplicate channel - skipping "+str(displayname)
 
