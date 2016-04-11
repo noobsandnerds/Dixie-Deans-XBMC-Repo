@@ -64,7 +64,9 @@ ADDON            =  xbmcaddon.Addon(id=AddonID)
 showSFchannels = ADDON.getSetting('showSFchannels')
 SF_CHANNELS    = ADDON.getSetting('SF_CHANNELS')
 adult          = ADDON.getSetting('adult')
-
+if SF_CHANNELS.startswith('special://'):
+    SF_CHANNELS = xbmc.translatePath(SF_CHANNELS)
+    
 try:    sfile.makedirs(channelPath)
 except: pass
 

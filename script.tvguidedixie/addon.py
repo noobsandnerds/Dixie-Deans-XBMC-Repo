@@ -39,7 +39,7 @@ dialog           =  xbmcgui.Dialog()
 dbpath           =  xbmc.translatePath(os.path.join(ADDON_DATA,AddonID,'program.db'))
 
 #if __name__ == '__main__':
-login.o0o()
+login.iI1Iii()
 if not os.path.exists(os.path.join(ADDON_DATA,AddonID)):
     dixie.log("New addon_data folder created")
     os.makedirs(os.path.join(ADDON_DATA,AddonID))
@@ -72,12 +72,12 @@ if os.path.exists(dbpath):
         os.rename(dbpath,dbpath+'1')
         os.rename(dbpath+'1',dbpath)
         dixie.log("Database not in use, we can continue")
-        login.Oooo0O0oo00oO()
+        login.O0ooo0O0oo0()
     except:
         dixie.log("Database in use, Kodi needs a restart, if that doesn't work you'll need to restart your system.")
         choice = dialog.yesno(ADDON.getLocalizedString(30821),ADDON.getLocalizedString(30822))
         if choice == 1:
-            login.Oooo0O0oo00oO()
+            login.O0ooo0O0oo0()
 else:
     dixie.log("No database exists, opening verification")
-    login.Oooo0O0oo00oO()
+    login.O0ooo0O0oo0()

@@ -101,7 +101,7 @@
  		<setting type="lsep"            label="[CR]Add a custom IPTV Playlist - easy integration for online and local playlists"/>
 		<setting id="playlist.type"     label="IPTV Playlist"                         type="enum"   default="URL" values="URL|File" visible="true"/>
 		<setting id="playlist.file"     label="File"                                  type="file"   visible="eq(-1,1)" />
-		<setting id="playlist.url"      label="URL"                                   type="text"   default="https://raw.githubusercontent.com/wajahtumho/wajahtumho/master/lists/kodi.txt" visible="eq(-2,0)"/>
+		<setting id="playlist.url"      label="URL"                                   type="text"   default="" visible="eq(-2,0)"/>
  		<setting type="lsep"            label="[CR]Add my own channels - create your own XML file and scan into db here"/>
         <setting id="enable_xml"        label="Enable custom XML files"   type="bool" default="false" visible="true"/>
 	    <setting id="xmlpath"           label="TV XML Path" type="file" default=""     visible="eq(-1,true)"/>

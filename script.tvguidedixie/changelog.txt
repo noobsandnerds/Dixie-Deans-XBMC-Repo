@@ -1,3 +1,7 @@
+v.1.0.6:
+- Hopefully final fix for using special path for SF folders
+- Fixed issues with login, new url and bug fix for not registered.
+
 v.1.0.5:
 - Fixed bug with SF folder creation, the special path can now be used
 - Updated some logging methods
